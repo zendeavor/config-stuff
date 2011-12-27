@@ -1,0 +1,108 @@
+! --[ Font Rendering ]-------------------------------------
+Xft.dpi: 96
+Xft.antialias: false
+Xft.rgba: rgb
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.autohint: false
+Xft.lcdfilter: lcddefault
+
+! --[ Rodent ]----------------------------------------------
+Xcursor.theme: Vanilla-DMZ
+Xcursor.size: 24
+
+! --[ URxvt - General ]-------------------------------------
+URxvt.loginShell:false
+URxvt.scrollBar:false
+URxvt.saveLines:5000
+URxvt.cursorColor:#83C048
+URxvt.highlightColor:#444444
+URxvt.font: -*-profont-*-*-*-*-11-*-*-*-*-*-*-*
+URxvt.boldFont: -*-profont-*-*-*-*-11-*-*-*-*-*-*-*
+URxvt.internalborder: 0
+URxvt.underlinecolor: #999999
+URxvt.cutchars: "()*,<>[]{}|'"
+URxvt.print-pipe: cat >/tmp/xxx
+URxvt.visualBell: false
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.scrollWithBuffer: true
+URxvt.scrollTtyOutput: false
+URxvt.scrollTtyKeypress: true
+
+! --[ URxvt - URL/Clipboard Handling ]----------------------
+URxvt.perl-ext-common: default,url-select,keyboard-select
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.urlLauncher: firefox
+URxvt.underlineURLs: true
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keysym.M-s: perl:keyboard-select:search
+
+! --[ URxvt - colors ]--------------------------------------
+URxvt.depth: 32
+URxvt.background: rgba:0000/0000/0000/bbbb
+URxvt.foreground:#eeeeee
+
+! --[ Color Scheme ]----------------------------------------
+!#include "/home/zendeavor/.config/X11/xcolors/dwmrob"
+!#include "/home/zendeavor/.config/X11/xcolors/derp"
+!#include "/home/zendeavor/.config/X11/xcolors/digerati"
+!#include "/home/zendeavor/.config/X11/xcolors/gnometerm"
+!#include "/home/zendeavor/.config/X11/xcolors/jasonwryan"
+!#include "/home/zendeavor/.config/X11/xcolors/phrak1"
+!#include "/home/zendeavor/.config/X11/xcolors/rezza"
+!#include "/home/zendeavor/.config/X11/xcolors/rydgel"
+!#include "/home/zendeavor/.config/X11/xcolors/shiva"
+#include "/home/zendeavor/.config/X11/xcolors/tango"
+!#include "/home/zendeavor/.config/X11/xcolors/zenburn"
+
+! -- [ XScreenSaver ] ------------------------------
+xscreensaver.Dialog.headingFont: -*-droid sans-bold-r-*-*-14-*-*-*-*-*-*-*
+xscreensaver.Dialog.bodyFont: -*-droid sans-medium-r-*-*-14-*-*-*-*-*-*-*
+xscreensaver.Dialog.labelFont: -*-droid sans-medium-r-*-*-14-*-*-*-*-*-*-*
+xscreensaver.Dialog.unameFont: -*-droid sans-medium-r-*-*-14-*-*-*-*-*-*-*
+xscreensaver.Dialog.buttonFont: -*-droid sans-bold-r-*-*-14-*-*-*-*-*-*-*
+xscreensaver.Dialog.dateFont: -*-droid sans-medium-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.passwd.passwdFont: -*-droid sans-bold-r-*-*-14-*-*-*-*-*-*-*
+xscreensaver.Dialog.foreground: #ffffff
+xscreensaver.Dialog.background: #111111
+xscreensaver.Dialog.topShadowColor: #111111
+xscreensaver.Dialog.bottomShadowColor: #111111
+xscreensaver.Dialog.Button.foreground: #666666
+xscreensaver.Dialog.Button.background: #ffffff
+xscreensaver.Dialog.text.foreground: #666666
+xscreensaver.Dialog.text.background: #ffffff
+xscreensaver.Dialog.internalBorderWidth:24
+xscreensaver.Dialog.borderWidth: 20
+xscreensaver.Dialog.shadowThickness: 2
+xscreensaver.passwd.thermometer.foreground: #ff0000
+xscreensaver.passwd.thermometer.background: #000000
+xscreensaver.passwd.thermometer.width: 8
+xscreensaver.dateFormat: %I:%M%P %a %b %d, %Y
+
+! -- [ XFontSel ] ------------------------------
+XFontSel*sampleText.background: TEXTBG
+XFontSel*menu*showUnselectable: false
+XFontSel*MenuButton.shadowWidth: 0
+XFontSel*Toggle*ToggleStyle: check
+XFontSel*MenuButton*Justify: left
+XFontSel*MenuButton*MenuButtonStyle: select
+.xfontsel.pane.commandBox.quitButton.background: #252525
+.xfontsel.pane.commandBox.quitButton.foreground: snow
+.xfontsel.pane.commandBox.ownButton.background: orange3
+.xfontsel.pane.commandBox.ownButton.foreground: snow
+.xfontsel.pane.commandBox.countLabel.background: snow
+.xfontsel.pane.viewPort.sampleText.background: #252525
+.xfontsel.pane.viewPort.sampleText.foreground: snow
+.xfontsel.pane.fieldBox.field0.background: #252525
+.xfontsel.pane.fieldBox.field0.foreground: snow
+.xfontsel.pane.fieldBox.field1.background: #252525
+.xfontsel.pane.fieldBox.field1.foreground: snow
+.xfontsel.pane.fieldBox.field2.background: #252525
+.xfontsel.pane.fieldBox.field2.foreground: snow
+.xfontsel.pane.fieldBox.field3.background: #252525
+.xfontsel.pane.fieldBox.field3.foreground: snow
+.xfontsel.pane.fieldBox.field4.background: #252525
+.xfontsel.pane.fieldBox.field4.foreground: snow
+.xfontsel.pane.fieldBox.field5.background: #252525
+.xfontsel.pane.fieldBox.field5.foreground: snow

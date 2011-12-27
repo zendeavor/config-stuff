@@ -1,0 +1,15 @@
+[2011-12-21 19:30:33] weechat 0.3.6 (compiled on Dec  1 2011 15:43:12)
+[2011-12-21 19:30:33] Reading configuration file weechat.conf
+[2011-12-21 19:30:35] Reading configuration file plugins.conf
+[2011-12-21 19:30:35] Reading configuration file alias.conf
+[2011-12-21 19:30:35] Reading configuration file xfer.conf
+[2011-12-21 19:30:35] Reading configuration file charset.conf
+[2011-12-21 19:30:35] Reading configuration file irc.conf
+[2011-12-21 19:30:38] Reading configuration file wg.conf
+[2011-12-21 19:30:38] Reading configuration file buffer_autoset.conf
+[2011-12-21 19:30:38] Reading configuration file urlgrab.conf
+[2011-12-21 19:30:39] Reading configuration file iset.conf
+[2011-12-21 19:30:39] Reading configuration file relay.conf
+[2011-12-21 19:30:39] Reading configuration file logger.conf
+[2011-12-21 19:30:39] Reading configuration file aspell.conf
+[2011-12-21 19:30:39] Reading configuration file rmodifier.conf

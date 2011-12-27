@@ -1,0 +1,58 @@
+sw_volume: 60
+audio_device_state:1:pulseaudio
+audio_device_state:1:My FIFO
+state: pause
+current: 1
+time: 62
+random: 1
+repeat: 0
+single: 0
+consume: 1
+crossfade: 3
+mixrampdb: 0.000000
+mixrampdelay: nan
+playlist_begin
+0:Cypress Hill - 1991 - Cypress Hill [Flac]/15 Tres Equis.flac
+1:Silversun Pickups~Swoon [FLAC]-2009/06 - Draining.flac
+2:Swans - White Light From the Mouth of Infinity (1991) [FLAC]/10 When She Breathes.flac
+3:Aesop Rock - Labor Days [2001]/08 - Coma.flac
+4:Silversun Pickups~Swoon [FLAC]-2009/05 - Panic Switch.flac
+5:VA - Samurai Champloo - Departure/09-fat jon-Genome.flac
+6:Apollo Brown - Clouds [FLAC]/07 - Apollo Brown - Black Pearls.flac
+7:Aesop Rock - 2007 - None Shall Pass [DJX144]/05 - Aesop Rock - Fumes.flac
+8:Abney Park/(2005) Death Of Tragedy/10 False Prophecy.flac
+9:The White Stripes - Get Behind Me Satan (Japanese)(2005) - FLAC/05 - Little Ghost.flac
+10:Tosca - Suzuki_FLAC/01 Pearl In.flac
+11:Yeah Yeah Yeahs - Fever to Tell [With Bonus Track]/02 - Date With The Night.flac
+12:Tosca - Suzuki_FLAC/02 Suzuki.flac
+13:Various Artists - The What CD Volume 3 [FLAC]/07_Severn - OK You Win.flac
+14:Abney Park/(2003) From Dreams Or Angels/11 Breathe Accoustic.flac
+15:Mushroom Jazz 5/16 Here's the Proof.flac
+16:1999 - The White Stripes/14 - Little People.flac
+17:Money Mark - 2000 - Change Is Coming [FLAC]/02 - Information Contraband.flac
+18:Curren$y - Weekend at Burnie's (FLAC)/Curren$y - Weekend At Burnie's - 08 - On G's.flac
+19:The Stereophones - 2011 - Trouble FLAC/11 Live in Love [Remix].flac
+20:Curren$y - Weekend at Burnie's (FLAC)/Curren$y - Weekend At Burnie's - 07 - This Is The Life.flac
+21:Mushroom Jazz 5/20 The Yacht Club.flac
+22:The White Stripes - 2003 - Elephant/05 In The Cold, Cold, Night.flac
+23:Paul Kalkbrenner - 2008 - Berlin Calling/10 - Paul Kalkbrenner - Castenets (Special Berlin Calling Edit).flac
+24:Neo Nouveau - 2008 - Courtyard/09 - Collapse.flac
+25:Portugal. The Man - Church Mouth [2007]/06 - Dawn.mp3
+26:Curren$y - Weekend at Burnie's (FLAC)/Curren$y - Weekend At Burnie's - 11 - JLC.flac
+27:Aesop Rock - 2007 - None Shall Pass [DJX144]/07 - Aesop Rock - 39 Thieves.flac
+28:This is a Long Drive For Someone With Nothing to Think About/14-Talking Shit About a Pretty Sunset.mp3
+29:Aesop Rock - 2007 - None Shall Pass [DJX144]/01 - Aesop Rock - Keep Off the Lawn.flac
+30:The White Stripes - Icky Thump/12 - Catch Hell Blues.flac
+31:...Is A Real Boy/Admit It!.mp3
+32:4hero - Play With The Changes - [flac]/03.  4hero – Look Inside.flac
+33:Various Artists - The What CD Volume 4 [flac]/CD1_The What CD Volume 4/10_Kelvin and the Fahrenheits - Assembling Something from IKEA in a Small Room with an Upset Stomach.flac
+34:The Raconteurs - Consolers Of The Lonely - 2008 (rhsiv)/14 Carolina Drama.mp3
+35:Air (1998) - Moon Safari [FLAC]/02 Air - Sexy Boy.flac
+36:RAG - Unter Tage/(02) RAG - Ohne Gewähr.flac
+37:Various Artists - The What CD Volume 4 [flac]/CD1_The What CD Volume 4/02_Bionic Sheep - Other Peoples Friends.flac
+38:...Is A Real Boy/Chia-Like, I Shall Grow.mp3
+39:Fila Brazillia - 1999 - A Touch of Cloth [FLAC 100 log]/01 - The Bugs Will Bite.flac
+40:The Black Keys - Attack and Release/Black Keys, the - Attack and Release - 10 - Oceans & Streams.mp3
+41:Zero 7 - Simple Things (Bonus Tracks)/11 - Zero 7 - Likufanele.flac
+42:Aesop Rock - 2007 - None Shall Pass [DJX144]/11 - Aesop Rock - Five Fingers.flac
+playlist_end

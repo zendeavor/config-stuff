@@ -1,0 +1,4 @@
+eval `keychain --eval id_rsa`
+[ -n "$FBTERM" ] && export TERM=fbterm
+eval $(dircolors -b)
+

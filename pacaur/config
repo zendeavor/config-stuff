@@ -1,0 +1,22 @@
+#!/bin/bash
+
+#
+# /etc/pacaur.conf
+#
+
+#
+# GENERAL OPTIONS
+#
+
+buildDir=/home/zendeavor/builds/aur # build directory - default: /tmp/pacaurtmp-$USER
+editor="$EDITOR"                # PKGBUILD editor - default: $EDITOR
+color=true                    # color support via pacman-color - default: false
+clean=false                     # clean up after package install - default: true
+fallback=true                   # pacman fallback - default: true
+
+#
+# ADVANCED OPTIONS
+#
+
+carchmagic=true                # CARCH compatibility - default: false
+
