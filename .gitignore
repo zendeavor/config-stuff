@@ -1,5 +1,5 @@
 weechat/logs/
-weechat/urls.log
+weechat/*.log
 git/
 chromium-dev/
 pentadactyl/info/zendeavor/command-history
