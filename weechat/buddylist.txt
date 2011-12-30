@@ -18,7 +18,10 @@ fn.buffoon
 fn.e36freak
 fn.falconindy
 fn.harvine
+fn.ioni
+fn.john_f
 fn.keenerd
+fn.oskude
 fn.sledgehammer
 fn.toofishes
 ipt.Dan39
