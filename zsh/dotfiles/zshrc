@@ -141,6 +141,7 @@ alias ipy='ipython'
 alias ipy2='ipython2'
 alias bpy='bpython'
 alias bpy2='bpython2'
+alias pip2='pip-2.7'
 # convenience
 alias psc='ps xawf -eo pid,user,args'
 alias blkid='blkid -c /dev/null'
