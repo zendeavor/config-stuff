@@ -1,0 +1,480 @@
+### bashrun2 0.2.2 configuration ### -*- shell-script -*-
+#
+# This is the system-wide configuration file for bashrun2.
+#
+# To configure for local users, Copy this file to
+# ~/.config/bashrun2/bashrun2.rc
+#
+# Changes to this file require a reload of bashrun (Alt-r).
+#
+# Please see bashrun2(1) for all the details on configuration.
+
++configure-modes () {
+
+    # The default "run-dialog" mode:
+
+    +mode run-dialog
+
+      # Terminal to use for bashrun. Supported terminals are xterm,
+      # urxvt, urxvtc, mrxvt, mlterm and aterm:
+      --terminal 'xterm'
+
+      # Geometry or geometries to use for the terminal window. If more
+      # than one geometry is given, the cycle-size action (Ctrl-l)
+      # will allow cycling through these geometries:
+      --geometry '40x1' '40x8'
+
+      # Terminal fonts to use for this terminal. Ignored if empty or not set.
+      --font ''
+      --boldfont ''
+
+      # Terminal colors. Ignored if empty or not set. 
+      --foreground 'grey'
+      --background 'black'
+
+      # Additional command line options to the terminal:
+      --options ''
+
+      # The readline completion type to use with tab ("complete",
+      # "menu-complete" or "quiet-complete"). The first argument
+      # specifies the completion type to use by default. The second
+      # argument, if given, specifies an alternative completion type
+      # to use when the height of the terminal is greater or equal to
+      # the number of lines given in the third argument.
+      --completion 'menu-complete' 'complete' '8'
+
+      # Hide the window after each command.
+      --unmap true
+
+      # Show feedback in a progress bar during startup/reload.
+      --feedback true
+
+      # Command to run after the window has been mapped and
+      # focused. 
+      # --onmap 'transset-df -a 0.75'       
+
+      # Command to run after the window has been unmapped.
+      # --onunmap ''       
+
+      # A logfile to redirect command output to.
+      --logfile '/dev/null'
+
+      function +mode-run-dialog-init {	
+	  # Function to run during startup. This is the place to setup
+	  # bash stuff like default programs, history file, prompts,
+	  # terminal settings, etc.
+
+	  PAGER='less'
+	  DICT='dict'
+	  BROWSER='firefox'
+
+	  HISTFILE="${XDG_DATA_HOME:-$HOME/.local/share}/bashrun2/history"
+	  PS1='>'
+
+	  stty -ixon       # disable flow control, allows to bind C-Q
+	  set -o ignoreeof # prevent C-d on an empty line from exiting	  
+      }
+}
+
++configure-terminals () {
+
+    # Configure terminals to launch commands in.
+
+    # The default terminal is used to execute commands in if no other
+    # terminal has been explicitly requested by an action:
+    +terminal default 
+      --command 'xterm'
+
+    # A small terminal for notifications, used by the default actions
+    # "term-notify" and "su-term-notify".
+
+    +terminal notify 
+      --command 'xterm'
+      --geometry '40x4+0+0'
+}
+
++configure-rules () {
+
+    # Rules can be used to associate actions with specific commands or
+    # command lines that are run using the generic "run" action. The
+    # --match option adds one or more command specifications to a
+    # rule, separated by whitespace.
+    #
+    # A command specification can be either the executable name of a
+    # program or a regular expression.
+    #
+    # Regular expressions are denoted by enclosing them in '/'. Note
+    # that you don't have to quote literal slashes inside the regular
+    # expression, since the enclosing slashes are used solely to
+    # denote a regular expression to bashrun.
+    #
+    # Some examples:
+
+    +rule term-page
+      --match 'dict'  # page the output of dict in a new terminal
+      --match '/^ls/' # page the output of any command beginning with
+                      # "ls" in a new terminal
+
+    # Run any commandline beginning with '/etc/rc.d' or '/etc/init.d'
+    # as root and show it's output in the 'notify' terminal, closing
+    # the terminal after two seconds:
+
+    +rule su-term-notify
+      --match '/^/etc/(rc|init)\.d/'
+
+    # For a list of all available default actions, see bashrun2(1).
+}
+
++configure-handlers () {
+
+    # Handlers provide a way to handle non-executable commandlines in
+    # a special way and thus extend bashrun's functionality. If the
+    # commandline entered into bashrun is not executable (i.e. it's
+    # not an exported function, an alias or an executable) then an
+    # attempt is made to successively match the commandline against
+    # each of the handlers defined here.
+    #
+    # If the regular expression given in --match matches the
+    # commandline, then the file test pattern given in --test is
+    # applied, if any. If no test was given or if the supplied test
+    # succeeds, then either the value of --command will be used as the
+    # command to execute, with the commandline itself passed as the
+    # argument, or, if the regexp contains subexpressions within
+    # parenthesis, an attempt will be made to substitute the occurence
+    # of %[1-9] in the value of --command with the contents of the
+    # corresponding subexpression match. In this case, the modified
+    # handler string is used as the commandline without adding further
+    # arguments.
+    #
+    # The --action option may be used to delegate the resulting string
+    # to a specific action for further processing instead of simply
+    # trying to execute it.
+    #
+    # In addition, handlers provide a simple interface to programmable
+    # completion. The command word to complete can be supplied via the
+    # --complete option, and a function called
+    # +handler-<handler>-complete can be defined to generate a list of
+    # strings to complete against.
+
+    +handler info
+      --match '(.+)\?\?'
+      --command '%1'
+      --action show-info
+      # E.g. if you run "bash??" then the string "bash" is used as the
+      # commandline to be used with the show-info action, which pages
+      # "info bash" in the default terminal, unless the "info" program
+      # has been associated with a specific terminal object.
+      
+    +handler manual
+      --match '(.+)\?'
+      --command '%1'
+      --action show-manual
+      # Similar to the above, but shows manual pages instead. Note
+      # that the order of handlers is important here: if this handler
+      # was defined before the info handler, then the info handler
+      # would never be reached.
+
+    +handler browse
+      --match 'browse (.*)'
+      --command '%1'
+      --action 'browse'
+      --complete 'browse'
+
+      +handler-browse-complete () { +bookmarks --list; }
+      # the --complete option for this handler installs a function
+      # named "browse", for which the +handler-complete-browse
+      # function is used to generate the list of possible matches from
+      # bashrun's bookmarks. Thus you can just type "browse " and hit
+      # tab to get at your bookmarks. If you hit return, this handler
+      # will delegate the bookmark string to the default "browse" action,
+      # which open the bookmark string using $BROWSER.
+
+    +handler http
+      --match '^(www|https?)'   
+      --action browse
+      # A simple url handler, for lines beginning with http, https or
+      # www.
+
+    +handler tlds
+      --match '\.(org|net|com)$'
+      --action browse
+      # Another simple url handler that matches the end of the
+      # commandline, looking for a common toplevel domain.
+
+    +handler google
+      --match '^gg:(.+)'
+      --command  'www.google.com/search?q=%1'
+      --action browse
+      # An example of a Konqueror-style url shortcut: if you type
+      # "gg:foo", then the %1 in "www.google.com/search?q=%1" will be
+      # replaced with "foo", and the resulting url will be passed to the
+      # browse action, which finally launches "$BROWSER <url>"
+
+    +handler google-lucky
+      --match '^ggl:(.+)'
+      --command  'www.google.com/search?q=%1&btnI=I\%27m+Feeling+Lucky'
+      --action browse
+      # The same as above, but uses google's "Feeling Lucky" function.
+
+    +handler ftp
+      --match '^ftp://(.+)' 
+      --command 'ncftp'
+      --action term-run 
+      # Open ftp:// urls with an ftp client
+
+    +handler gimp
+      --match '\.jpe?g$'
+      --test 'f!x'
+      --command 'gimp'
+      # This handler implements a file association by matching any
+      # command line ending in .jpg or .jpeg. It then tests whether
+      # the command line is a path to a file that is not executable by
+      # applying the file test pattern "f!x".  If the test succeeds,
+      # the file is opened in gimp.
+      #
+      # For a more universal solution to file associations, see the
+      # "file" fallback handler below.
+
+    +handler video
+      --match '\.(avi|mpe?g|flv|mp4|wmv|mov)$'
+      --test 'f'
+      --command 'mplayer -fs'
+      # Another file association to open video files in fullscreen
+      # mplayer.
+
+    +handler command-help
+      --match '^\?(.+)'  
+      --command '%1 --help'
+      --action term-page
+      # E.g. ?bash pages "bash --help" in a terminal
+
+    # The remaining handlers are fallback handlers, which means they
+    # are guaranteed to be at the end of the handler list, and will
+    # match any non-executable commandline not yet handled by a
+    # previous handler. The first two of these use a file test
+    # operator given in --test to check whether the commandline is a
+    # path to a directory or a file, respectively.
+    
+    +handler directory
+      --fallback true
+      --test 'd'
+      --command "kfmclient openProfile filemanagement %1"
+      # Open directories in konqueror, using the file management
+      # profile.
+
+    +handler file
+      --fallback true
+      --test 'f'
+      --command "xdg-open %1"
+      # handle files universally with xdg-open, see xdg-open(1)
+
+    # Uncomment the following handler to google anything not
+    # matched by a previous handler:
+
+    # +handler google-fallback
+    #  --fallback 1
+    #  --command  "www.google.com/search?q=%1"
+    #  --action browse
+}
+
++configure-bookmarks () {
+
+    # Add bookmarks. For each bookmark, a function by the same name is
+    # defined that runs the browse action for the bookmark. This means
+    # you can complete bookmarks like regular commands.
+    # Alternatively use the completion of the "browse" handler
+    # defined above.
+
+    +bookmark bashrun2.googlecode.com
+    +bookmark archlinux.org
+}
+
++configure-actions () {
+
+    # You can define your own actions here, as well as redefine the
+    # properties and/or behavior of the buitin default actions. For
+    # details on how to write custom actions or change default
+    # actions, see bashrun2(1).
+    #
+    # Some examples:
+      
+    +action run-as
+      --description 'Run command as user (prompts for username)'
+      --depends 'su'
+
+      function +action-run-as {
+	  action run
+	  user --prompt
+	  return 0
+      }
+
+    +action kill-to-xclip
+      --description 'Kill whole line and copy to clipboard' 
+      --depends 'xclip'
+
+      function +action-kill-to-xclip { 
+	  command "printf '%s' \"$(line)\" | xclip"
+	  return 0
+      }
+
+    +action yank-from-xclip
+      --description 'Yank clipboard contents' 
+      --input no
+      --depends 'xclip'
+
+       function +action-yank-from-xclip {
+ 
+	   local text="$(xclip -o)"
+	   declare -i size=${#text}
+	   
+	   local pre="${READLINE_LINE:0:$READLINE_POINT}"
+	   local post="${READLINE_LINE:$READLINE_POINT}"
+	   
+	   READLINE_LINE="$pre$text$post"
+	   
+	   (( READLINE_POINT += size ))
+	   return 2
+       }
+}
+
++configure-emacs-mode () {
+
+    # Bind actions to key sequences for readline's emacs-mode:
+    # 
+    # +keymap <keymap> 
+    #
+    #   The +keymap directive can be used to change the target keymap
+    #   for subsequent +bind directives.
+    #
+    # +bind <action> <keyseq> [<keyname>]
+    #
+    #   Bind an <action> to a <keyseq>, optionally supplying a human
+    #   readable <keyname>.
+    #
+    #   See readine(1) on how to specify key sequences. In short,
+    #   '\ex' means Alt-x and '\C-x' means Control-x.
+
+    ########################################
+    +keymap emacs
+
+    +bind pass '\ew'
+    +bind abort  '\C-g'
+    +bind reload  '\er'
+    +bind quit '\C-q'
+
+    +bind run  '\C-m'
+    +bind run  '\C-j'
+
+    +bind term-run  '\e\C-m'
+    +bind term-page '\e+'
+    +bind term-hold '\eh'
+
+    +bind su-run       '\esu'
+    +bind su-term-run  '\est'
+    +bind su-term-page '\es+'
+    +bind su-term-hold '\esh'
+
+    +bind show-manual  '\e?'
+    +bind show-info    '\e\C-?'
+    +bind show-help    '\e\C-x?'
+
+    +bind browse         '\e\C-b'
+    +bind google-search  '\e\C-g'
+    +bind dict-lookup    '\e\C-d'
+
+    +bind copy-to-clipboard '\ex'
+    +bind filter-clipboard  '\ea'
+
+    +bind bashrun-bindings '\e[11~' 'F1'
+    +bind bashrun-bindings '\eOP'   'F1'
+
+    +bind bashrun-manual   '\e[12~' 'F2'
+    +bind bashrun-manual   '\eOQ'   'F2'
+    +bind debug            '\e[24~' 'F12'
+
+    +bind cycle-size   '\C-l'
+    +bind resize-up    '\e[1;5A' 'C-up'
+    +bind resize-down  '\e[1;5B' 'C-down'
+    +bind resize-left  '\e[1;5D' 'C-left'
+    +bind resize-right '\e[1;5C' 'C-right'
+}
+
++configure-vi-mode () { 
+
+    # Bind actions to key sequences for readline's vi-mode:
+
+    ########################################
+    +keymap vi-command 
+
+    +bind pass '\ew'
+    +bind abort  '\C-g'
+    +bind reload  '\er'
+    +bind quit '\C-q'
+
+    +bind run  '\C-m'
+    +bind run  '\C-j'
+
+    +bind term-run  '\e\C-m'
+    +bind term-page '\e+'
+    +bind term-hold '\eh'
+
+    +bind su-run       '\esu'
+    +bind su-term-run  '\est'
+    +bind su-term-page '\es+'
+    +bind su-term-hold '\esh'
+
+    +bind show-manual  '\e?'
+    +bind show-info    '\ei'
+    +bind show-help    '\eh'
+
+    +bind browse         '\eb'
+    +bind google-search  '\eg'
+    +bind dict-lookup    '\ed'
+
+    +bind copy-to-clipboard '\ec'
+    +bind filter-clipboard  '\ea'
+
+    +bind bashrun-bindings '\e[11~' 'F1'
+    +bind bashrun-bindings '\eOP'   'F1'
+
+    +bind bashrun-manual   '\e[12~' 'F2'
+    +bind bashrun-manual   '\eOQ'   'F2'
+    +bind debug            '\e[24~' 'F12'
+
+    +bind cycle-size   '\C-l'
+    +bind resize-up    '\e[1;5A' 'C-up'
+    +bind resize-down  '\e[1;5B' 'C-down'
+    +bind resize-left  '\e[1;5D' 'C-left'
+    +bind resize-right '\e[1;5C' 'C-right'
+    
+
+    ########################################
+    +keymap vi-insert
+
+    +bind pass '\ew'
+    +bind abort  '\C-g'
+    +bind reload  '\er'
+    +bind quit '\C-q'
+
+    +bind run  '\C-m'
+    +bind run  '\C-j'
+
+    +bind bashrun-bindings '\e[11~' 'F1'
+    +bind bashrun-bindings '\eOP'   'F1'
+
+    +bind bashrun-manual   '\e[12~' 'F2'
+    +bind bashrun-manual   '\eOQ'   'F2'
+    +bind debug            '\e[24~' 'F12'
+
+    +bind cycle-size   '\C-l'
+    +bind resize-up    '\e[1;5A' 'C-up'
+    +bind resize-down  '\e[1;5B' 'C-down'
+    +bind resize-left  '\e[1;5D' 'C-left'
+    +bind resize-right '\e[1;5C' 'C-right'
+}
+
+# Load additional plugins. The "terminal" plugin is provided with
+# bashrun and adds a mode to run bashrun session in a regular
+# terminal. To use this mode, run "bashrun2 --mode terminal"
+
++plugins terminal
