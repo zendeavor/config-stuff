@@ -1,6 +1,7 @@
-export PATH="$PATH:$HOME/bin:$HOME/bin/python:$HOME/bin/pyro/bin"
+export PATH="$PATH:$HOME/bin:$HOME/bin/python:$HOME/bin/pyro/bin:$HOME/.gem/ruby/1.9.1/bin"
 export GREP_OPTIONS='--color=auto'
 skip_global_compinit=1
+export DISPLAY=:0.0
 export EDITOR=vim
 export VISUAL=vim
 export LESS_TERMCAP_mb=$'\E[01;31m'

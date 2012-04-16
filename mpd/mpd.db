@@ -1,6 +1,6 @@
 info_begin
 format: 1
-mpd_version: 0.16.7
+mpd_version: 0.16.8
 fs_charset: UTF-8
 tag: Artist
 tag: ArtistSort
@@ -767,7 +767,7 @@ mtime: 1322037681
 song_end
 end: 2005 - Young Mountain
 directory: 2005 Good News For People Who Love Bad News (DualDisc DVD Audio)
-mtime: 1320709247
+mtime: 1332014896
 begin: 2005 Good News For People Who Love Bad News (DualDisc DVD Audio)
 song_begin: 01 Horn Intro [DVD Audio].flac
 Time: 12
@@ -2067,7 +2067,7 @@ mtime: 1319964963
 song_end
 end: Abney Park/(2005) Death Of Tragedy
 directory: (2005) Taxidermy
-mtime: 1311669511
+mtime: 1332246873
 begin: Abney Park/(2005) Taxidermy
 song_begin: 01 The Wake (2005 Mix).flac
 Time: 333
@@ -2626,7 +2626,7 @@ song_end
 end: Abney Park/(2009) Æther Shanties
 end: Abney Park
 directory: Aesop Rock - 2007 - None Shall Pass [DJX144]
-mtime: 1320521691
+mtime: 1333762796
 begin: Aesop Rock - 2007 - None Shall Pass [DJX144]
 song_begin: 01 - Aesop Rock - Keep Off the Lawn.flac
 Time: 226
@@ -3876,7 +3876,7 @@ mtime: 1319842820
 playlist_end
 end: Antimatter - Leaving Eden (2007) - FLAC
 directory: Apollo Brown - Clouds [FLAC]
-mtime: 1320542351
+mtime: 1332247431
 begin: Apollo Brown - Clouds [FLAC]
 song_begin: 01 - Apollo Brown - Sound of Guns.flac
 Time: 79
@@ -4451,7 +4451,7 @@ mtime: 1319842249
 playlist_end
 end: Ayuo - Izutsu (2000) [FLAC]
 directory: Bazooka Tooth
-mtime: 1320521671
+mtime: 1332248535
 begin: Bazooka Tooth
 song_begin: Aesop Rock - (01) Bazooka Tooth.flac
 Time: 146
@@ -4992,7 +4992,7 @@ mtime: 1319988546
 playlist_end
 end: Blu Mar Ten - Natural History [BMTCD001] (2009)
 directory: Boards Of Canada - Music Has The Right To Children [FLAC]
-mtime: 1320542351
+mtime: 1332246411
 begin: Boards Of Canada - Music Has The Right To Children [FLAC]
 song_begin: 01 - Wildlife Analysis.flac
 Time: 78
@@ -5758,8 +5758,805 @@ Genre: Downtempo/Jazz
 mtime: 1320547228
 song_end
 end: Clutchy Hopkins - 2005 - The Life Of Clutchy Hopkins
+directory: Coheed And Cambria - In Keeping Secrets Of Silent Earth 3 (FLAC)
+mtime: 1332870117
+begin: Coheed And Cambria - In Keeping Secrets Of Silent Earth 3 (FLAC)
+song_begin: 01 Coheed And Cambria - The Ring In Return.flac
+Time: 128
+Artist: Coheed And Cambria
+Title: The Ring In Return
+Album: In Keeping Secrets Of Silent Earth: 3
+Date: 2003
+Track: 01
+Genre: Rock
+mtime: 1332871759
+song_end
+song_begin: 02 Coheed And Cambria - In Keeping Secrets Of Silent Earth 3.flac
+Time: 493
+Artist: Coheed And Cambria
+Title: In Keeping Secrets Of Silent Earth 3
+Album: In Keeping Secrets Of Silent Earth: 3
+Date: 2003
+Track: 02
+Genre: Rock
+mtime: 1332871776
+song_end
+song_begin: 03 Coheed And Cambria - Cuts Marked In The March Of Men.flac
+Time: 301
+Artist: Coheed And Cambria
+Title: Cuts Marked In The March Of Men
+Album: In Keeping Secrets Of Silent Earth: 3
+Date: 2003
+Track: 03
+Genre: Rock
+mtime: 1332871323
+song_end
+song_begin: 04 Coheed And Cambria - Three Evils (Embodied In Love And Shadow).flac
+Time: 309
+Artist: Coheed And Cambria
+Title: Three Evils (Embodied In Love And Shadow)
+Album: In Keeping Secrets Of Silent Earth: 3
+Date: 2003
+Track: 04
+Genre: Rock
+mtime: 1332871346
+song_end
+song_begin: 05 Coheed And Cambria - The Crowing.flac
+Time: 396
+Artist: Coheed And Cambria
+Title: The Crowing
+Album: In Keeping Secrets Of Silent Earth: 3
+Date: 2003
+Track: 05
+Genre: Rock
+mtime: 1332871777
+song_end
+song_begin: 06 Coheed And Cambria - Blood Red Summer.flac
+Time: 246
+Artist: Coheed And Cambria
+Title: Blood Red Summer
+Album: In Keeping Secrets Of Silent Earth: 3
+Date: 2003
+Track: 06
+Genre: Rock
+mtime: 1332871634
+song_end
+song_begin: 07 Coheed And Cambria - The Velourium Camper I - Faint Of Hearts.flac
+Time: 322
+Artist: Coheed And Cambria
+Title: The Velourium Camper I - Faint Of Hearts
+Album: In Keeping Secrets Of Silent Earth: 3
+Date: 2003
+Track: 07
+Genre: Rock
+mtime: 1332870664
+song_end
+song_begin: 08 Coheed And Cambria - The Velourium Camper II - Backend Of Forever.flac
+Time: 323
+Artist: Coheed And Cambria
+Title: The Velourium Camper II - Backend Of Forever
+Album: In Keeping Secrets Of Silent Earth: 3
+Date: 2003
+Track: 08
+Genre: Rock
+mtime: 1332870851
+song_end
+song_begin: 09 Coheed And Cambria - The Velourium Camper III - Al The Killer.flac
+Time: 256
+Artist: Coheed And Cambria
+Title: The Velourium Camper III - Al The Killer
+Album: In Keeping Secrets Of Silent Earth: 3
+Date: 2003
+Track: 09
+Genre: Rock
+mtime: 1332871775
+song_end
+song_begin: 10 Coheed And Cambria - A Favor House Atlantic.flac
+Time: 235
+Artist: Coheed And Cambria
+Title: A Favor House Atlantic
+Album: In Keeping Secrets Of Silent Earth: 3
+Date: 2003
+Track: 10
+Genre: Rock
+mtime: 1332871772
+song_end
+song_begin: 11 Coheed And Cambria - The Light & The Glass.flac
+Time: 580
+Artist: Coheed And Cambria
+Title: The Light & The Glass
+Album: In Keeping Secrets Of Silent Earth: 3
+Date: 2003
+Track: 11
+Genre: Rock
+mtime: 1332871440
+song_end
+song_begin: 12 Coheed And Cambria - A Lot Of Nothing - I.flac
+Time: 16
+Artist: Coheed And Cambria
+Title: A Lot Of Nothing - I
+Album: In Keeping Secrets Of Silent Earth: 3
+Date: 2003
+Track: 12
+Genre: Rock
+mtime: 1332870869
+song_end
+song_begin: 13 Coheed And Cambria - A Lot Of Nothing - II.flac
+Time: 6
+Artist: Coheed And Cambria
+Title: A Lot Of Nothing - II
+Album: In Keeping Secrets Of Silent Earth: 3
+Date: 2003
+Track: 13
+Genre: Rock
+mtime: 1332870843
+song_end
+song_begin: 14 Coheed And Cambria - A Lot Of Nothing - III.flac
+Time: 6
+Artist: Coheed And Cambria
+Title: A Lot Of Nothing - III
+Album: In Keeping Secrets Of Silent Earth: 3
+Date: 2003
+Track: 14
+Genre: Rock
+mtime: 1332870832
+song_end
+song_begin: 15 Coheed And Cambria - A Lot Of Nothing - IV.flac
+Time: 7
+Artist: Coheed And Cambria
+Title: A Lot Of Nothing - IV
+Album: In Keeping Secrets Of Silent Earth: 3
+Date: 2003
+Track: 15
+Genre: Rock
+mtime: 1332870832
+song_end
+song_begin: 16 Coheed And Cambria - A Lot Of Nothing - V.flac
+Time: 7
+Artist: Coheed And Cambria
+Title: A Lot Of Nothing - V
+Album: In Keeping Secrets Of Silent Earth: 3
+Date: 2003
+Track: 16
+Genre: Rock
+mtime: 1332870841
+song_end
+song_begin: 17 Coheed And Cambria - A Lot Of Nothing - VI.flac
+Time: 6
+Artist: Coheed And Cambria
+Title: A Lot Of Nothing - VI
+Album: In Keeping Secrets Of Silent Earth: 3
+Date: 2003
+Track: 17
+Genre: Rock
+mtime: 1332870841
+song_end
+song_begin: 18 Coheed And Cambria - A Lot Of Nothing - VII.flac
+Time: 7
+Artist: Coheed And Cambria
+Title: A Lot Of Nothing - VII
+Album: In Keeping Secrets Of Silent Earth: 3
+Date: 2003
+Track: 18
+Genre: Rock
+mtime: 1332870825
+song_end
+song_begin: 19 Coheed And Cambria - A Lot Of Nothing - VIII.flac
+Time: 7
+Artist: Coheed And Cambria
+Title: A Lot Of Nothing - VIII
+Album: In Keeping Secrets Of Silent Earth: 3
+Date: 2003
+Track: 19
+Genre: Rock
+mtime: 1332870836
+song_end
+song_begin: 20 Coheed And Cambria - A Lot Of Nothing - IX.flac
+Time: 6
+Artist: Coheed And Cambria
+Title: A Lot Of Nothing - IX
+Album: In Keeping Secrets Of Silent Earth: 3
+Date: 2003
+Track: 20
+Genre: Rock
+mtime: 1332870837
+song_end
+song_begin: 21 Coheed And Cambria - A Lot Of Nothing - X.flac
+Time: 6
+Artist: Coheed And Cambria
+Title: A Lot Of Nothing - X
+Album: In Keeping Secrets Of Silent Earth: 3
+Date: 2003
+Track: 21
+Genre: Rock
+mtime: 1332870837
+song_end
+song_begin: 22 Coheed And Cambria - A Lot Of Nothing - XI.flac
+Time: 9
+Artist: Coheed And Cambria
+Title: A Lot Of Nothing - XI
+Album: In Keeping Secrets Of Silent Earth: 3
+Date: 2003
+Track: 22
+Genre: Rock
+mtime: 1332870838
+song_end
+song_begin: 23 Coheed And Cambria - 2113.flac
+Time: 587
+Artist: Coheed And Cambria
+Title: 2113
+Album: In Keeping Secrets Of Silent Earth: 3
+Date: 2003
+Track: 23
+Genre: Rock
+mtime: 1332871743
+song_end
+playlist_begin: Coheed And Cambria - In Keeping Secrets Of Silent Earth  3.m3u
+mtime: 1332871699
+playlist_end
+end: Coheed And Cambria - In Keeping Secrets Of Silent Earth 3 (FLAC)
+directory: Coheed And Cambria - The Second Stage Turbine Blade {Re-Issue} (2005) [FLAC]
+mtime: 1332870117
+begin: Coheed And Cambria - The Second Stage Turbine Blade {Re-Issue} (2005) [FLAC]
+song_begin: 01 - Second Stage Turbine Blade.flac
+Time: 53
+Artist: Coheed And Cambria
+Title: Second Stage Turbine Blade
+Album: The Second Stage Turbine Blade [Re-Issue]
+Date: 2005
+Track: 01
+Genre: Rock
+mtime: 1332871573
+song_end
+song_begin: 02 - Time Consumer.flac
+Time: 342
+Artist: Coheed And Cambria
+Title: Time Consumer
+Album: The Second Stage Turbine Blade [Re-Issue]
+Date: 2005
+Track: 02
+Genre: Rock
+mtime: 1332872231
+song_end
+song_begin: 03 - Devil In Jersey City.flac
+Time: 288
+Artist: Coheed And Cambria
+Title: Devil In Jersey City
+Album: The Second Stage Turbine Blade [Re-Issue]
+Date: 2005
+Track: 03
+Genre: Rock
+mtime: 1332872301
+song_end
+song_begin: 04 - Everything Evil.flac
+Time: 351
+Artist: Coheed And Cambria
+Title: Everything Evil
+Album: The Second Stage Turbine Blade [Re-Issue]
+Date: 2005
+Track: 04
+Genre: Rock
+mtime: 1332872149
+song_end
+song_begin: 05 - Delirium Trigger.flac
+Time: 288
+Artist: Coheed And Cambria
+Title: Delirium Trigger
+Album: The Second Stage Turbine Blade [Re-Issue]
+Date: 2005
+Track: 05
+Genre: Rock
+mtime: 1332872211
+song_end
+song_begin: 06 - Hearshot Kid Disaster.flac
+Time: 341
+Artist: Coheed And Cambria
+Title: Hearshot Kid Disaster
+Album: The Second Stage Turbine Blade [Re-Issue]
+Date: 2005
+Track: 06
+Genre: Rock
+mtime: 1332872197
+song_end
+song_begin: 07 - 33.flac
+Time: 210
+Artist: Coheed And Cambria
+Title: 33
+Album: The Second Stage Turbine Blade [Re-Issue]
+Date: 2005
+Track: 07
+Genre: Rock
+mtime: 1332871550
+song_end
+song_begin: 08 - Junesong Provision.flac
+Time: 320
+Artist: Coheed And Cambria
+Title: Junesong Provision
+Album: The Second Stage Turbine Blade [Re-Issue]
+Date: 2005
+Track: 08
+Genre: Rock
+mtime: 1332872298
+song_end
+song_begin: 09 - Neverender.flac
+Time: 323
+Artist: Coheed And Cambria
+Title: Neverender
+Album: The Second Stage Turbine Blade [Re-Issue]
+Date: 2005
+Track: 09
+Genre: Rock
+mtime: 1332872258
+song_end
+song_begin: 10 - God Send Conspirator.flac
+Time: 393
+Artist: Coheed And Cambria
+Title: God Send Conspirator
+Album: The Second Stage Turbine Blade [Re-Issue]
+Date: 2005
+Track: 10
+Genre: Rock
+mtime: 1332872147
+song_end
+song_begin: 11 - Elf Tower New Mexico (Previously Unreleased B-Side).flac
+Time: 364
+Artist: Coheed And Cambria
+Title: Elf Tower New Mexico (Previously Unreleased B-Side)
+Album: The Second Stage Turbine Blade [Re-Issue]
+Date: 2005
+Track: 11
+Genre: Rock
+mtime: 1332872059
+song_end
+song_begin: 12 - Junesong Provision (Previously Unreleased Acoustic Demo Version).flac
+Time: 334
+Artist: Coheed And Cambria
+Title: Junesong Provision (Previously Unreleased Acoustic Demo Version)
+Album: The Second Stage Turbine Blade [Re-Issue]
+Date: 2005
+Track: 12
+Genre: Rock
+mtime: 1332871216
+song_end
+song_begin: 13 - Everything Evil (Previously Unreleased Demo Version).flac
+Time: 818
+Artist: Coheed And Cambria
+Title: Everything Evil (Previously Unreleased Demo Version)
+Album: The Second Stage Turbine Blade [Re-Issue]
+Date: 2005
+Track: 13
+Genre: Rock
+mtime: 1332871970
+song_end
+playlist_begin: Coheed And Cambria - The Second Stage Turbine Blade [Re-Issue].m3u
+mtime: 1332871490
+playlist_end
+end: Coheed And Cambria - The Second Stage Turbine Blade {Re-Issue} (2005) [FLAC]
+directory: Coheed and Cambria - 2005 - Good Apollo, I'm Burning Star IV. Volume I - From Fear Through the Eyes of Madness [FLAC]
+mtime: 1332870117
+begin: Coheed and Cambria - 2005 - Good Apollo, I'm Burning Star IV. Volume I - From Fear Through the Eyes of Madness [FLAC]
+song_begin: 01 - Keeping the Blade.flac
+Time: 129
+Artist: Coheed and Cambria
+Title: Keeping the Blade
+Album: Good Apollo, I'm Burning Star IV. Volume One:  From Fear Through the Eyes of Madness
+Date: 2005
+Track: 01
+Genre: Progressive Rock
+mtime: 1332871339
+song_end
+song_begin: 02 - Always & Never.flac
+Time: 144
+Artist: Coheed and Cambria
+Title: Always & Never
+Album: Good Apollo, I'm Burning Star IV. Volume One:  From Fear Through the Eyes of Madness
+Date: 2005
+Track: 02
+Genre: Progressive Rock
+mtime: 1332871788
+song_end
+song_begin: 03 - Welcome Home.flac
+Time: 375
+Artist: Coheed and Cambria
+Title: Welcome Home
+Album: Good Apollo, I'm Burning Star IV. Volume One:  From Fear Through the Eyes of Madness
+Date: 2005
+Track: 03
+Genre: Progressive Rock
+mtime: 1332871884
+song_end
+song_begin: 04 - Ten Speed (Of God's Blood & Burial).flac
+Time: 227
+Artist: Coheed and Cambria
+Title: Ten Speed (Of God's Blood & Burial)
+Album: Good Apollo, I'm Burning Star IV. Volume One:  From Fear Through the Eyes of Madness
+Date: 2005
+Track: 04
+Genre: Progressive Rock
+mtime: 1332871886
+song_end
+song_begin: 05 - Crossing the Frame.flac
+Time: 207
+Artist: Coheed and Cambria
+Title: Crossing the Frame
+Album: Good Apollo, I'm Burning Star IV. Volume One:  From Fear Through the Eyes of Madness
+Date: 2005
+Track: 05
+Genre: Progressive Rock
+mtime: 1332871547
+song_end
+song_begin: 06 - Apollo I - The Writing Writer.flac
+Time: 316
+Artist: Coheed and Cambria
+Title: Apollo I : The Writing Writer
+Album: Good Apollo, I'm Burning Star IV. Volume One:  From Fear Through the Eyes of Madness
+Date: 2005
+Track: 06
+Genre: Progressive Rock
+mtime: 1332871860
+song_end
+song_begin: 07 - Once Upon Your Dead Body.flac
+Time: 200
+Artist: Coheed and Cambria
+Title: Once Upon Your Dead Body
+Album: Good Apollo, I'm Burning Star IV. Volume One:  From Fear Through the Eyes of Madness
+Date: 2005
+Track: 07
+Genre: Progressive Rock
+mtime: 1332871798
+song_end
+song_begin: 08 - Wake Up.flac
+Time: 216
+Artist: Coheed and Cambria
+Title: Wake Up
+Album: Good Apollo, I'm Burning Star IV. Volume One:  From Fear Through the Eyes of Madness
+Date: 2005
+Track: 08
+Genre: Progressive Rock
+mtime: 1332870711
+song_end
+song_begin: 09 - The Suffering.flac
+Time: 224
+Artist: Coheed and Cambria
+Title: The Suffering
+Album: Good Apollo, I'm Burning Star IV. Volume One:  From Fear Through the Eyes of Madness
+Date: 2005
+Track: 09
+Genre: Progressive Rock
+mtime: 1332871292
+song_end
+song_begin: 10 - The Lying Lies & Dirty Secrets of Miss Erica Court.flac
+Time: 198
+Artist: Coheed and Cambria
+Title: The Lying Lies & Dirty Secrets of Miss Erica Court
+Album: Good Apollo, I'm Burning Star IV. Volume One:  From Fear Through the Eyes of Madness
+Date: 2005
+Track: 10
+Genre: Progressive Rock
+mtime: 1332870335
+song_end
+song_begin: 11 - Mother May I.flac
+Time: 273
+Artist: Coheed and Cambria
+Title: Mother May I
+Album: Good Apollo, I'm Burning Star IV. Volume One:  From Fear Through the Eyes of Madness
+Date: 2005
+Track: 11
+Genre: Progressive Rock
+mtime: 1332870468
+song_end
+song_begin: 12 - The Willing Well I - Fuel for the Feeding End.flac
+Time: 438
+Artist: Coheed and Cambria
+Title: The Willing Well I : Fuel for the Feeding End
+Album: Good Apollo, I'm Burning Star IV. Volume One:  From Fear Through the Eyes of Madness
+Date: 2005
+Track: 12
+Genre: Progressive Rock
+mtime: 1332871172
+song_end
+song_begin: 13 - The Willing Well II - Fear Through the Eyes of Madness.flac
+Time: 449
+Artist: Coheed and Cambria
+Title: The Willing Well II : Fear Through the Eyes of Madness
+Album: Good Apollo, I'm Burning Star IV. Volume One:  From Fear Through the Eyes of Madness
+Date: 2005
+Track: 13
+Genre: Progressive Rock
+mtime: 1332871791
+song_end
+song_begin: 14 - The Willing Well III - Apollo II- The Telling Truth.flac
+Time: 439
+Artist: Coheed and Cambria
+Title: The Willing Well III : Apollo II: The Telling Truth
+Album: Good Apollo, I'm Burning Star IV. Volume One:  From Fear Through the Eyes of Madness
+Date: 2005
+Track: 14
+Genre: Progressive Rock
+mtime: 1332871734
+song_end
+song_begin: 15 - The Willing Well IV - The Final Cut.flac
+Time: 461
+Artist: Coheed and Cambria
+Title: The Willing Well IV : The Final Cut
+Album: Good Apollo, I'm Burning Star IV. Volume One:  From Fear Through the Eyes of Madness
+Date: 2005
+Track: 15
+Genre: Progressive Rock
+mtime: 1332871780
+song_end
+playlist_begin: Coheed and Cambria - Good Apollo, I'm Burning Star IV. Volume One  From Fear Through the Eyes of Madness.m3u
+mtime: 1332870739
+playlist_end
+end: Coheed and Cambria - 2005 - Good Apollo, I'm Burning Star IV. Volume I - From Fear Through the Eyes of Madness [FLAC]
+directory: Coheed and Cambria - No World For Tomorrow
+mtime: 1332870117
+begin: Coheed and Cambria - No World For Tomorrow
+song_begin: 01 - Coheed and Cambria - The Reaping.flac
+Time: 74
+Artist: Coheed and Cambria
+Title: The Reaping
+Album: No World For Tomorrow
+Date: 2007
+Track: 01
+Genre: Rock
+Genre: Rock
+mtime: 1332870314
+song_end
+song_begin: 02 - Coheed and Cambria - No World For Tomorrow.flac
+Time: 306
+Artist: Coheed and Cambria
+Title: No World For Tomorrow
+Album: No World For Tomorrow
+Date: 2007
+Track: 02
+Genre: Rock
+Genre: Rock
+mtime: 1332871386
+song_end
+song_begin: 03 - Coheed and Cambria - The Hound (of Blood and Rank).flac
+Time: 279
+Artist: Coheed and Cambria
+Title: The Hound (of Blood and Rank)
+Album: No World For Tomorrow
+Date: 2007
+Track: 03
+Genre: Rock
+Genre: Rock
+mtime: 1332871455
+song_end
+song_begin: 04 - Coheed and Cambria - Feathers.flac
+Time: 296
+Artist: Coheed and Cambria
+Title: Feathers
+Album: No World For Tomorrow
+Date: 2007
+Track: 04
+Genre: Rock
+Genre: Rock
+mtime: 1332870810
+song_end
+song_begin: 05 - Coheed and Cambria - The Running Free.flac
+Time: 253
+Artist: Coheed and Cambria
+Title: The Running Free
+Album: No World For Tomorrow
+Date: 2007
+Track: 05
+Genre: Rock
+Genre: Rock
+mtime: 1332870800
+song_end
+song_begin: 06 - Coheed and Cambria - Mother Superior.flac
+Time: 399
+Artist: Coheed and Cambria
+Title: Mother Superior
+Album: No World For Tomorrow
+Date: 2007
+Track: 06
+Genre: Rock
+Genre: Rock
+mtime: 1332871009
+song_end
+song_begin: 07 - Coheed and Cambria - Gravemakers & Gunslingers.flac
+Time: 261
+Artist: Coheed and Cambria
+Title: Gravemakers & Gunslingers
+Album: No World For Tomorrow
+Date: 2007
+Track: 07
+Genre: Rock
+Genre: Rock
+mtime: 1332871600
+song_end
+song_begin: 08 - Coheed and Cambria - Justice In Murder.flac
+Time: 269
+Artist: Coheed and Cambria
+Title: Justice In Murder
+Album: No World For Tomorrow
+Date: 2007
+Track: 08
+Genre: Rock
+Genre: Rock
+mtime: 1332871793
+song_end
+song_begin: 09 - Coheed and Cambria - I - The Fall of House Atlantic.flac
+Time: 65
+Artist: Coheed and Cambria
+Title: I - The Fall of House Atlantic
+Album: No World For Tomorrow
+Date: 2007
+Track: 09
+Genre: Rock
+Genre: Rock
+mtime: 1332871789
+song_end
+song_begin: 10 - Coheed and Cambria - II - Radio Bye Bye.flac
+Time: 295
+Artist: Coheed and Cambria
+Title: II - Radio Bye Bye
+Album: No World For Tomorrow
+Date: 2007
+Track: 10
+Genre: Rock
+Genre: Rock
+mtime: 1332871924
+song_end
+song_begin: 11 - Coheed and Cambria - III - The End Complete.flac
+Time: 465
+Artist: Coheed and Cambria
+Title: III - The End Complete
+Album: No World For Tomorrow
+Date: 2007
+Track: 11
+Genre: Rock
+Genre: Rock
+mtime: 1332871989
+song_end
+song_begin: 12 - Coheed and Cambria - IV - The Road and the Damned.flac
+Time: 216
+Artist: Coheed and Cambria
+Title: IV - The Road and the Damned
+Album: No World For Tomorrow
+Date: 2007
+Track: 12
+Genre: Rock
+Genre: Rock
+mtime: 1332872038
+song_end
+song_begin: 13 - Coheed and Cambria - V - On The Brink.flac
+Time: 429
+Artist: Coheed and Cambria
+Title: V - On The Brink
+Album: No World For Tomorrow
+Date: 2007
+Track: 13
+Genre: Rock
+Genre: Rock
+mtime: 1332872069
+song_end
+playlist_begin: Coheed and Cambria - No World For Tomorrow.m3u
+mtime: 1332870189
+playlist_end
+end: Coheed and Cambria - No World For Tomorrow
+directory: Coheed and Cambria - Year Of The Black Rainbow (Deluxe Edition) [FLAC]
+mtime: 1332870117
+begin: Coheed and Cambria - Year Of The Black Rainbow (Deluxe Edition) [FLAC]
+song_begin: 01 - Coheed And Cambria - One.flac
+Time: 115
+Artist: Coheed And Cambria
+Title: One
+Album: Year Of The Black Rainbow (Deluxe Edition)
+Track: 01
+mtime: 1332870515
+song_end
+song_begin: 02 - Coheed And Cambria - The Broken.flac
+Time: 234
+Artist: Coheed And Cambria
+Title: The Broken
+Album: Year Of The Black Rainbow (Deluxe Edition)
+Track: 02
+mtime: 1332871871
+song_end
+song_begin: 03 - Coheed And Cambria - Guns Of Summer.flac
+Time: 288
+Artist: Coheed And Cambria
+Title: Guns Of Summer
+Album: Year Of The Black Rainbow (Deluxe Edition)
+Track: 03
+mtime: 1332872001
+song_end
+song_begin: 04 - Coheed And Cambria - Here We Are Juggernaut.flac
+Time: 225
+Artist: Coheed And Cambria
+Title: Here We Are Juggernaut
+Album: Year Of The Black Rainbow (Deluxe Edition)
+Track: 04
+mtime: 1332871936
+song_end
+song_begin: 05 - Coheed And Cambria - Far.flac
+Time: 294
+Artist: Coheed And Cambria
+Title: Far
+Album: Year Of The Black Rainbow (Deluxe Edition)
+Track: 05
+mtime: 1332871992
+song_end
+song_begin: 06 - Coheed And Cambria - This Shattered Symphony.flac
+Time: 266
+Artist: Coheed And Cambria
+Title: This Shattered Symphony
+Album: Year Of The Black Rainbow (Deluxe Edition)
+Track: 06
+mtime: 1332872030
+song_end
+song_begin: 07 - Coheed And Cambria - World Of Lines.flac
+Time: 198
+Artist: Coheed And Cambria
+Title: World Of Lines
+Album: Year Of The Black Rainbow (Deluxe Edition)
+Track: 07
+mtime: 1332870721
+song_end
+song_begin: 08 - Coheed And Cambria - Made Out Of Nothing (All That I Am).flac
+Time: 280
+Artist: Coheed And Cambria
+Title: Made Out Of Nothing (All That I Am)
+Album: Year Of The Black Rainbow (Deluxe Edition)
+Track: 08
+mtime: 1332870969
+song_end
+song_begin: 09 - Coheed And Cambria - Pearl Of The Stars.flac
+Time: 305
+Artist: Coheed And Cambria
+Title: Pearl Of The Stars
+Album: Year Of The Black Rainbow (Deluxe Edition)
+Track: 09
+mtime: 1332871581
+song_end
+song_begin: 10 - Coheed And Cambria - In The Flame Of Error.flac
+Time: 328
+Artist: Coheed And Cambria
+Title: In The Flame Of Error
+Album: Year Of The Black Rainbow (Deluxe Edition)
+Track: 10
+mtime: 1332871698
+song_end
+song_begin: 11 - Coheed And Cambria - When Skeletons Live.flac
+Time: 258
+Artist: Coheed And Cambria
+Title: When Skeletons Live
+Album: Year Of The Black Rainbow (Deluxe Edition)
+Track: 11
+mtime: 1332871752
+song_end
+song_begin: 12 - Coheed And Cambria - The Black Rainbow.flac
+Time: 455
+Artist: Coheed And Cambria
+Title: The Black Rainbow
+Album: Year Of The Black Rainbow (Deluxe Edition)
+Track: 12
+mtime: 1332871815
+song_end
+song_begin: 13 - Coheed And Cambria - Chamberlain (Demo) (Bonus Track).flac
+Time: 262
+Artist: Coheed And Cambria
+Title: Chamberlain (Demo) (Bonus Track)
+Album: Year Of The Black Rainbow (Deluxe Edition)
+Track: 13
+mtime: 1332871050
+song_end
+song_begin: 14 - Coheed And Cambria - The Lost Shepherd (Demo) (Bonus Track).flac
+Time: 250
+Artist: Coheed And Cambria
+Title: The Lost Shepherd (Demo) (Bonus Track)
+Album: Year Of The Black Rainbow (Deluxe Edition)
+Track: 14
+mtime: 1332871188
+song_end
+end: Coheed and Cambria - Year Of The Black Rainbow (Deluxe Edition) [FLAC]
 directory: Cold War Kids - Mine Is Yours 2011 Flac
-mtime: 1320527781
+mtime: 1332248812
 begin: Cold War Kids - Mine Is Yours 2011 Flac
 song_begin: 01 - Mine Is Yours.flac
 Time: 259
@@ -7983,7 +8780,7 @@ mtime: 1320554514
 song_end
 end: DJ Mark Farina - 2001 - MushroomJazz3
 directory: DJ Shadow - The Private Press - 2002 [FLAC]
-mtime: 1320542351
+mtime: 1332247356
 begin: DJ Shadow - The Private Press - 2002 [FLAC]
 song_begin: 01. DJ Shadow - (Letter from Home Intro) - The Private Press - 2002 [FLAC].flac
 Time: 70
@@ -8129,6 +8926,190 @@ playlist_begin: DJ Shadow - The Private Press.m3u
 mtime: 1320548438
 playlist_end
 end: DJ Shadow - The Private Press - 2002 [FLAC]
+directory: Dandy Warhols - Thirteen Tales from Urban Bohemia (Limited2CD) (flac)
+mtime: 1332746067
+begin: Dandy Warhols - Thirteen Tales from Urban Bohemia (Limited2CD) (flac)
+directory: bonus cd
+mtime: 1332746067
+begin: Dandy Warhols - Thirteen Tales from Urban Bohemia (Limited2CD) (flac)/bonus cd
+song_begin: 01 - white gold.flac
+Time: 250
+Title: White Gold
+Artist: The Dandy Warhols
+Album: Thirteen Tales From Urban Bohemia
+Album: Bonus Disk
+Track: 01
+Genre: Rock
+mtime: 1332746530
+song_end
+song_begin: 02 - phone call.flac
+Time: 243
+Title: Phone Call
+Artist: The Dandy Warhols
+Album: Thirteen Tales From Urban Bohemia
+Album: Bonus Disk
+Track: 02
+Genre: Rock
+mtime: 1332746641
+song_end
+song_begin: 03 - not if you were the last junkie on earth (live).flac
+Time: 195
+Title: Not If You Were The Last Junkie On Earth (Live)
+Artist: The Dandy Warhols
+Album: Thirteen Tales From Urban Bohemia
+Album: Bonus Disk
+Track: 03
+Genre: Rock
+mtime: 1332746714
+song_end
+song_begin: 04 - i love you (live).flac
+Time: 260
+Title: I Love You (Live)
+Artist: The Dandy Warhols
+Album: Thirteen Tales From Urban Bohemia
+Album: Bonus Disk
+Track: 04
+Genre: Rock
+mtime: 1332746793
+song_end
+playlist_begin: the dandy warhols - 13 tales from urban bohemia (bonus cd).m3u
+mtime: 1332746725
+playlist_end
+end: Dandy Warhols - Thirteen Tales from Urban Bohemia (Limited2CD) (flac)/bonus cd
+song_begin: 01 - godless.flac
+Time: 320
+Title: Godless
+Artist: The Dandy Warhols
+Album: Thirteen Tales From Urban Bohemia
+Date: 2000
+Track: 01
+Genre: Rock
+mtime: 1332746761
+song_end
+song_begin: 02 - mohammed.flac
+Time: 321
+Title: Mohammed
+Artist: The Dandy Warhols
+Album: Thirteen Tales From Urban Bohemia
+Date: 2000
+Track: 02
+Genre: Rock
+mtime: 1332746222
+song_end
+song_begin: 03 - nietzsche.flac
+Time: 341
+Title: Nietzsche
+Artist: The Dandy Warhols
+Album: Thirteen Tales From Urban Bohemia
+Date: 2000
+Track: 03
+Genre: Rock
+mtime: 1332746812
+song_end
+song_begin: 04 - country leaver.flac
+Time: 203
+Title: Country Leaver
+Artist: The Dandy Warhols
+Album: Thirteen Tales From Urban Bohemia
+Date: 2000
+Track: 04
+Genre: Rock
+mtime: 1332746872
+song_end
+song_begin: 05 - solid.flac
+Time: 189
+Title: Solid
+Artist: The Dandy Warhols
+Album: Thirteen Tales From Urban Bohemia
+Date: 2000
+Track: 05
+Genre: Rock
+mtime: 1332746891
+song_end
+song_begin: 06 - horse pills.flac
+Time: 205
+Title: Horse Pills
+Artist: The Dandy Warhols
+Album: Thirteen Tales From Urban Bohemia
+Date: 2000
+Track: 06
+Genre: Rock
+mtime: 1332746968
+song_end
+song_begin: 07 - get off.flac
+Time: 191
+Title: Get Off
+Artist: The Dandy Warhols
+Album: Thirteen Tales From Urban Bohemia
+Date: 2000
+Track: 07
+Genre: Rock
+mtime: 1332746962
+song_end
+song_begin: 08 - sleep.flac
+Time: 357
+Title: Sleep
+Artist: The Dandy Warhols
+Album: Thirteen Tales From Urban Bohemia
+Date: 2000
+Track: 08
+Genre: Rock
+mtime: 1332746966
+song_end
+song_begin: 09 - cool scene.flac
+Time: 248
+Title: Cool Scene
+Artist: The Dandy Warhols
+Album: Thirteen Tales From Urban Bohemia
+Date: 2000
+Track: 09
+Genre: Rock
+mtime: 1332746970
+song_end
+song_begin: 10 - bohemian like you.flac
+Time: 212
+Title: Bohemian Like You
+Artist: The Dandy Warhols
+Album: Thirteen Tales From Urban Bohemia
+Date: 2000
+Track: 10
+Genre: Rock
+mtime: 1332746378
+song_end
+song_begin: 11 - shakin'.flac
+Time: 236
+Title: Shakin'
+Artist: The Dandy Warhols
+Album: Thirteen Tales From Urban Bohemia
+Date: 2000
+Track: 11
+Genre: Rock
+mtime: 1332746448
+song_end
+song_begin: 12 - big indian.flac
+Time: 215
+Title: Big Indian
+Artist: The Dandy Warhols
+Album: Thirteen Tales From Urban Bohemia
+Date: 2000
+Track: 12
+Genre: Rock
+mtime: 1332746576
+song_end
+song_begin: 13 - the gospel.flac
+Time: 336
+Title: The Gospel
+Artist: The Dandy Warhols
+Album: Thirteen Tales From Urban Bohemia
+Date: 2000
+Track: 13
+Genre: Rock
+mtime: 1332746329
+song_end
+playlist_begin: the dandy warhols - 13 tales from urban bohemia.m3u
+mtime: 1332746733
+playlist_end
+end: Dandy Warhols - Thirteen Tales from Urban Bohemia (Limited2CD) (flac)
 directory: Dandy Warhols, The - Thirteen Tales Of Urban Bohemia EAC 0.99pb4 FLAC
 mtime: 1320023858
 begin: Dandy Warhols, The - Thirteen Tales Of Urban Bohemia EAC 0.99pb4 FLAC
@@ -8674,7 +9655,7 @@ mtime: 1320554312
 song_end
 end: Dr. Dog - 2008 - Fate [FLAC]
 directory: Dr. Dog - Easy Beat
-mtime: 1320547121
+mtime: 1333274412
 begin: Dr. Dog - Easy Beat
 song_begin: 01 The World May Never Know.flac
 Time: 183
@@ -9217,6 +10198,130 @@ playlist_begin: DJ Shadow - Endtroducing......m3u
 mtime: 1320552358
 playlist_end
 end: Endtroducing
+directory: Everything Everything - Man Alive (2010) - FLAC
+mtime: 1332744077
+begin: Everything Everything - Man Alive (2010) - FLAC
+song_begin: 01 - MY KZ, UR BF.flac
+Time: 218
+Artist: Everything Everything
+Title: MY KZ, UR BF
+Album: Man Alive
+Date: 2010
+Track: 01
+Genre: Avant Pop
+mtime: 1332744407
+song_end
+song_begin: 02 - Qwerty Finger.flac
+Time: 234
+Artist: Everything Everything
+Title: Qwerty Finger
+Album: Man Alive
+Date: 2010
+Track: 02
+Genre: Avant Pop
+mtime: 1332744407
+song_end
+song_begin: 03 - Schoolin'.flac
+Time: 281
+Artist: Everything Everything
+Title: Schoolin'
+Album: Man Alive
+Date: 2010
+Track: 03
+Genre: Avant Pop
+mtime: 1332744361
+song_end
+song_begin: 04 - Leave The Engine Room.flac
+Time: 190
+Artist: Everything Everything
+Title: Leave The Engine Room
+Album: Man Alive
+Date: 2010
+Track: 04
+Genre: Avant Pop
+mtime: 1332744405
+song_end
+song_begin: 05 - Final Form.flac
+Time: 329
+Artist: Everything Everything
+Title: Final Form
+Album: Man Alive
+Date: 2010
+Track: 05
+Genre: Avant Pop
+mtime: 1332744407
+song_end
+song_begin: 06 - Photoshop Handsome.flac
+Time: 200
+Artist: Everything Everything
+Title: Photoshop Handsome
+Album: Man Alive
+Date: 2010
+Track: 06
+Genre: Avant Pop
+mtime: 1332744405
+song_end
+song_begin: 07 - Two For Nero.flac
+Time: 263
+Artist: Everything Everything
+Title: Two For Nero
+Album: Man Alive
+Date: 2010
+Track: 07
+Genre: Avant Pop
+mtime: 1332744407
+song_end
+song_begin: 08 - Suffragette Suffragette.flac
+Time: 247
+Artist: Everything Everything
+Title: Suffragette Suffragette
+Album: Man Alive
+Date: 2010
+Track: 08
+Genre: Avant Pop
+mtime: 1332744305
+song_end
+song_begin: 09 - Come Alive Diana.flac
+Time: 256
+Artist: Everything Everything
+Title: Come Alive Diana
+Album: Man Alive
+Date: 2010
+Track: 09
+Genre: Avant Pop
+mtime: 1332744407
+song_end
+song_begin: 10 - NASA Is On Your Side.flac
+Time: 307
+Artist: Everything Everything
+Title: NASA Is On Your Side
+Album: Man Alive
+Date: 2010
+Track: 10
+Genre: Avant Pop
+mtime: 1332744403
+song_end
+song_begin: 11 - Tin (The Manhole).flac
+Time: 269
+Artist: Everything Everything
+Title: Tin (The Manhole)
+Album: Man Alive
+Date: 2010
+Track: 11
+Genre: Avant Pop
+mtime: 1332744324
+song_end
+song_begin: 12 - Weights.flac
+Time: 341
+Artist: Everything Everything
+Title: Weights
+Album: Man Alive
+Date: 2010
+Track: 12
+Genre: Avant Pop
+mtime: 1332744395
+song_end
+end: Everything Everything - Man Alive (2010) - FLAC
 directory: Fila Brazillia - 1997 - Luck Be A Weirdo Tonight [FLAC 100 log]
 mtime: 1320542351
 begin: Fila Brazillia - 1997 - Luck Be A Weirdo Tonight [FLAC 100 log]
@@ -9831,7 +10936,7 @@ song_end
 end: Florence & The Machine - Ceremonials (Deluxe Edition) [2011]/Disc Two
 end: Florence & The Machine - Ceremonials (Deluxe Edition) [2011]
 directory: Florence And The Machine - Lungs (FLAC)
-mtime: 1320709437
+mtime: 1333442361
 begin: Florence And The Machine - Lungs (FLAC)
 song_begin: Florence And The Machine - 01 - Dog Days Are Over.flac
 Time: 253
@@ -9967,6 +11072,40 @@ playlist_begin: Florence And The Machine - Lungs.m3u
 mtime: 1320709855
 playlist_end
 end: Florence And The Machine - Lungs (FLAC)
+directory: Florida Songs [ Demo ]
+mtime: 1332975489
+begin: Florida Songs [ Demo ]
+song_begin: 01 But A Fleeting Illness.mp3
+Time: 274
+Artist: Say Anything
+Title: But A Fleeting Illness
+Album: Florida Songs [ Demo ]
+Track: 1/3
+Date: 2003
+Genre: Alternative & Punk
+mtime: 1332975681
+song_end
+song_begin: 02 Spidersong.mp3
+Time: 275
+Artist: Say Anything
+Title: Spidersong
+Album: Florida Songs [ Demo ]
+Track: 2/3
+Date: 2003
+Genre: Alternative & Punk
+mtime: 1332975642
+song_end
+song_begin: 03 Woe ( The Optimist ).mp3
+Time: 239
+Artist: Say Anything
+Title: Woe ( The Optimist )
+Album: Florida Songs [ Demo ]
+Track: 3/3
+Date: 2003
+Genre: Alternative & Punk
+mtime: 1332975680
+song_end
+end: Florida Songs [ Demo ]
 directory: Flying Lotus - 1983 [Flac]
 mtime: 1320542351
 begin: Flying Lotus - 1983 [Flac]
@@ -10284,7 +11423,7 @@ song_end
 end: Fushitsusha - Purple Trap - The Wound That Was Given Birth To... [1995] [FLAC]/Disc 2
 end: Fushitsusha - Purple Trap - The Wound That Was Given Birth To... [1995] [FLAC]
 directory: Ganga-Gia-2010-Flac
-mtime: 1320542351
+mtime: 1332247402
 begin: Ganga-Gia-2010-Flac
 song_begin: 01 - Wake Up.flac
 Time: 489
@@ -10370,6 +11509,1196 @@ playlist_begin: 00 - Ganga-Gaia-2010-flac.m3u
 mtime: 1320560434
 playlist_end
 end: Ganga-Gia-2010-Flac
+directory: Gorillaz - Gorillaz
+mtime: 1334140492
+begin: Gorillaz - Gorillaz
+song_begin: 01 - Re-Hash.flac
+Time: 219
+Artist: Gorillaz
+Title: Re-Hash
+Album: Gorillaz
+Date: 2001
+Track: 01
+Genre: Alternative
+mtime: 1334141244
+song_end
+song_begin: 02 - 5,4.flac
+Time: 161
+Artist: Gorillaz
+Title: 5/4
+Album: Gorillaz
+Date: 2001
+Track: 02
+Genre: Alternative
+mtime: 1334141255
+song_end
+song_begin: 03 - Tomorrow Comes Today.flac
+Time: 193
+Artist: Gorillaz
+Title: Tomorrow Comes Today
+Album: Gorillaz
+Date: 2001
+Track: 03
+Genre: Alternative
+mtime: 1334141272
+song_end
+song_begin: 04 - New Genious (Brother).flac
+Time: 238
+Artist: Gorillaz
+Title: New Genious (Brother)
+Album: Gorillaz
+Date: 2001
+Track: 04
+Genre: Alternative
+mtime: 1334141584
+song_end
+song_begin: 05 - Clint Eastwood.flac
+Time: 341
+Artist: Gorillaz
+Title: Clint Eastwood
+Album: Gorillaz
+Date: 2001
+Track: 05
+Genre: Alternative
+mtime: 1334141724
+song_end
+song_begin: 06 - Man Research (Clapper).flac
+Time: 273
+Artist: Gorillaz
+Title: Man Research (Clapper)
+Album: Gorillaz
+Date: 2001
+Track: 06
+Genre: Alternative
+mtime: 1334141792
+song_end
+song_begin: 07 - Punk.flac
+Time: 97
+Artist: Gorillaz
+Title: Punk
+Album: Gorillaz
+Date: 2001
+Track: 07
+Genre: Alternative
+mtime: 1334140858
+song_end
+song_begin: 08 - Sound Check (Gravity).flac
+Time: 281
+Artist: Gorillaz
+Title: Sound Check (Gravity)
+Album: Gorillaz
+Date: 2001
+Track: 08
+Genre: Alternative
+mtime: 1334140934
+song_end
+song_begin: 09 - Double Bass.flac
+Time: 285
+Artist: Gorillaz
+Title: Double Bass
+Album: Gorillaz
+Date: 2001
+Track: 09
+Genre: Alternative
+mtime: 1334141059
+song_end
+song_begin: 10 - Rock the House.flac
+Time: 249
+Artist: Gorillaz
+Title: Rock the House
+Album: Gorillaz
+Date: 2001
+Track: 10
+Genre: Alternative
+mtime: 1334141849
+song_end
+song_begin: 11 - 19-2000.flac
+Time: 208
+Artist: Gorillaz
+Title: 19-2000
+Album: Gorillaz
+Date: 2001
+Track: 11
+Genre: Alternative
+mtime: 1334141956
+song_end
+song_begin: 12 - Latin Simone (Que Pasa Contigo).flac
+Time: 217
+Artist: Gorillaz
+Title: Latin Simone (Que Pasa Contigo)
+Album: Gorillaz
+Date: 2001
+Track: 12
+Genre: Alternative
+mtime: 1334142090
+song_end
+song_begin: 13 - Starshine.flac
+Time: 212
+Artist: Gorillaz
+Title: Starshine
+Album: Gorillaz
+Date: 2001
+Track: 13
+Genre: Alternative
+mtime: 1334142150
+song_end
+song_begin: 14 - Slow Country.flac
+Time: 216
+Artist: Gorillaz
+Title: Slow Country
+Album: Gorillaz
+Date: 2001
+Track: 14
+Genre: Alternative
+mtime: 1334142170
+song_end
+song_begin: 15 - M1 A1.flac
+Time: 230
+Artist: Gorillaz
+Title: M1 A1
+Album: Gorillaz
+Date: 2001
+Track: 15
+Genre: Alternative
+mtime: 1334142193
+song_end
+song_begin: 16 - Dracula.flac
+Time: 283
+Artist: Gorillaz
+Title: Dracula
+Album: Gorillaz
+Date: 2001
+Track: 16
+Genre: Alternative
+mtime: 1334141206
+song_end
+song_begin: 17 - Left Hand Suzuki Method.flac
+Time: 189
+Artist: Gorillaz
+Title: Left Hand Suzuki Method
+Album: Gorillaz
+Date: 2001
+Track: 17
+Genre: Alternative
+mtime: 1334141057
+song_end
+song_begin: 18 - 19-2000 (Soulchild Remix).flac
+Time: 210
+Artist: Gorillaz
+Title: 19-2000 (Soulchild Remix)
+Album: Gorillaz
+Date: 2001
+Track: 18
+Genre: Alternative
+mtime: 1334140874
+song_end
+song_begin: 19 - Clint Eastwood (Ed Case Refix).flac
+Time: 269
+Artist: Gorillaz
+Title: Clint Eastwood (Ed Case Refix)
+Album: Gorillaz
+Date: 2001
+Track: 19
+Genre: Alternative
+mtime: 1334141133
+song_end
+playlist_begin: Gorillaz - Gorillaz.m3u
+mtime: 1334141020
+playlist_end
+end: Gorillaz - Gorillaz
+directory: Gorillaz - Plastic Beach [2010]
+mtime: 1334140492
+begin: Gorillaz - Plastic Beach [2010]
+song_begin: 01 Orchestral Intro (feat. Sinfonia Viva).flac
+Time: 70
+Artist: Gorillaz
+Title: Orchestral Intro (feat. Sinfonia Viva)
+Album: Plastic Beach
+Date: 2010
+Track: 01
+mtime: 1334141033
+song_end
+song_begin: 02 Welcome to the World of the Plastic Beach (feat. Snoop Dogg & Hypnotic Brass Ensemble).flac
+Time: 216
+Artist: Gorillaz
+Title: Welcome to the World of the Plastic Beach (feat. Snoop Dogg & Hypnotic Brass Ensemble)
+Album: Plastic Beach
+Date: 2010
+Track: 02
+mtime: 1334141192
+song_end
+song_begin: 03 White Flag (feat. Bashy, Kano & the National Orchestra for Arabic Music).flac
+Time: 224
+Artist: Gorillaz
+Title: White Flag (feat. Bashy, Kano & the National Orchestra for Arabic Music)
+Album: Plastic Beach
+Date: 2010
+Track: 03
+mtime: 1334141311
+song_end
+song_begin: 04 Rhinestone Eyes.flac
+Time: 201
+Artist: Gorillaz
+Title: Rhinestone Eyes
+Album: Plastic Beach
+Date: 2010
+Track: 04
+mtime: 1334141305
+song_end
+song_begin: 05 Stylo (feat. Mos Def & Bobby Womack).flac
+Time: 271
+Artist: Gorillaz
+Title: Stylo (feat. Mos Def & Bobby Womack)
+Album: Plastic Beach
+Date: 2010
+Track: 05
+mtime: 1334141449
+song_end
+song_begin: 06 Superfast Jellyfish (feat. Gruff Rhys & De La Soul).flac
+Time: 175
+Artist: Gorillaz
+Title: Superfast Jellyfish (feat. Gruff Rhys & De La Soul)
+Album: Plastic Beach
+Date: 2010
+Track: 06
+mtime: 1334141580
+song_end
+song_begin: 07 Empire Ants (feat. Little Dragon).flac
+Time: 284
+Artist: Gorillaz
+Title: Empire Ants (feat. Little Dragon)
+Album: Plastic Beach
+Date: 2010
+Track: 07
+mtime: 1334141732
+song_end
+song_begin: 08 Glitter Freeze (feat. Mark E Smith).flac
+Time: 244
+Artist: Gorillaz
+Title: Glitter Freeze (feat. Mark E Smith)
+Album: Plastic Beach
+Date: 2010
+Track: 08
+mtime: 1334141989
+song_end
+song_begin: 09 Some Kind of Nature (feat. Lou Reed).flac
+Time: 180
+Artist: Gorillaz
+Title: Some Kind of Nature (feat. Lou Reed)
+Album: Plastic Beach
+Date: 2010
+Track: 09
+mtime: 1334142070
+song_end
+song_begin: 10 On Melancholy Hill.flac
+Time: 234
+Artist: Gorillaz
+Title: On Melancholy Hill
+Album: Plastic Beach
+Date: 2010
+Track: 10
+mtime: 1334141919
+song_end
+song_begin: 11 Broken.flac
+Time: 198
+Artist: Gorillaz
+Title: Broken
+Album: Plastic Beach
+Date: 2010
+Track: 11
+mtime: 1334141931
+song_end
+song_begin: 12 Sweepstakes (feat. Mos Def & Hypnotic Brass Ensemble).flac
+Time: 321
+Artist: Gorillaz
+Title: Sweepstakes (feat. Mos Def & Hypnotic Brass Ensemble)
+Album: Plastic Beach
+Date: 2010
+Track: 12
+mtime: 1334141311
+song_end
+song_begin: 13 Plastic Beach (feat. Mick Jones & Paul Simonon).flac
+Time: 228
+Artist: Gorillaz
+Title: Plastic Beach (feat. Mick Jones & Paul Simonon)
+Album: Plastic Beach
+Date: 2010
+Track: 13
+mtime: 1334141202
+song_end
+song_begin: 14 To Binge (feat. Little Dragon).flac
+Time: 236
+Artist: Gorillaz
+Title: To Binge (feat. Little Dragon)
+Album: Plastic Beach
+Date: 2010
+Track: 14
+mtime: 1334140836
+song_end
+song_begin: 15 Cloud of Unknowing (feat. Bobby Womack & Sinfonia Viva).flac
+Time: 187
+Artist: Gorillaz
+Title: Cloud of Unknowing (feat. Bobby Womack & Sinfonia Viva)
+Album: Plastic Beach
+Date: 2010
+Track: 15
+mtime: 1334140962
+song_end
+song_begin: 16 Pirate Jet.flac
+Time: 154
+Artist: Gorillaz
+Title: Pirate Jet
+Album: Plastic Beach
+Date: 2010
+Track: 16
+mtime: 1334141081
+song_end
+song_begin: 17 Pirate's Progress.flac
+Time: 243
+Artist: Gorillaz
+Title: Pirate's Progress
+Album: Plastic Beach
+Date: 2010
+Track: 17
+mtime: 1334141212
+song_end
+playlist_begin: Gorillaz - Plastic Beach.m3u
+mtime: 1334140884
+playlist_end
+end: Gorillaz - Plastic Beach [2010]
+directory: Gorillaz - The Fall (2011) [FLAC]
+mtime: 1334140492
+begin: Gorillaz - The Fall (2011) [FLAC]
+song_begin: 01 - Phoner To Arizona.flac
+Time: 255
+Artist: Gorillaz
+Title: Phoner To Arizona
+Album: The Fall
+Date: 2011
+Track: 01
+Genre: Pop
+AlbumArtist: Gorillaz
+AlbumArtist: Gorillaz
+mtime: 1334140774
+song_end
+song_begin: 02 - Revolving Doors.flac
+Time: 207
+Artist: Gorillaz
+Title: Revolving Doors
+Album: The Fall
+Date: 2011
+Track: 02
+Genre: Pop
+AlbumArtist: Gorillaz
+AlbumArtist: Gorillaz
+mtime: 1334141317
+song_end
+song_begin: 03 - Hillbilly Man.flac
+Time: 231
+Artist: Gorillaz
+Title: Hillbilly Man
+Album: The Fall
+Date: 2011
+Track: 03
+Genre: Pop
+AlbumArtist: Gorillaz
+AlbumArtist: Gorillaz
+mtime: 1334141323
+song_end
+song_begin: 04 - Detroit.flac
+Time: 124
+Artist: Gorillaz
+Title: Detroit
+Album: The Fall
+Date: 2011
+Track: 04
+Genre: Pop
+AlbumArtist: Gorillaz
+AlbumArtist: Gorillaz
+mtime: 1334141396
+song_end
+song_begin: 05 - Shy-Town.flac
+Time: 175
+Artist: Gorillaz
+Title: Shy-Town
+Album: The Fall
+Date: 2011
+Track: 05
+Genre: Pop
+AlbumArtist: Gorillaz
+AlbumArtist: Gorillaz
+mtime: 1334141283
+song_end
+song_begin: 06 - Little Pink Plastic Bags.flac
+Time: 190
+Artist: Gorillaz
+Title: Little Pink Plastic Bags
+Album: The Fall
+Date: 2011
+Track: 06
+Genre: Pop
+AlbumArtist: Gorillaz
+AlbumArtist: Gorillaz
+mtime: 1334141327
+song_end
+song_begin: 07 - The Joplin Spider.flac
+Time: 203
+Artist: Gorillaz
+Title: The Joplin Spider
+Album: The Fall
+Date: 2011
+Track: 07
+Genre: Pop
+AlbumArtist: Gorillaz
+AlbumArtist: Gorillaz
+mtime: 1334140805
+song_end
+song_begin: 08 - The Parish Of Space Dust.flac
+Time: 146
+Artist: Gorillaz
+Title: The Parish Of Space Dust
+Album: The Fall
+Date: 2011
+Track: 08
+Genre: Pop
+AlbumArtist: Gorillaz
+AlbumArtist: Gorillaz
+mtime: 1334141348
+song_end
+song_begin: 09 - The Snake In Dallas.flac
+Time: 132
+Artist: Gorillaz
+Title: The Snake In Dallas
+Album: The Fall
+Date: 2011
+Track: 09
+Genre: Pop
+AlbumArtist: Gorillaz
+AlbumArtist: Gorillaz
+mtime: 1334141196
+song_end
+song_begin: 10 - Amarillo.flac
+Time: 205
+Artist: Gorillaz
+Title: Amarillo
+Album: The Fall
+Date: 2011
+Track: 10
+Genre: Pop
+AlbumArtist: Gorillaz
+AlbumArtist: Gorillaz
+mtime: 1334141563
+song_end
+song_begin: 11 - The Speak It Mountains.flac
+Time: 135
+Artist: Gorillaz
+Title: The Speak It Mountains
+Album: The Fall
+Date: 2011
+Track: 11
+Genre: Pop
+AlbumArtist: Gorillaz
+AlbumArtist: Gorillaz
+mtime: 1334141457
+song_end
+song_begin: 12 - Aspen Forest.flac
+Time: 171
+Artist: Gorillaz
+Title: Aspen Forest
+Album: The Fall
+Date: 2011
+Track: 12
+Genre: Pop
+AlbumArtist: Gorillaz
+AlbumArtist: Gorillaz
+mtime: 1334141382
+song_end
+song_begin: 13 - Bobby In Phoenix.flac
+Time: 197
+Artist: Gorillaz
+Title: Bobby In Phoenix
+Album: The Fall
+Date: 2011
+Track: 13
+Genre: Pop
+AlbumArtist: Gorillaz
+AlbumArtist: Gorillaz
+mtime: 1334140948
+song_end
+song_begin: 14 - California & The Slipping Of The Sun.flac
+Time: 205
+Artist: Gorillaz
+Title: California & The Slipping Of The Sun
+Album: The Fall
+Date: 2011
+Track: 14
+Genre: Pop
+AlbumArtist: Gorillaz
+AlbumArtist: Gorillaz
+mtime: 1334141201
+song_end
+song_begin: 15 - Seattle Yodel.flac
+Time: 39
+Artist: Gorillaz
+Title: Seattle Yodel
+Album: The Fall
+Date: 2011
+Track: 15
+Genre: Pop
+AlbumArtist: Gorillaz
+AlbumArtist: Gorillaz
+mtime: 1334141491
+song_end
+playlist_begin: Gorillaz - The Fall.m3u
+mtime: 1334141469
+playlist_end
+end: Gorillaz - The Fall (2011) [FLAC]
+directory: Gotye - 2008 - Like Drawing Blood
+mtime: 1333692279
+begin: Gotye - 2008 - Like Drawing Blood
+song_begin: 01 - Like Drawing Blood.flac
+Time: 22
+Artist: Gotye
+Title: Like Drawing Blood
+Album: Like Drawing Blood
+Date: 2008
+Track: 01
+Genre: Indie
+mtime: 1333697580
+song_end
+song_begin: 02 - The Only Way.flac
+Time: 290
+Artist: Gotye
+Title: The Only Way
+Album: Like Drawing Blood
+Date: 2008
+Track: 02
+Genre: Indie
+mtime: 1333698309
+song_end
+song_begin: 03 - Hearts A Mess.flac
+Time: 366
+Artist: Gotye
+Title: Hearts A Mess
+Album: Like Drawing Blood
+Date: 2008
+Track: 03
+Genre: Indie
+mtime: 1333697665
+song_end
+song_begin: 04 - Come Back.flac
+Time: 369
+Artist: Gotye
+Title: Come Back
+Album: Like Drawing Blood
+Date: 2008
+Track: 04
+Genre: Indie
+mtime: 1333697961
+song_end
+song_begin: 05 - Thanks For Your Time.flac
+Time: 259
+Artist: Gotye
+Title: Thanks For Your Time
+Album: Like Drawing Blood
+Date: 2008
+Track: 05
+Genre: Indie
+mtime: 1333693175
+song_end
+song_begin: 06 - Learnalilgivinalovin.flac
+Time: 170
+Artist: Gotye
+Title: Learnalilgivinalovin
+Album: Like Drawing Blood
+Date: 2008
+Track: 06
+Genre: Indie
+mtime: 1333693589
+song_end
+song_begin: 07 - Puzzle With A Piece Missing.flac
+Time: 341
+Artist: Gotye
+Title: Puzzle With A Piece Missing
+Album: Like Drawing Blood
+Date: 2008
+Track: 07
+Genre: Indie
+mtime: 1333695561
+song_end
+song_begin: 08 - Seven Hours With A Backseat Driver.flac
+Time: 284
+Artist: Gotye
+Title: Seven Hours With A Backseat Driver
+Album: Like Drawing Blood
+Date: 2008
+Track: 08
+Genre: Indie
+mtime: 1333696226
+song_end
+song_begin: 09 - The Only Thing I Know.flac
+Time: 424
+Artist: Gotye
+Title: The Only Thing I Know
+Album: Like Drawing Blood
+Date: 2008
+Track: 09
+Genre: Indie
+mtime: 1333698197
+song_end
+song_begin: 10 - Night Drive.flac
+Time: 312
+Artist: Gotye
+Title: Night Drive
+Album: Like Drawing Blood
+Date: 2008
+Track: 10
+Genre: Indie
+mtime: 1333698238
+song_end
+song_begin: 11 - Worn Out Bllues.flac
+Time: 39
+Artist: Gotye
+Title: Worn Out Bllues
+Album: Like Drawing Blood
+Date: 2008
+Track: 11
+Genre: Indie
+mtime: 1333695337
+song_end
+end: Gotye - 2008 - Like Drawing Blood
+directory: Gotye - 2011 - Making Mirrors
+mtime: 1333703647
+begin: Gotye - 2011 - Making Mirrors
+song_begin: 01 - Making Mirrors.flac
+Time: 62
+Artist: Gotye
+Title: Making Mirrors
+Album: Making Mirrors
+Date: 2011
+Track: 01
+mtime: 1333695090
+song_end
+song_begin: 02 - Easy Way Out.flac
+Time: 118
+Artist: Gotye
+Title: Easy Way Out
+Album: Making Mirrors
+Date: 2011
+Track: 02
+mtime: 1333693188
+song_end
+song_begin: 03 - Somebody That I Used To Know.flac
+Time: 245
+Artist: Gotye
+Title: Somebody That I Used To Know
+Album: Making Mirrors
+Date: 2011
+Track: 03
+mtime: 1333693479
+song_end
+song_begin: 04 - Eyes Wide Open.flac
+Time: 192
+Artist: Gotye
+Title: Eyes Wide Open
+Album: Making Mirrors
+Date: 2011
+Track: 04
+mtime: 1333693814
+song_end
+song_begin: 05 - Smoke and Mirrors.flac
+Time: 314
+Artist: Gotye
+Title: Smoke and Mirrors
+Album: Making Mirrors
+Date: 2011
+Track: 05
+mtime: 1333695505
+song_end
+song_begin: 06 - I Feel Better.flac
+Time: 199
+Artist: Gotye
+Title: I Feel Better
+Album: Making Mirrors
+Date: 2011
+Track: 06
+mtime: 1333695567
+song_end
+song_begin: 07 - In Your Light.flac
+Time: 280
+Artist: Gotye
+Title: In Your Light
+Album: Making Mirrors
+Date: 2011
+Track: 07
+mtime: 1333696353
+song_end
+song_begin: 08 - State of the Art.flac
+Time: 323
+Artist: Gotye
+Title: State of the Art
+Album: Making Mirrors
+Date: 2011
+Track: 08
+mtime: 1333696580
+song_end
+song_begin: 09 - Don't Worry, We'll Be Watching You.flac
+Time: 199
+Artist: Gotye
+Title: Don't Worry, We'll Be Watching You
+Album: Making Mirrors
+Date: 2011
+Track: 09
+mtime: 1333695958
+song_end
+song_begin: 10 - Giving Me A Chance.flac
+Time: 188
+Artist: Gotye
+Title: Giving Me A Chance
+Album: Making Mirrors
+Date: 2011
+Track: 10
+mtime: 1333696107
+song_end
+song_begin: 11 - Save Me.flac
+Time: 234
+Artist: Gotye
+Title: Save Me
+Album: Making Mirrors
+Date: 2011
+Track: 11
+mtime: 1333692997
+song_end
+song_begin: 12 - Bronte.flac
+Time: 199
+Artist: Gotye
+Title: Bronte
+Album: Making Mirrors
+Date: 2011
+Track: 12
+mtime: 1333695282
+song_end
+end: Gotye - 2011 - Making Mirrors
+directory: Gotye - Boardface [FLAC]
+mtime: 1333692289
+begin: Gotye - Boardface [FLAC]
+song_begin: 01 - Out Here In The Cold.flac
+Time: 387
+Title: Out Here In The Cold
+Track: 01
+Album: Boardface
+Artist: Gotye
+Genre: Alternative
+Date: 2004
+Composer: Wally De Backer
+mtime: 1333695975
+song_end
+song_begin: 02 - True To You.flac
+Time: 309
+Title: True To You
+Track: 02
+Album: Boardface
+Artist: Gotye
+Genre: Alternative
+Date: 2004
+Composer: Wally De Backer
+mtime: 1333696509
+song_end
+song_begin: 03 - The Only Thing I Know.flac
+Time: 438
+Title: The Only Thing I Know
+Track: 03
+Album: Boardface
+Artist: Gotye
+Genre: Alternative
+Date: 2004
+Composer: Wally De Backer
+mtime: 1333697048
+song_end
+song_begin: 04 - Wonder Why You Want Her.flac
+Time: 266
+Title: Wonder Why You Want Her
+Track: 04
+Album: Boardface
+Artist: Gotye
+Genre: Alternative
+Date: 2004
+Composer: Wally De Backer
+mtime: 1333693498
+song_end
+song_begin: 05 - What Do You Want .flac
+Time: 205
+Title: What Do You Want?
+Track: 05
+Album: Boardface
+Artist: Gotye
+Genre: Alternative
+Date: 2004
+Composer: Wally De Backer
+mtime: 1333697131
+song_end
+song_begin: 06 - Out Of My Mind.flac
+Time: 256
+Title: Out Of My Mind
+Track: 06
+Album: Boardface
+Artist: Gotye
+Genre: Alternative
+Date: 2004
+Composer: Wally De Backer
+mtime: 1333697130
+song_end
+song_begin: 07 - Here In This Place.flac
+Time: 361
+Title: Here In This Place
+Track: 07
+Album: Boardface
+Artist: Gotye
+Genre: Alternative
+Date: 2004
+Composer: Wally De Backer
+mtime: 1333692774
+song_end
+song_begin: 08 - Waiting For You.flac
+Time: 98
+Title: Waiting For You
+Track: 08
+Album: Boardface
+Artist: Gotye
+Genre: Alternative
+Date: 2004
+Composer: Wally De Backer
+mtime: 1333692793
+song_end
+song_begin: 09 - Loath To Refuse.flac
+Time: 346
+Title: Loath To Refuse
+Track: 09
+Album: Boardface
+Artist: Gotye
+Genre: Alternative
+Date: 2004
+Composer: Wally De Backer
+mtime: 1333693936
+song_end
+song_begin: 10 - Noir Excursion.flac
+Time: 371
+Title: Noir Excursion
+Track: 10
+Album: Boardface
+Artist: Gotye
+Genre: Alternative
+Date: 2004
+Composer: Wally De Backer
+mtime: 1333694854
+song_end
+song_begin: 11 - Baby.flac
+Time: 362
+Title: Baby
+Track: 11
+Album: Boardface
+Artist: Gotye
+Genre: Alternative
+Date: 2004
+Composer: Wally De Backer
+mtime: 1333695234
+song_end
+song_begin: 12 - Waiting For You (Reprise).flac
+Time: 64
+Title: Waiting For You (Reprise)
+Track: 12
+Album: Boardface
+Artist: Gotye
+Genre: Alternative
+Date: 2004
+Composer: Wally De Backer
+mtime: 1333695319
+song_end
+playlist_begin: Gotye - Boardface.m3u
+mtime: 1333695325
+playlist_end
+end: Gotye - Boardface [FLAC]
+directory: Hold Steady - 2006 - Boys and Girls in America
+mtime: 1332966359
+begin: Hold Steady - 2006 - Boys and Girls in America
+song_begin: 01 - Stuck Between Stations.flac
+Time: 251
+Artist: Hold Steady
+Title: Stuck Between Stations
+Album: Boys and Girls in America
+Date: 2006
+Track: 01
+Genre: Indie
+mtime: 1332966887
+song_end
+song_begin: 02 - Chips Ahoy.flac
+Time: 190
+Artist: Hold Steady
+Title: Chips Ahoy
+Album: Boys and Girls in America
+Date: 2006
+Track: 02
+Genre: Indie
+mtime: 1332966887
+song_end
+song_begin: 03 - Hot Soft Light.flac
+Time: 234
+Artist: Hold Steady
+Title: Hot Soft Light
+Album: Boys and Girls in America
+Date: 2006
+Track: 03
+Genre: Indie
+mtime: 1332966886
+song_end
+song_begin: 04 - Same Kooks.flac
+Time: 168
+Artist: Hold Steady
+Title: Same Kooks
+Album: Boys and Girls in America
+Date: 2006
+Track: 04
+Genre: Indie
+mtime: 1332966464
+song_end
+song_begin: 05 - First Night.flac
+Time: 295
+Artist: Hold Steady
+Title: First Night
+Album: Boys and Girls in America
+Date: 2006
+Track: 05
+Genre: Indie
+mtime: 1332966534
+song_end
+song_begin: 06 - Party Pit.flac
+Time: 236
+Artist: Hold Steady
+Title: Party Pit
+Album: Boys and Girls in America
+Date: 2006
+Track: 06
+Genre: Indie
+mtime: 1332966586
+song_end
+song_begin: 07 - You Can Make Him Like You.flac
+Time: 169
+Artist: Hold Steady
+Title: You Can Make Him Like You
+Album: Boys and Girls in America
+Date: 2006
+Track: 07
+Genre: Indie
+mtime: 1332966622
+song_end
+song_begin: 08 - Massive Nights.flac
+Time: 175
+Artist: Hold Steady
+Title: Massive Nights
+Album: Boys and Girls in America
+Date: 2006
+Track: 08
+Genre: Indie
+mtime: 1332966665
+song_end
+song_begin: 09 - Citrus.flac
+Time: 165
+Artist: Hold Steady
+Title: Citrus
+Album: Boys and Girls in America
+Date: 2006
+Track: 09
+Genre: Indie
+mtime: 1332966690
+song_end
+song_begin: 10 - Chillout Tent.flac
+Time: 223
+Artist: Hold Steady
+Title: Chillout Tent
+Album: Boys and Girls in America
+Date: 2006
+Track: 10
+Genre: Indie
+mtime: 1332966885
+song_end
+song_begin: 11 - Southtown Girls.flac
+Time: 311
+Artist: Hold Steady
+Title: Southtown Girls
+Album: Boys and Girls in America
+Date: 2006
+Track: 11
+Genre: Indie
+mtime: 1332966886
+song_end
+playlist_begin: Hold Steady - Boys and Girls in America.m3u
+mtime: 1332966792
+playlist_end
+end: Hold Steady - 2006 - Boys and Girls in America
+directory: India.Arie - 2001 - Acoustic Soul [FLAC]
+mtime: 1333339399
+begin: India.Arie - 2001 - Acoustic Soul [FLAC]
+song_begin: 01 - Intro.flac
+Time: 51
+Artist: India.Arie
+Title: Intro
+Album: Acoustic Soul
+Date: 2001
+Track: 01
+Genre: R&B
+mtime: 1333342563
+song_end
+song_begin: 02 - Video.flac
+Time: 250
+Artist: India.Arie
+Title: Video
+Album: Acoustic Soul
+Date: 2001
+Track: 02
+Genre: R&B
+mtime: 1333342789
+song_end
+song_begin: 03 - Promises.flac
+Time: 278
+Artist: India.Arie
+Title: Promises
+Album: Acoustic Soul
+Date: 2001
+Track: 03
+Genre: R&B
+mtime: 1333342968
+song_end
+song_begin: 04 - Brown Skin.flac
+Time: 297
+Artist: India.Arie
+Title: Brown Skin
+Album: Acoustic Soul
+Date: 2001
+Track: 04
+Genre: R&B
+mtime: 1333343124
+song_end
+song_begin: 05 - Strength, Courage, & Wisdom.flac
+Time: 298
+Artist: India.Arie
+Title: Strength, Courage, & Wisdom
+Album: Acoustic Soul
+Date: 2001
+Track: 05
+Genre: R&B
+mtime: 1333341354
+song_end
+song_begin: 06 - Nature.flac
+Time: 265
+Artist: India.Arie
+Title: Nature
+Album: Acoustic Soul
+Date: 2001
+Track: 06
+Genre: R&B
+mtime: 1333341937
+song_end
+song_begin: 07 - Back To The Middle.flac
+Time: 312
+Artist: India.Arie
+Title: Back To The Middle
+Album: Acoustic Soul
+Date: 2001
+Track: 07
+Genre: R&B
+mtime: 1333341787
+song_end
+song_begin: 08 - Ready For Love.flac
+Time: 269
+Artist: India.Arie
+Title: Ready For Love
+Album: Acoustic Soul
+Date: 2001
+Track: 08
+Genre: R&B
+mtime: 1333339983
+song_end
+song_begin: 09 - Interlude.flac
+Time: 85
+Artist: India.Arie
+Title: Interlude
+Album: Acoustic Soul
+Date: 2001
+Track: 09
+Genre: R&B
+mtime: 1333340054
+song_end
+song_begin: 10 - Always In My Head.flac
+Time: 281
+Artist: India.Arie
+Title: Always In My Head
+Album: Acoustic Soul
+Date: 2001
+Track: 10
+Genre: R&B
+mtime: 1333340327
+song_end
+song_begin: 11 - I See God In You.flac
+Time: 198
+Artist: India.Arie
+Title: I See God In You
+Album: Acoustic Soul
+Date: 2001
+Track: 11
+Genre: R&B
+mtime: 1333340692
+song_end
+song_begin: 12 - Simple.flac
+Time: 207
+Artist: India.Arie
+Title: Simple
+Album: Acoustic Soul
+Date: 2001
+Track: 12
+Genre: R&B
+mtime: 1333341877
+song_end
+song_begin: 13 - Part Of My Life.flac
+Time: 244
+Artist: India.Arie
+Title: Part Of My Life
+Album: Acoustic Soul
+Date: 2001
+Track: 13
+Genre: R&B
+mtime: 1333342085
+song_end
+song_begin: 14 - Beautiful.flac
+Time: 246
+Artist: India.Arie
+Title: Beautiful
+Album: Acoustic Soul
+Date: 2001
+Track: 14
+Genre: R&B
+mtime: 1333342234
+song_end
+song_begin: 15 - Outro.flac
+Time: 81
+Artist: India.Arie
+Title: Outro
+Album: Acoustic Soul
+Date: 2001
+Track: 15
+Genre: R&B
+mtime: 1333342292
+song_end
+song_begin: 16 - Wonderful (Dedication To Stevie Wonder).flac
+Time: 334
+Artist: India.Arie
+Title: Wonderful (Dedication To Stevie Wonder)
+Album: Acoustic Soul
+Date: 2001
+Track: 16
+Genre: R&B
+mtime: 1333342530
+song_end
+end: India.Arie - 2001 - Acoustic Soul [FLAC]
 directory: Jonathon Neme - Two Sides One Story (FLAC)
 mtime: 1319705367
 begin: Jonathon Neme - Two Sides One Story (FLAC)
@@ -10473,11 +12802,54 @@ Track: 11
 mtime: 1319706000
 song_end
 end: Jonathon Neme - Two Sides One Story (FLAC)
+directory: Junior Varsity
+mtime: 1332975469
+begin: Junior Varsity
+song_begin: 01-say_anything-last_great_punk_rock_song-sdr.mp3
+Time: 233
+Artist: Say Anything
+Title: Last Great Punk Rock Song
+Album: Junior Varsity
+Date: 2003
+Genre: Rock
+mtime: 1332975582
+song_end
+song_begin: 02-say_anything-dreaming_of_manhattan-sdr.mp3
+Time: 283
+Artist: Say Anything
+Title: Dreaming Of Manhattan
+Album: Junior Varsity
+Date: 2003
+Genre: Rock
+mtime: 1332975584
+song_end
+song_begin: 03-say_anything-she_got_away-sdr.mp3
+Time: 212
+Artist: Say Anything
+Title: She Got Away
+Album: Junior Varsity
+Date: 2003
+Genre: Rock
+mtime: 1332975582
+song_end
+song_begin: 04-say_anything-highschool_low-sdr.mp3
+Time: 269
+Artist: Say Anything
+Title: Highschool Low
+Album: Junior Varsity
+Date: 2003
+Genre: Rock
+mtime: 1332975582
+song_end
+playlist_begin: 00-say_anything-junior_varsity-2003-sdr.m3u
+mtime: 1332975563
+playlist_end
+end: Junior Varsity
 directory: Kaiser Chiefs - Off With Their Heads (2008) [FLAC] {2XCD Limited Edition, B Unique Records, Liberator Music LIB59CDX}
 mtime: 1320528431
 begin: Kaiser Chiefs - Off With Their Heads (2008) [FLAC] {2XCD Limited Edition, B Unique Records, Liberator Music LIB59CDX}
 directory: cd1
-mtime: 1320528431
+mtime: 1332246648
 begin: Kaiser Chiefs - Off With Their Heads (2008) [FLAC] {2XCD Limited Edition, B Unique Records, Liberator Music LIB59CDX}/cd1
 song_begin: 01 - Spanish Metal.flac
 Time: 141
@@ -11220,6 +13592,120 @@ Genre: Indie/Lo-Fi
 mtime: 1321784102
 song_end
 end: Karen O - 2006 - K.O. At Home [VBR]
+directory: Kimbra - Vows (2011) [FLAC]
+mtime: 1333692949
+begin: Kimbra - Vows (2011) [FLAC]
+song_begin: 01 Settle Down.flac
+Time: 258
+Title: Settle Down
+Artist: Kimbra
+Album: Vows
+Genre: Pop
+Track: 1
+Date: 2011
+mtime: 1333697903
+song_end
+song_begin: 02 Cameo Lover.flac
+Time: 243
+Title: Cameo Lover
+Artist: Kimbra
+Album: Vows
+Genre: Pop
+Track: 2
+Date: 2011
+mtime: 1333697894
+song_end
+song_begin: 03 Two Way Street.flac
+Time: 269
+Title: Two Way Street
+Artist: Kimbra
+Album: Vows
+Genre: Pop
+Track: 3
+Date: 2011
+mtime: 1333695923
+song_end
+song_begin: 04 Old Flame.flac
+Time: 268
+Title: Old Flame
+Artist: Kimbra
+Album: Vows
+Genre: Pop
+Track: 4
+Date: 2011
+mtime: 1333697177
+song_end
+song_begin: 05 Good Intent.flac
+Time: 213
+Title: Good Intent
+Artist: Kimbra
+Album: Vows
+Genre: Pop
+Track: 5
+Date: 2011
+mtime: 1333697272
+song_end
+song_begin: 06 Plain Gold Ring.flac
+Time: 243
+Title: Plain Gold Ring
+Artist: Kimbra
+Album: Vows
+Genre: Pop
+Track: 6
+Date: 2011
+mtime: 1333696274
+song_end
+song_begin: 07 Call Me.flac
+Time: 273
+Title: Call Me
+Artist: Kimbra
+Album: Vows
+Genre: Pop
+Track: 7
+Date: 2011
+mtime: 1333697300
+song_end
+song_begin: 08 Limbo.flac
+Time: 232
+Title: Limbo
+Artist: Kimbra
+Album: Vows
+Genre: Pop
+Track: 8
+Date: 2011
+mtime: 1333697320
+song_end
+song_begin: 09 Wandering Limbs.flac
+Time: 327
+Title: Wandering Limbs
+Artist: Kimbra
+Album: Vows
+Genre: Pop
+Track: 9
+Date: 2011
+mtime: 1333697536
+song_end
+song_begin: 10 Withdraw.flac
+Time: 247
+Title: Withdraw
+Artist: Kimbra
+Album: Vows
+Genre: Pop
+Track: 10
+Date: 2011
+mtime: 1333697645
+song_end
+song_begin: 11 The Build Up.flac
+Time: 502
+Title: The Build Up
+Artist: Kimbra
+Album: Vows
+Genre: Pop
+Track: 11
+Date: 2011
+mtime: 1333697823
+song_end
+end: Kimbra - Vows (2011) [FLAC]
 directory: Kosma - Universal
 mtime: 1320542351
 begin: Kosma - Universal
@@ -11643,7 +14129,7 @@ playlist_end
 end: LTJ Bukem - Journey Inwards (FLAC)/CD B
 end: LTJ Bukem - Journey Inwards (FLAC)
 directory: Loyalty To Loyalty
-mtime: 1320527831
+mtime: 1331539048
 begin: Loyalty To Loyalty
 song_begin: 01 - Cold War Kids - Against Privacy.flac
 Time: 226
@@ -12153,6 +14639,53 @@ playlist_begin: Massive Attack - Mezzanine.m3u
 mtime: 1320543237
 playlist_end
 end: Massive Attack - Mezzanine - 1998 FLAC
+directory: Meseta - 2010 - Acoustic [FLAC (level 8)]
+mtime: 1332743697
+begin: Meseta - 2010 - Acoustic [FLAC (level 8)]
+song_begin: 01 The Pattern Clock.flac
+Time: 249
+Title: The Pattern Clock
+Artist: Meseta
+Album: Acoustic
+Track: 1
+Date: 2010
+AlbumArtist: Meseta
+mtime: 1332743903
+song_end
+song_begin: 02 Frogs' Songs.flac
+Time: 301
+Title: Frogs' Songs
+Artist: Meseta
+Album: Acoustic
+Track: 2
+Date: 2010
+AlbumArtist: Meseta
+mtime: 1332743910
+song_end
+song_begin: 03 House Made Of Glue.flac
+Time: 379
+Title: Houses Made Of Glue
+Artist: Meseta
+Album: Acoustic
+Track: 3
+Date: 2010
+AlbumArtist: Meseta
+mtime: 1332743917
+song_end
+song_begin: 04 Great Ghost.flac
+Time: 235
+Title: Great Ghost
+Artist: Meseta
+Album: Acoustic
+Track: 4
+Date: 2010
+AlbumArtist: Meseta
+mtime: 1332743918
+song_end
+playlist_begin: Acoustic.m3u
+mtime: 1332743850
+playlist_end
+end: Meseta - 2010 - Acoustic [FLAC (level 8)]
 directory: Mew - A Triumph For Man (2CD Reissue)
 mtime: 1320109987
 begin: Mew - A Triumph For Man (2CD Reissue)
@@ -12531,7 +15064,7 @@ mtime: 1320709967
 song_end
 end: Modest Mouse - (2007) - We Were Dead Before The Ship Even Sank [FLAC]
 directory: Modest Mouse [2000] The Moon & Antartica (FLAC)
-mtime: 1320709297
+mtime: 1333274857
 begin: Modest Mouse [2000] The Moon & Antartica (FLAC)
 song_begin: 01 - 3rd Planet.flac
 Time: 239
@@ -12857,7 +15390,7 @@ mtime: 1320715585
 song_end
 end: Modest Mouse-The Lonesome Crowded West-1997 [FLAC]
 directory: Modest Mouse~No One's First, And You're Next [FLAC]-2009
-mtime: 1320709407
+mtime: 1333273929
 begin: Modest Mouse~No One's First, And You're Next [FLAC]-2009
 song_begin: 01 - Satellite Skin.flac
 Time: 240
@@ -14483,7 +17016,7 @@ mtime: 1320548688
 playlist_end
 end: Nujabes - (2003) Metaphorical Music
 directory: Nujabes - Modal Soul
-mtime: 1320542351
+mtime: 1332248197
 begin: Nujabes - Modal Soul
 song_begin: 01 Feather [feat. Cise Starr & Akin.flac
 Time: 176
@@ -14738,8 +17271,112 @@ Track: 5
 mtime: 1320110435
 song_end
 end: Nurse With Wound - Homotopy To Marie (1981) [FLAC] {UD013CD}
+directory: Nuthouse - (2010) Anxiety [FLAC]
+mtime: 1332746017
+begin: Nuthouse - (2010) Anxiety [FLAC]
+song_begin: 01 - Marijuana Iguana.flac
+Time: 159
+Album: Anxiety
+Artist: Nuthouse
+Genre: Indie
+Title: Marijuana Iguana
+Date: 2010
+Track: 01
+mtime: 1332747498
+song_end
+song_begin: 02 - Lesbian.flac
+Time: 194
+Album: Anxiety
+Artist: Nuthouse
+Genre: Indie
+Title: Lesbian
+Date: 2010
+Track: 02
+mtime: 1332747353
+song_end
+song_begin: 03 - In A State.flac
+Time: 209
+Album: Anxiety
+Artist: Nuthouse
+Genre: Indie
+Title: In A State
+Date: 2010
+Track: 03
+mtime: 1332748311
+song_end
+song_begin: 04 - Another Day Gone.flac
+Time: 232
+Album: Anxiety
+Artist: Nuthouse
+Genre: Indie
+Title: Another Day Gone
+Date: 2010
+Track: 04
+mtime: 1332747760
+song_end
+song_begin: 05 - Willy Wally Willus.flac
+Time: 200
+Album: Anxiety
+Artist: Nuthouse
+Genre: Indie
+Title: Willy Wally Willus
+Date: 2010
+Track: 05
+mtime: 1332747617
+song_end
+song_begin: 06 - Juvenile Delinquent.flac
+Time: 365
+Album: Anxiety
+Artist: Nuthouse
+Genre: Indie
+Title: Juvenile Delinquent
+Date: 2010
+Track: 06
+mtime: 1332748219
+song_end
+song_begin: 07 - Blow It Up.flac
+Time: 202
+Album: Anxiety
+Artist: Nuthouse
+Genre: Indie
+Title: Blow It Up
+Date: 2010
+Track: 07
+mtime: 1332747807
+song_end
+song_begin: 08 - People Think You're Insane.flac
+Time: 202
+Album: Anxiety
+Artist: Nuthouse
+Genre: Indie
+Title: People Think You're Insane
+Date: 2010
+Track: 08
+mtime: 1332747930
+song_end
+song_begin: 09 - Hideaway.flac
+Time: 225
+Album: Anxiety
+Artist: Nuthouse
+Genre: Indie
+Title: Hideaway
+Date: 2010
+Track: 09
+mtime: 1332748204
+song_end
+song_begin: 10 - In A State (Live at Distortion).flac
+Time: 191
+Album: Anxiety
+Artist: Nuthouse
+Genre: Indie
+Title: In A State (Live at Distortion)
+Date: 2010
+Track: 10
+mtime: 1332747984
+song_end
+end: Nuthouse - (2010) Anxiety [FLAC]
 directory: OK Go - OK Go (2002) [FLAC]
-mtime: 1320547781
+mtime: 1332249057
 begin: OK Go - OK Go (2002) [FLAC]
 song_begin: 01 - Get Over It.flac
 Time: 197
@@ -14866,7 +17503,7 @@ directory: OK Go - Of The Blue Colour Of The Sky (Extra Nice Edition) FLAC
 mtime: 1320547661
 begin: OK Go - Of The Blue Colour Of The Sky (Extra Nice Edition) FLAC
 directory: Disc 1
-mtime: 1320547661
+mtime: 1332245589
 begin: OK Go - Of The Blue Colour Of The Sky (Extra Nice Edition) FLAC/Disc 1
 song_begin: 01 - WTF .flac
 Time: 205
@@ -15000,7 +17637,7 @@ mtime: 1320560913
 song_end
 end: OK Go - Of The Blue Colour Of The Sky (Extra Nice Edition) FLAC/Disc 1
 directory: Disc 2
-mtime: 1320547661
+mtime: 1332247424
 begin: OK Go - Of The Blue Colour Of The Sky (Extra Nice Edition) FLAC/Disc 2
 song_begin: 01 - Skyscrapers (Bristol Version).flac
 Time: 270
@@ -15446,7 +18083,7 @@ Album: A Mind On A Ship Through Time
 Title: Introlude
 Date: 2008
 Genre: Hip Hop
-mtime: 1320024302
+mtime: 1332942407
 song_end
 song_begin: 02 - Voyagers.flac
 Time: 230
@@ -15456,7 +18093,7 @@ Album: A Mind On A Ship Through Time
 Title: Voyagers
 Date: 2008
 Genre: Hip Hop
-mtime: 1320024511
+mtime: 1332942404
 song_end
 song_begin: 03 - Mudgreen.flac
 Time: 222
@@ -15466,7 +18103,7 @@ Album: A Mind On A Ship Through Time
 Title: Mudgreen
 Date: 2008
 Genre: Hip Hop
-mtime: 1320024724
+mtime: 1332942403
 song_end
 song_begin: 04 - L.A.Va.flac
 Time: 246
@@ -15476,7 +18113,7 @@ Album: A Mind On A Ship Through Time
 Title: L.A.Va
 Date: 2008
 Genre: Hip Hop
-mtime: 1320024833
+mtime: 1332942406
 song_end
 song_begin: 05 - Speak-O-Vision.flac
 Time: 249
@@ -15486,7 +18123,7 @@ Album: A Mind On A Ship Through Time
 Title: Speak-O-Vision
 Date: 2008
 Genre: Hip Hop
-mtime: 1320024967
+mtime: 1332942411
 song_end
 song_begin: 06 - Vandalism.flac
 Time: 206
@@ -15496,7 +18133,7 @@ Album: A Mind On A Ship Through Time
 Title: Vandalism
 Date: 2008
 Genre: Hip Hop
-mtime: 1320025290
+mtime: 1332942405
 song_end
 song_begin: 07 - Orange Penicillin.flac
 Time: 361
@@ -15506,7 +18143,7 @@ Album: A Mind On A Ship Through Time
 Title: Orange Penicillin
 Date: 2008
 Genre: Hip Hop
-mtime: 1320025307
+mtime: 1332942412
 song_end
 song_begin: 08 - Sirens.flac
 Time: 140
@@ -15516,7 +18153,7 @@ Album: A Mind On A Ship Through Time
 Title: Sirens
 Date: 2008
 Genre: Hip Hop
-mtime: 1320025340
+mtime: 1332942408
 song_end
 song_begin: 09 - Chrono Trigger.flac
 Time: 230
@@ -15526,7 +18163,7 @@ Album: A Mind On A Ship Through Time
 Title: Chrono Trigger
 Date: 2008
 Genre: Hip Hop
-mtime: 1320025345
+mtime: 1332942408
 song_end
 song_begin: 10 - Lunar Illusion.flac
 Time: 200
@@ -15536,7 +18173,7 @@ Album: A Mind On A Ship Through Time
 Title: Lunar Illusion
 Date: 2008
 Genre: Hip Hop
-mtime: 1320025185
+mtime: 1332942409
 song_end
 song_begin: 11 - Treasure Hunt.flac
 Time: 225
@@ -15546,7 +18183,7 @@ Album: A Mind On A Ship Through Time
 Title: Treasure Hunt
 Date: 2008
 Genre: Hip Hop
-mtime: 1320025263
+mtime: 1332942407
 song_end
 song_begin: 12 - Mustard Seed Celebration.flac
 Time: 206
@@ -15556,7 +18193,7 @@ Album: A Mind On A Ship Through Time
 Title: Mustard Seed Celebration
 Date: 2008
 Genre: Hip Hop
-mtime: 1320025211
+mtime: 1332942411
 song_end
 song_begin: 13 - A Mind On A Ship Through Time.flac
 Time: 206
@@ -15566,14 +18203,14 @@ Album: A Mind On A Ship Through Time
 Title: A Mind On A Ship Through Time
 Date: 2008
 Genre: Hip Hop
-mtime: 1320024369
+mtime: 1332942413
 song_end
 playlist_begin: Panacea - A Mind On A Ship Through Time.m3u
-mtime: 1320024269
+mtime: 1332942410
 playlist_end
 end: Panacea - A Mind On A Ship Through Time (FLAC)
 directory: Paper House - Cascade Green [FLAC]
-mtime: 1319842578
+mtime: 1332246333
 begin: Paper House - Cascade Green [FLAC]
 song_begin: Paper House - Cascade Green - 01 Winter Dreams.flac
 Time: 253
@@ -15905,6 +18542,50 @@ playlist_begin: Pete Rock - Petestrumentals.m3u
 mtime: 1320548341
 playlist_end
 end: Pete Rock- PeteStrumentals (FLAC)
+directory: Queen Orlenes - Helicopters EP (2012) [FLAC]
+mtime: 1332743727
+begin: Queen Orlenes - Helicopters EP (2012) [FLAC]
+song_begin: 01 Helicopters.flac
+Time: 255
+Title: Helicopters
+Artist: Queen Orlenes
+Album: Helicopters EP
+Track: 1
+Disc: 1
+Date: 2012
+mtime: 1332744288
+song_end
+song_begin: 02 Told Ya So.flac
+Time: 206
+Title: Told Ya So
+Artist: Queen Orlenes
+Album: Helicopters EP
+Track: 2
+Disc: 1
+Date: 2012
+mtime: 1332744310
+song_end
+song_begin: 03 Lonely Heart.flac
+Time: 224
+Title: Lonely Heart
+Artist: Queen Orlenes
+Album: Helicopters EP
+Track: 3
+Disc: 1
+Date: 2012
+mtime: 1332744315
+song_end
+song_begin: 04 Bones.flac
+Time: 259
+Title: Bones
+Artist: Queen Orlenes
+Album: Helicopters EP
+Track: 4
+Disc: 1
+Date: 2012
+mtime: 1332744105
+song_end
+end: Queen Orlenes - Helicopters EP (2012) [FLAC]
 directory: RAG (2001) Pottential - Flac
 mtime: 1320542351
 begin: RAG (2001) Pottential - Flac
@@ -16676,8 +19357,322 @@ mtime: 1320529306
 song_end
 end: Say Anything - 2006 - ...Is a Real Boy {2 Disc Edition} (FLAC)/Was a Real Boy {Disc 2 of 2} (FLAC)
 end: Say Anything - 2006 - ...Is a Real Boy {2 Disc Edition} (FLAC)
+directory: Say Anything - Anarchy, My Dear (Deluxe Edition) (2012) [FLAC]
+mtime: 1332975399
+begin: Say Anything - Anarchy, My Dear (Deluxe Edition) (2012) [FLAC]
+song_begin: 01 - Burn A Miracle.flac
+Time: 234
+Artist: Say Anything
+Title: Burn A Miracle
+Album: Anarchy, My Dear (Deluxe Edition)
+Date: 2012
+Track: 01
+Genre: Emo
+Performer: Say Anything
+Composer: Max Bemis and Coby Linder
+AlbumArtist: Say Anything
+Disc: 1
+mtime: 1332975538
+song_end
+song_begin: 02 - Say Anything.flac
+Time: 182
+Artist: Say Anything
+Title: Say Anything
+Album: Anarchy, My Dear (Deluxe Edition)
+Date: 2012
+Track: 02
+Genre: Emo
+Performer: Say Anything
+Composer: Max Bemis and Coby Linder
+AlbumArtist: Say Anything
+Disc: 1
+mtime: 1332975799
+song_end
+song_begin: 03 - Night's Song.flac
+Time: 225
+Artist: Say Anything
+Title: Night's Song
+Album: Anarchy, My Dear (Deluxe Edition)
+Date: 2012
+Track: 03
+Genre: Emo
+Performer: Say Anything
+Composer: Max Bemis and Coby Linder
+AlbumArtist: Say Anything
+Disc: 1
+mtime: 1332975601
+song_end
+song_begin: 04 - Admit It Again.flac
+Time: 253
+Artist: Say Anything
+Title: Admit It Again
+Album: Anarchy, My Dear (Deluxe Edition)
+Date: 2012
+Track: 04
+Genre: Emo
+Performer: Say Anything
+Composer: Max Bemis and Coby Linder
+AlbumArtist: Say Anything
+Disc: 1
+mtime: 1332975579
+song_end
+song_begin: 05 - So Good.flac
+Time: 270
+Artist: Say Anything
+Title: So Good
+Album: Anarchy, My Dear (Deluxe Edition)
+Date: 2012
+Track: 05
+Genre: Emo
+Performer: Say Anything
+Composer: Max Bemis and Coby Linder
+AlbumArtist: Say Anything
+Disc: 1
+mtime: 1332975661
+song_end
+song_begin: 06 - Sheep.flac
+Time: 176
+Artist: Say Anything
+Title: Sheep
+Album: Anarchy, My Dear (Deluxe Edition)
+Date: 2012
+Track: 06
+Genre: Emo
+Performer: Say Anything
+Composer: Max Bemis and Coby Linder
+AlbumArtist: Say Anything
+Disc: 1
+mtime: 1332975745
+song_end
+song_begin: 07 - Peace Out.flac
+Time: 317
+Artist: Say Anything
+Title: Peace Out
+Album: Anarchy, My Dear (Deluxe Edition)
+Date: 2012
+Track: 07
+Genre: Emo
+Performer: Say Anything
+Composer: Max Bemis and Coby Linder
+AlbumArtist: Say Anything
+Disc: 1
+mtime: 1332975800
+song_end
+song_begin: 08 - Overbiter.flac
+Time: 208
+Artist: Say Anything
+Title: Overbiter
+Album: Anarchy, My Dear (Deluxe Edition)
+Date: 2012
+Track: 08
+Genre: Emo
+Performer: Say Anything
+Composer: Max Bemis and Coby Linder
+AlbumArtist: Say Anything
+Disc: 1
+mtime: 1332975664
+song_end
+song_begin: 09 - Of Steel.flac
+Time: 250
+Artist: Say Anything
+Title: Of Steel
+Album: Anarchy, My Dear (Deluxe Edition)
+Date: 2012
+Track: 09
+Genre: Emo
+Performer: Say Anything
+Composer: Max Bemis and Coby Linder
+AlbumArtist: Say Anything
+Disc: 1
+mtime: 1332975429
+song_end
+song_begin: 10 - Anarchy, My Dear.flac
+Time: 344
+Artist: Say Anything
+Title: Anarchy, My Dear
+Album: Anarchy, My Dear (Deluxe Edition)
+Date: 2012
+Track: 10
+Genre: Emo
+Performer: Say Anything
+Composer: Max Bemis and Coby Linder
+AlbumArtist: Say Anything
+Disc: 1
+mtime: 1332975793
+song_end
+song_begin: 11 - The Stephen Hawking.flac
+Time: 461
+Artist: Say Anything
+Title: The Stephen Hawking
+Album: Anarchy, My Dear (Deluxe Edition)
+Date: 2012
+Track: 11
+Genre: Emo
+Performer: Say Anything
+Composer: Max Bemis and Coby Linder
+AlbumArtist: Say Anything
+Disc: 1
+mtime: 1332975751
+song_end
+song_begin: 12 - Here's To You, Blue Eyes.flac
+Time: 232
+Artist: Say Anything
+Title: Here's To You, Blue Eyes
+Album: Anarchy, My Dear (Deluxe Edition)
+Date: 2012
+Track: 12
+Genre: Emo
+Performer: Say Anything
+Composer: Max Bemis and Coby Linder
+AlbumArtist: Say Anything
+Disc: 1
+mtime: 1332975800
+song_end
+playlist_begin: Say Anything - Anarchy, My Dear (Deluxe Edition).m3u
+mtime: 1332975748
+playlist_end
+end: Say Anything - Anarchy, My Dear (Deluxe Edition) (2012) [FLAC]
+directory: Say Anything - Demos [2002]
+mtime: 1332975489
+begin: Say Anything - Demos [2002]
+song_begin: 01 For The Silent.mp3
+Time: 204
+Artist: Say Anything
+Album: Demos
+Track: 1
+Date: 2002
+Genre: Emo
+mtime: 1332975822
+song_end
+song_begin: 02 Until the Bombs.mp3
+Time: 175
+Artist: Say Anything
+Album: Demos
+Track: 2
+Date: 2002
+Genre: Emo
+mtime: 1332975636
+song_end
+song_begin: 03 Signal the Riflemen.mp3
+Time: 308
+Artist: Say Anything
+Album: Demos
+Track: 3
+Date: 2002
+Genre: Emo
+mtime: 1332975822
+song_end
+song_begin: 04 The Great Awakening.mp3
+Time: 233
+Artist: Say Anything
+Album: Demos
+Track: 4
+Date: 2002
+Genre: Emo
+mtime: 1332975822
+song_end
+song_begin: 05 A Boston Peace.mp3
+Time: 195
+Artist: Say Anything
+Album: Demos
+Track: 5
+Date: 2002
+Genre: Emo
+mtime: 1332975718
+song_end
+song_begin: 06 The Keg is Bleeding.mp3
+Time: 176
+Artist: Say Anything
+Album: Demos
+Track: 6
+Date: 2002
+Genre: Emo
+mtime: 1332975752
+song_end
+song_begin: 07 My Bare Hands.mp3
+Time: 177
+Artist: Say Anything
+Album: Demos
+Track: 7
+Date: 2002
+Genre: Emo
+mtime: 1332975822
+song_end
+song_begin: 08 A Certain Type of Genius.mp3
+Time: 227
+Artist: Say Anything
+Album: Demos
+Track: 8
+Date: 2002
+Genre: Emo
+mtime: 1332975823
+song_end
+song_begin: 09 Nudity.mp3
+Time: 222
+Artist: Say Anything
+Album: Demos
+Track: 9
+Date: 2002
+Genre: Emo
+mtime: 1332975823
+song_end
+end: Say Anything - Demos [2002]
+directory: Say Anything - For Sale EP [2004-FLAC-Lossless-Log]
+mtime: 1332975459
+begin: Say Anything - For Sale EP [2004-FLAC-Lossless-Log]
+song_begin: 01 Belt.flac
+Time: 268
+Title: Belt
+Track: 01
+Album: For Sale EP
+Artist: Say Anything
+Date: 2004
+Genre: Rock
+mtime: 1332976078
+song_end
+song_begin: 02 Woe.flac
+Time: 236
+Title: Woe
+Track: 02
+Album: For Sale EP
+Artist: Say Anything
+Date: 2004
+Genre: Rock
+mtime: 1332975903
+song_end
+song_begin: 03 Alive With The Glory Of Love.flac
+Time: 257
+Title: Alive With The Glory Of Love
+Track: 03
+Album: For Sale EP
+Artist: Say Anything
+Date: 2004
+Genre: Rock
+mtime: 1332976096
+song_end
+song_begin: 04 We Will Erase All Life On Earth But Us.flac
+Time: 232
+Title: We Will Erase All Life On Earth But Us
+Track: 04
+Album: For Sale EP
+Artist: Say Anything
+Date: 2004
+Genre: Rock
+mtime: 1332976182
+song_end
+song_begin: 05 Slumming It With Johnny.flac
+Time: 202
+Title: Slumming It With Johnny
+Track: 05
+Album: For Sale EP
+Artist: Say Anything
+Date: 2004
+Genre: Rock
+mtime: 1332976182
+song_end
+end: Say Anything - For Sale EP [2004-FLAC-Lossless-Log]
 directory: Say Anything - In Defense of The Genre (FLAC)
-mtime: 1320528121
+mtime: 1332245478
 begin: Say Anything - In Defense of The Genre (FLAC)
 song_begin: 1 - 01 - Say Anything - Skinny, Mean Man.flac
 Time: 213
@@ -16895,13 +19890,76 @@ Album: In Defense of The Genre (Disc 2)
 Track: 14
 mtime: 1320530157
 song_end
-playlist_begin: Say Anything - In Defense of The Genre (Disc 1).m3u
-mtime: 1320530117
-playlist_end
 playlist_begin: Say Anything - In Defense of The Genre (Disc 2).m3u
 mtime: 1320530117
 playlist_end
+playlist_begin: Say Anything - In Defense of The Genre (Disc 1).m3u
+mtime: 1320530117
+playlist_end
 end: Say Anything - In Defense of The Genre (FLAC)
+directory: Say Anything - Menorah, Majora
+mtime: 1332975469
+begin: Say Anything - Menorah, Majora
+song_begin: 01 A Walk Through Hell.mp3
+Time: 210
+Artist: Say Anything
+Title: A Walk Through Hell
+Album: Menorah\Majora
+Track: 1
+mtime: 1332975553
+song_end
+song_begin: 02 You Help Them.mp3
+Time: 192
+Artist: Say Anything
+Title: You Help Them
+Album: Menorah\Majora
+Track: 2
+Genre: Other
+mtime: 1332975553
+song_end
+song_begin: 03 Try to Remember, Forget.mp3
+Time: 263
+Artist: Say Anything
+Title: Try to Remember, Forget
+Album: Menorah\Majora
+Track: 3
+Genre: Other
+mtime: 1332975555
+song_end
+song_begin: 04 By Tonight.mp3
+Time: 241
+Artist: Say Anything
+Title: By Tonight
+Album: Menorah\Majora
+Track: 4
+Genre: Other
+mtime: 1332975552
+song_end
+song_begin: 05 Baseball But Better.mp3
+Time: 193
+Artist: Say Anything
+Title: Baseball But Better
+Album: Menorah\Majora
+Track: 5
+mtime: 1332975520
+song_end
+song_begin: 06 I am a Transylvanian.mp3
+Time: 258
+Artist: Say Anything
+Title: I am a Transylvanian
+Album: Menorah\Majora
+Track: 6
+mtime: 1332975552
+song_end
+song_begin: 07 I Want to Know Your Plans.mp3
+Time: 220
+Artist: Say Anything
+Title: I Want to Know Your Plans
+Album: Menorah\Majora
+Track: 7
+mtime: 1332975553
+song_end
+end: Say Anything - Menorah, Majora
 directory: Say Anything - Say Anything (2009) [FLAC]
 mtime: 1320528351
 begin: Say Anything - Say Anything (2009) [FLAC]
@@ -17185,7 +20243,7 @@ mtime: 1320528301
 playlist_end
 end: Say Anything ~ Say Anything's Secret Origin [FLAC]-2009
 directory: Sayanything - 2001 - Baseball [FLAC (level 8)]
-mtime: 1320528261
+mtime: 1332245243
 begin: Sayanything - 2001 - Baseball [FLAC (level 8)]
 song_begin: 01 - Colorblind.flac
 Time: 218
@@ -17339,7 +20397,7 @@ mtime: 1320530356
 song_end
 end: Sayanything - 2001 - Baseball [FLAC (level 8)]
 directory: Scott Walker - the Drift (2006) [FLAC]
-mtime: 1320109967
+mtime: 1332245852
 begin: Scott Walker - the Drift (2006) [FLAC]
 song_begin: 01 Cossacks are.flac
 Time: 272
@@ -17677,7 +20735,7 @@ mtime: 1320527085
 playlist_end
 end: Silversun Pickups - 2006 - Carnavas [FLAC]
 directory: Silversun Pickups~Swoon [FLAC]-2009
-mtime: 1320526881
+mtime: 1333274373
 begin: Silversun Pickups~Swoon [FLAC]-2009
 song_begin: 01 - There's No Secrets This Year.flac
 Time: 334
@@ -18124,6 +21182,91 @@ playlist_begin: YoYoYoYoYo.m3u
 mtime: 1320554845
 playlist_end
 end: Spank Rock - YoYoYoYoYo [2006] [flac]
+directory: Stars Are Projectors - Sweet Yams [2011] [Vanity House]
+mtime: 1332743777
+begin: Stars Are Projectors - Sweet Yams [2011] [Vanity House]
+song_begin: 01 Georgia Seabring.flac
+Time: 521
+Title: Georgia Seabring
+Album: Sweet Yams
+Artist: Stars Are Projectors
+Date: 2011
+Track: 01
+mtime: 1332745186
+song_end
+song_begin: 02 Montreal Odyssey.flac
+Time: 844
+Title: Montreal Odyssey
+Album: Sweet Yams
+Artist: Stars Are Projectors
+Date: 2011
+Track: 02
+mtime: 1332745149
+song_end
+song_begin: 03 Moments.flac
+Time: 476
+Title: Moments
+Album: Sweet Yams
+Artist: Stars Are Projectors
+Date: 2011
+Track: 03
+mtime: 1332745112
+song_end
+song_begin: 04 Red Oak Court.flac
+Time: 547
+Title: Red Oak Court
+Album: Sweet Yams
+Artist: Stars Are Projectors
+Date: 2011
+Track: 04
+mtime: 1332745166
+song_end
+song_begin: 05 Rainforests.flac
+Time: 195
+Title: Rainforests
+Album: Sweet Yams
+Artist: Stars Are Projectors
+Date: 2011
+Track: 05
+mtime: 1332745181
+song_end
+song_begin: 06 Say It Ain't Something.flac
+Time: 251
+Title: Say It Ain't Something
+Album: Sweet Yams
+Artist: Stars Are Projectors
+Date: 2011
+Track: 06
+mtime: 1332744495
+song_end
+song_begin: 07 I'm Not The One.flac
+Time: 207
+Title: I'm Not The One
+Album: Sweet Yams
+Artist: Stars Are Projectors
+Date: 2011
+Track: 07
+mtime: 1332744547
+song_end
+song_begin: 08 Storms.flac
+Time: 571
+Title: Storms
+Album: Sweet Yams
+Artist: Stars Are Projectors
+Date: 2011
+Track: 08
+mtime: 1332744675
+song_end
+song_begin: 09 He Would Have Laughed (cover).flac
+Time: 771
+Title: He Would Have Laughed (cover)
+Album: Sweet Yams
+Artist: Stars Are Projectors
+Date: 2011
+Track: 09
+mtime: 1332745072
+song_end
+end: Stars Are Projectors - Sweet Yams [2011] [Vanity House]
 directory: Suuns - Zeroes QC (FLAC)
 mtime: 1319947946
 begin: Suuns - Zeroes QC (FLAC)
@@ -19748,6 +22891,134 @@ mtime: 1320716894
 song_end
 end: The Black Keys - Brothers (Deluxe Edition) (2010) - FLAC/Disk 2
 end: The Black Keys - Brothers (Deluxe Edition) (2010) - FLAC
+directory: The Black Keys - El Camino (2011) - FLAC
+mtime: 1332981349
+begin: The Black Keys - El Camino (2011) - FLAC
+song_begin: 01 - Lonely Boy.flac
+Time: 194
+Artist: The Black Keys
+Title: Lonely Boy
+Album: El Camino
+Date: 2011
+Track: 01
+AlbumArtist: The Black Keys
+Disc: 1
+mtime: 1332981527
+song_end
+song_begin: 02 - Dead And Gone.flac
+Time: 222
+Artist: The Black Keys
+Title: Dead And Gone
+Album: El Camino
+Date: 2011
+Track: 02
+AlbumArtist: The Black Keys
+Disc: 1
+mtime: 1332981494
+song_end
+song_begin: 03 - Gold On The Ceiling.flac
+Time: 225
+Artist: The Black Keys
+Title: Gold On The Ceiling
+Album: El Camino
+Date: 2011
+Track: 03
+AlbumArtist: The Black Keys
+Disc: 1
+mtime: 1332981463
+song_end
+song_begin: 04 - Little Black Submarines.flac
+Time: 252
+Artist: The Black Keys
+Title: Little Black Submarines
+Album: El Camino
+Date: 2011
+Track: 04
+AlbumArtist: The Black Keys
+Disc: 1
+mtime: 1332981381
+song_end
+song_begin: 05 - Money Maker.flac
+Time: 178
+Artist: The Black Keys
+Title: Money Maker
+Album: El Camino
+Date: 2011
+Track: 05
+AlbumArtist: The Black Keys
+Disc: 1
+mtime: 1332981417
+song_end
+song_begin: 06 - Run Right Back.flac
+Time: 197
+Artist: The Black Keys
+Title: Run Right Back
+Album: El Camino
+Date: 2011
+Track: 06
+AlbumArtist: The Black Keys
+Disc: 1
+mtime: 1332981412
+song_end
+song_begin: 07 - Sister.flac
+Time: 206
+Artist: The Black Keys
+Title: Sister
+Album: El Camino
+Date: 2011
+Track: 07
+AlbumArtist: The Black Keys
+Disc: 1
+mtime: 1332981446
+song_end
+song_begin: 08 - Hell Of A Season.flac
+Time: 226
+Artist: The Black Keys
+Title: Hell Of A Season
+Album: El Camino
+Date: 2011
+Track: 08
+AlbumArtist: The Black Keys
+Disc: 1
+mtime: 1332981472
+song_end
+song_begin: 09 - Stop Stop.flac
+Time: 210
+Artist: The Black Keys
+Title: Stop Stop
+Album: El Camino
+Date: 2011
+Track: 09
+AlbumArtist: The Black Keys
+Disc: 1
+mtime: 1332981515
+song_end
+song_begin: 10 - Nova Baby.flac
+Time: 208
+Artist: The Black Keys
+Title: Nova Baby
+Album: El Camino
+Date: 2011
+Track: 10
+AlbumArtist: The Black Keys
+Disc: 1
+mtime: 1332981523
+song_end
+song_begin: 11 - Mind Eraser.flac
+Time: 195
+Artist: The Black Keys
+Title: Mind Eraser
+Album: El Camino
+Date: 2011
+Track: 11
+AlbumArtist: The Black Keys
+Disc: 1
+mtime: 1332981523
+song_end
+playlist_begin: The Black Keys - El Camino.m3u
+mtime: 1332981518
+playlist_end
+end: The Black Keys - El Camino (2011) - FLAC
 directory: The Black Keys - Magic Potion
 mtime: 1320709147
 begin: The Black Keys - Magic Potion
@@ -20136,6 +23407,254 @@ Genre: Indie
 mtime: 1322037712
 song_end
 end: The Future Kings of Nowhere [2007] The Future Kings of Nowhere (FLAC)
+directory: The Hold Steady - Almost Killed Me [FLAC]
+mtime: 1332966359
+begin: The Hold Steady - Almost Killed Me [FLAC]
+song_begin: 01. The Hold Steady - Positive Jam.flac
+Time: 198
+Artist: The Hold Steady
+Title: Positive Jam
+Album: Almost Killed Me
+Date: 2004
+Track: 01
+Genre: Rock
+mtime: 1332967248
+song_end
+song_begin: 02. The Hold Steady - The Swish.flac
+Time: 249
+Artist: The Hold Steady
+Title: The Swish
+Album: Almost Killed Me
+Date: 2004
+Track: 02
+Genre: Rock
+mtime: 1332967290
+song_end
+song_begin: 03. The Hold Steady - Barfruit Blues.flac
+Time: 212
+Artist: The Hold Steady
+Title: Barfruit Blues
+Album: Almost Killed Me
+Date: 2004
+Track: 03
+Genre: Rock
+mtime: 1332967294
+song_end
+song_begin: 04. The Hold Steady - Most People Are DJ's.flac
+Time: 351
+Artist: The Hold Steady
+Title: Most People Are DJ's
+Album: Almost Killed Me
+Date: 2004
+Track: 04
+Genre: Rock
+mtime: 1332966916
+song_end
+song_begin: 05. The Hold Steady - Certain Songs.flac
+Time: 235
+Artist: The Hold Steady
+Title: Certain Songs
+Album: Almost Killed Me
+Date: 2004
+Track: 05
+Genre: Rock
+mtime: 1332967098
+song_end
+song_begin: 06. The Hold Steady - Knuckles.flac
+Time: 227
+Artist: The Hold Steady
+Title: Knuckles
+Album: Almost Killed Me
+Date: 2004
+Track: 06
+Genre: Rock
+mtime: 1332967112
+song_end
+song_begin: 07. The Hold Steady - Hostile, Mass..flac
+Time: 223
+Artist: The Hold Steady
+Title: Hostile, Mass.
+Album: Almost Killed Me
+Date: 2004
+Track: 07
+Genre: Rock
+mtime: 1332967118
+song_end
+song_begin: 08. The Hold Steady - Sketchy Metal.flac
+Time: 258
+Artist: The Hold Steady
+Title: Sketchy Metal
+Album: Almost Killed Me
+Date: 2004
+Track: 08
+Genre: Rock
+mtime: 1332967301
+song_end
+song_begin: 09. The Hold Steady - Sweet Payne.flac
+Time: 274
+Artist: The Hold Steady
+Title: Sweet Payne
+Album: Almost Killed Me
+Date: 2004
+Track: 09
+Genre: Rock
+mtime: 1332967014
+song_end
+song_begin: 10. The Hold Steady - Killer Parties.flac
+Time: 348
+Artist: The Hold Steady
+Title: Killer Parties
+Album: Almost Killed Me
+Date: 2004
+Track: 10
+Genre: Rock
+mtime: 1332967044
+song_end
+song_begin: 11. The Hold Steady - Milkcrate Most (bonus).flac
+Time: 357
+Artist: The Hold Steady
+Title: Milkcrate Most (bonus)
+Album: Almost Killed Me
+Date: 2004
+Track: 11
+Genre: Rock
+mtime: 1332967175
+song_end
+song_begin: 12. The Hold Steady - Hot Fries (bonus).flac
+Time: 217
+Artist: The Hold Steady
+Title: Hot Fries (bonus)
+Album: Almost Killed Me
+Date: 2004
+Track: 12
+Genre: Rock
+mtime: 1332967202
+song_end
+song_begin: 13. The Hold Steady - Curves & Nerves (bonus).flac
+Time: 161
+Artist: The Hold Steady
+Title: Curves & Nerves (bonus)
+Album: Almost Killed Me
+Date: 2004
+Track: 13
+Genre: Rock
+mtime: 1332966967
+song_end
+song_begin: 14. The Hold Steady - Modesto is Not That Sweet (bonus).flac
+Time: 193
+Artist: The Hold Steady
+Title: Modesto is Not That Sweet (bonus)
+Album: Almost Killed Me
+Date: 2004
+Track: 14
+Genre: Rock
+mtime: 1332967209
+song_end
+song_begin: 15. The Hold Steady - You Gotta Dance (bonus).flac
+Time: 121
+Artist: The Hold Steady
+Title: You Gotta Dance (bonus)
+Album: Almost Killed Me
+Date: 2004
+Track: 15
+Genre: Rock
+mtime: 1332967224
+song_end
+end: The Hold Steady - Almost Killed Me [FLAC]
+directory: The Hold Steady - Heaven Is Whenever - 2010 (CD - FLAC - Lossless)
+mtime: 1332966359
+begin: The Hold Steady - Heaven Is Whenever - 2010 (CD - FLAC - Lossless)
+song_begin: The Hold Steady - Heaven Is Whenever - 01 - The Sweet Part of the City.flac
+Time: 264
+Artist: The Hold Steady
+Title: The Sweet Part of the City
+Album: Heaven Is Whenever
+Date: 2010
+Track: 01
+mtime: 1332966541
+song_end
+song_begin: The Hold Steady - Heaven Is Whenever - 02 - Soft in the Center.flac
+Time: 231
+Artist: The Hold Steady
+Title: Soft in the Center
+Album: Heaven Is Whenever
+Date: 2010
+Track: 02
+mtime: 1332966596
+song_end
+song_begin: The Hold Steady - Heaven Is Whenever - 03 - The Weekenders.flac
+Time: 229
+Artist: The Hold Steady
+Title: The Weekenders
+Album: Heaven Is Whenever
+Date: 2010
+Track: 03
+mtime: 1332966652
+song_end
+song_begin: The Hold Steady - Heaven Is Whenever - 04 - The Smidge.flac
+Time: 203
+Artist: The Hold Steady
+Title: The Smidge
+Album: Heaven Is Whenever
+Date: 2010
+Track: 04
+mtime: 1332966693
+song_end
+song_begin: The Hold Steady - Heaven Is Whenever - 05 - Rock Problems.flac
+Time: 212
+Artist: The Hold Steady
+Title: Rock Problems
+Album: Heaven Is Whenever
+Date: 2010
+Track: 05
+mtime: 1332966814
+song_end
+song_begin: The Hold Steady - Heaven Is Whenever - 06 - We Can Get Together.flac
+Time: 270
+Artist: The Hold Steady
+Title: We Can Get Together
+Album: Heaven Is Whenever
+Date: 2010
+Track: 06
+mtime: 1332966794
+song_end
+song_begin: The Hold Steady - Heaven Is Whenever - 07 - Hurricane J.flac
+Time: 183
+Artist: The Hold Steady
+Title: Hurricane J
+Album: Heaven Is Whenever
+Date: 2010
+Track: 07
+mtime: 1332966872
+song_end
+song_begin: The Hold Steady - Heaven Is Whenever - 08 - Barely Breathing.flac
+Time: 218
+Artist: The Hold Steady
+Title: Barely Breathing
+Album: Heaven Is Whenever
+Date: 2010
+Track: 08
+mtime: 1332966872
+song_end
+song_begin: The Hold Steady - Heaven Is Whenever - 09 - Our Whole Lives.flac
+Time: 241
+Artist: The Hold Steady
+Title: Our Whole Lives
+Album: Heaven Is Whenever
+Date: 2010
+Track: 09
+mtime: 1332966866
+song_end
+song_begin: The Hold Steady - Heaven Is Whenever - 10 - A Slight Discomfort.flac
+Time: 435
+Artist: The Hold Steady
+Title: A Slight Discomfort
+Album: Heaven Is Whenever
+Date: 2010
+Track: 10
+mtime: 1332966873
+song_end
+end: The Hold Steady - Heaven Is Whenever - 2010 (CD - FLAC - Lossless)
 directory: The Hold Steady - Separation Sunday (2005) [FLAC]
 mtime: 1319707067
 begin: The Hold Steady - Separation Sunday (2005) [FLAC]
@@ -20250,6 +23769,133 @@ Track: 11
 mtime: 1322037716
 song_end
 end: The Hold Steady - Separation Sunday (2005) [FLAC]
+directory: The Hold Steady - Stay Positive [FLAC]
+mtime: 1332966359
+begin: The Hold Steady - Stay Positive [FLAC]
+song_begin: 01 - The Hold Steady - Constructive Summer.flac
+Time: 176
+Artist: The Hold Steady
+Title: Constructive Summer
+Album: Stay Positive
+Date: 2008
+Track: 01
+Genre: Indie
+mtime: 1332966990
+song_end
+song_begin: 02 - The Hold Steady - Sequestered in Memphis.flac
+Time: 213
+Artist: The Hold Steady
+Title: Sequestered in Memphis
+Album: Stay Positive
+Date: 2008
+Track: 02
+Genre: Indie
+mtime: 1332966868
+song_end
+song_begin: 03 - The Hold Steady - One for the Cutters.flac
+Time: 282
+Artist: The Hold Steady
+Title: One for the Cutters
+Album: Stay Positive
+Date: 2008
+Track: 03
+Genre: Indie
+mtime: 1332967025
+song_end
+song_begin: 04 - The Hold Steady - Navy Sheets.flac
+Time: 203
+Artist: The Hold Steady
+Title: Navy Sheets
+Album: Stay Positive
+Date: 2008
+Track: 04
+Genre: Indie
+mtime: 1332967088
+song_end
+song_begin: 05 - The Hold Steady - Lord, I'm Discouraged.flac
+Time: 308
+Artist: The Hold Steady
+Title: Lord, I'm Discouraged
+Album: Stay Positive
+Date: 2008
+Track: 05
+Genre: Indie
+mtime: 1332967182
+song_end
+song_begin: 06 - The Hold Steady - Yeah Sapphire.flac
+Time: 217
+Artist: The Hold Steady
+Title: Yeah Sapphire
+Album: Stay Positive
+Date: 2008
+Track: 06
+Genre: Indie
+mtime: 1332967224
+song_end
+song_begin: 07 - The Hold Steady - Both Crosses.flac
+Time: 275
+Artist: The Hold Steady
+Title: Both Crosses
+Album: Stay Positive
+Date: 2008
+Track: 07
+Genre: Indie
+mtime: 1332967259
+song_end
+song_begin: 08 - The Hold Steady - Stay Positive.flac
+Time: 179
+Artist: The Hold Steady
+Title: Stay Positive
+Album: Stay Positive
+Date: 2008
+Track: 08
+Genre: Indie
+mtime: 1332967291
+song_end
+song_begin: 09 - The Hold Steady - Magazines.flac
+Time: 189
+Artist: The Hold Steady
+Title: Magazines
+Album: Stay Positive
+Date: 2008
+Track: 09
+Genre: Indie
+mtime: 1332967325
+song_end
+song_begin: 10 - The Hold Steady - Joke About Jamaica.flac
+Time: 276
+Artist: The Hold Steady
+Title: Joke About Jamaica
+Album: Stay Positive
+Date: 2008
+Track: 10
+Genre: Indie
+mtime: 1332967358
+song_end
+song_begin: 11 - The Hold Steady - Slapped Actress.flac
+Time: 318
+Artist: The Hold Steady
+Title: Slapped Actress
+Album: Stay Positive
+Date: 2008
+Track: 11
+Genre: Indie
+mtime: 1332967362
+song_end
+song_begin: 12 - The Hold Steady - Bonus Track.flac
+Time: 690
+Artist: The Hold Steady
+Title: Bonus Track
+Album: Stay Positive
+Date: 2008
+Track: 12
+Genre: Indie
+mtime: 1332967166
+song_end
+playlist_begin: The Hold Steady - Stay Positive.m3u
+mtime: 1332966961
+playlist_end
+end: The Hold Steady - Stay Positive [FLAC]
 directory: The K&D Sessions (1998) [FLAC]
 mtime: 1320542351
 begin: The K&D Sessions (1998) [FLAC]
@@ -21148,7 +24794,7 @@ AlbumArtist: The Stereophones
 Disc: 1
 Disc: 1
 AlbumArtist: The Stereophones
-mtime: 1322037696
+mtime: 1332942417
 song_end
 song_begin: 02 Games.flac
 Time: 238
@@ -21162,7 +24808,7 @@ AlbumArtist: The Stereophones
 Disc: 1
 Disc: 1
 AlbumArtist: The Stereophones
-mtime: 1322037693
+mtime: 1332942421
 song_end
 song_begin: 03 Live in Love.flac
 Time: 225
@@ -21176,7 +24822,7 @@ AlbumArtist: The Stereophones
 Disc: 1
 Disc: 1
 AlbumArtist: The Stereophones
-mtime: 1322037705
+mtime: 1332942426
 song_end
 song_begin: 04 Credit.flac
 Time: 241
@@ -21190,7 +24836,7 @@ AlbumArtist: The Stereophones
 Disc: 1
 Disc: 1
 AlbumArtist: The Stereophones
-mtime: 1322037690
+mtime: 1332942424
 song_end
 song_begin: 05 Thumper.flac
 Time: 220
@@ -21204,7 +24850,7 @@ AlbumArtist: The Stereophones
 Disc: 1
 Disc: 1
 AlbumArtist: The Stereophones
-mtime: 1322037702
+mtime: 1332942420
 song_end
 song_begin: 06 Amerijane.flac
 Time: 355
@@ -21218,7 +24864,7 @@ AlbumArtist: The Stereophones
 Disc: 1
 Disc: 1
 AlbumArtist: The Stereophones
-mtime: 1319842847
+mtime: 1332942414
 song_end
 song_begin: 07 Leaving.flac
 Time: 281
@@ -21232,7 +24878,7 @@ AlbumArtist: The Stereophones
 Disc: 1
 Disc: 1
 AlbumArtist: The Stereophones
-mtime: 1322037690
+mtime: 1332942429
 song_end
 song_begin: 08 500 Days of Cocaine.flac
 Time: 277
@@ -21246,7 +24892,7 @@ AlbumArtist: The Stereophones
 Disc: 1
 Disc: 1
 AlbumArtist: The Stereophones
-mtime: 1319843291
+mtime: 1332942425
 song_end
 song_begin: 09 Getaway.flac
 Time: 223
@@ -21260,7 +24906,7 @@ AlbumArtist: The Stereophones
 Disc: 1
 Disc: 1
 AlbumArtist: The Stereophones
-mtime: 1322037696
+mtime: 1332942419
 song_end
 song_begin: 10 Boom.flac
 Time: 296
@@ -21274,7 +24920,7 @@ AlbumArtist: The Stereophones
 Disc: 1
 Disc: 1
 AlbumArtist: The Stereophones
-mtime: 1322037689
+mtime: 1332942418
 song_end
 song_begin: 11 Live in Love [Remix].flac
 Time: 274
@@ -21288,7 +24934,7 @@ AlbumArtist: The Stereophones
 Disc: 1
 Disc: 1
 AlbumArtist: The Stereophones
-mtime: 1319843379
+mtime: 1332942423
 song_end
 song_begin: 12 Leaving [Remix].flac
 Time: 242
@@ -21302,7 +24948,7 @@ AlbumArtist: The Stereophones
 Disc: 1
 Disc: 1
 AlbumArtist: The Stereophones
-mtime: 1322037698
+mtime: 1332942430
 song_end
 song_begin: 13 Sara(h).flac
 Time: 190
@@ -21316,11 +24962,167 @@ AlbumArtist: The Stereophones
 Disc: 1
 Disc: 1
 AlbumArtist: The Stereophones
-mtime: 1319842607
+mtime: 1332942428
 song_end
 end: The Stereophones - 2011 - Trouble FLAC
+directory: The Story of the Sun - Pleonastic Neoplastic
+mtime: 1332744177
+begin: The Story of the Sun - Pleonastic Neoplastic
+song_begin: 01 Sophie, I Love You So.flac
+Time: 106
+Title: Sophie, I Love You So
+Album: Pleonastic Neoplastic
+Artist: The Story of the Sun
+Date: 2011
+Track: 01
+mtime: 1332744486
+song_end
+song_begin: 02 You Crazy Star.flac
+Time: 270
+Title: You Crazy Star
+Album: Pleonastic Neoplastic
+Artist: The Story of the Sun
+Date: 2011
+Track: 02
+mtime: 1332744925
+song_end
+song_begin: 03 love note.flac
+Time: 71
+Title: love note
+Album: Pleonastic Neoplastic
+Artist: The Story of the Sun
+Date: 2011
+Track: 03
+mtime: 1332744514
+song_end
+song_begin: 04 You Only Believe Your Eyes.flac
+Time: 233
+Title: You Only Believe Your Eyes
+Album: Pleonastic Neoplastic
+Artist: The Story of the Sun
+Date: 2011
+Track: 04
+mtime: 1332744902
+song_end
+song_begin: 05 One Last Sunset Feat. David Foster Wallace.flac
+Time: 368
+Title: One Last Sunset Feat. David Foster Wallace
+Album: Pleonastic Neoplastic
+Artist: The Story of the Sun
+Date: 2011
+Track: 05
+mtime: 1332744916
+song_end
+end: The Story of the Sun - Pleonastic Neoplastic
+directory: The Thermals - The Body the Blood the Machine
+mtime: 1332743707
+begin: The Thermals - The Body the Blood the Machine
+song_begin: 01 - Here's Your Future.flac
+Time: 149
+Artist: The Thermals
+Title: Here's Your Future
+Album: The Body the Blood the Machine
+Date: 2006
+Track: 01
+Genre: Punk
+mtime: 1332744092
+song_end
+song_begin: 02 - I Might Need You to Kill.flac
+Time: 148
+Artist: The Thermals
+Title: I Might Need You to Kill
+Album: The Body the Blood the Machine
+Date: 2006
+Track: 02
+Genre: Punk
+mtime: 1332744092
+song_end
+song_begin: 03 - An Ear For Baby.flac
+Time: 217
+Artist: The Thermals
+Title: An Ear For Baby
+Album: The Body the Blood the Machine
+Date: 2006
+Track: 03
+Genre: Punk
+mtime: 1332744097
+song_end
+song_begin: 04 - A Pillar of Salt.flac
+Time: 178
+Artist: The Thermals
+Title: A Pillar of Salt
+Album: The Body the Blood the Machine
+Date: 2006
+Track: 04
+Genre: Punk
+mtime: 1332743957
+song_end
+song_begin: 05 - Returning to The Fold.flac
+Time: 160
+Artist: The Thermals
+Title: Returning to The Fold
+Album: The Body the Blood the Machine
+Date: 2006
+Track: 05
+Genre: Punk
+mtime: 1332744051
+song_end
+song_begin: 06 - Test Pattern.flac
+Time: 208
+Artist: The Thermals
+Title: Test Pattern
+Album: The Body the Blood the Machine
+Date: 2006
+Track: 06
+Genre: Punk
+mtime: 1332744095
+song_end
+song_begin: 07 - St. Rosa And The Swallows.flac
+Time: 215
+Artist: The Thermals
+Title: St. Rosa And The Swallows
+Album: The Body the Blood the Machine
+Date: 2006
+Track: 07
+Genre: Punk
+mtime: 1332744097
+song_end
+song_begin: 08 - Back to The Sea.flac
+Time: 288
+Artist: The Thermals
+Title: Back to The Sea
+Album: The Body the Blood the Machine
+Date: 2006
+Track: 08
+Genre: Punk
+mtime: 1332744032
+song_end
+song_begin: 09 - Power Doesn't Run on Nothing.flac
+Time: 315
+Artist: The Thermals
+Title: Power Doesn't Run on Nothing
+Album: The Body the Blood the Machine
+Date: 2006
+Track: 09
+Genre: Punk
+mtime: 1332743995
+song_end
+song_begin: 10 - I Hold The Sound.flac
+Time: 279
+Artist: The Thermals
+Title: I Hold The Sound
+Album: The Body the Blood the Machine
+Date: 2006
+Track: 10
+Genre: Punk
+mtime: 1332744092
+song_end
+playlist_begin: The Thermals - The Body the Blood the Machine.m3u
+mtime: 1332744047
+playlist_end
+end: The Thermals - The Body the Blood the Machine
 directory: The White Stripes - 2003 - Elephant
-mtime: 1320531501
+mtime: 1332247175
 begin: The White Stripes - 2003 - Elephant
 song_begin: 01 Seven Nation Army.flac
 Time: 232
@@ -22655,7 +26457,7 @@ mtime: 1320551102
 playlist_end
 end: Tosca - JAC [FLAC]
 directory: Tosca - Suzuki_FLAC
-mtime: 1320542351
+mtime: 1332249485
 begin: Tosca - Suzuki_FLAC
 song_begin: 01 Pearl In.flac
 Time: 26
@@ -23364,7 +27166,7 @@ mtime: 1320558988
 playlist_end
 end: Various - LTJ Bukem - Earth Volume 3
 directory: Various - LTJ Bukem - Earth Volume 5
-mtime: 1320542351
+mtime: 1332247428
 begin: Various - LTJ Bukem - Earth Volume 5
 song_begin: 01 - Big Bud - Spiritual.flac
 Time: 379
@@ -23491,7 +27293,7 @@ mtime: 1320561022
 playlist_end
 end: Various - LTJ Bukem - Earth Volume 5
 directory: Various - Samurai Champloo Music Record Impression (2004)
-mtime: 1320542351
+mtime: 1332249289
 begin: Various - Samurai Champloo Music Record Impression (2004)
 song_begin: 01 - Various - Just Forget.flac
 Time: 236
@@ -24308,7 +28110,7 @@ directory: Various Artists - The What CD Volume 4 [flac]
 mtime: 1319706997
 begin: Various Artists - The What CD Volume 4 [flac]
 directory: CD1_The What CD Volume 4
-mtime: 1319706997
+mtime: 1332246429
 begin: Various Artists - The What CD Volume 4 [flac]/CD1_The What CD Volume 4
 song_begin: 01_Adore - Homeless Children.flac
 Time: 152
@@ -25107,6 +28909,263 @@ Genre: Indie
 mtime: 1319988728
 song_end
 end: Viva Voce - The Future Will Destroy You (2011) [FLAC]
+directory: Xihilisk - Xihilisk (2010) [FLAC] [what.cd]
+mtime: 1332743587
+begin: Xihilisk - Xihilisk (2010) [FLAC] [what.cd]
+song_begin: 01_The Movement of Dogs.flac
+Time: 223
+Title: The Movement of Dogs
+Track: 01
+Artist: Xihilisk
+Album: Xihilisk
+Date: 2010
+Genre: Post-Electronica
+mtime: 1332744053
+song_end
+song_begin: 02_Argonaut.flac
+Time: 187
+Title: Argonaut
+Track: 02
+Artist: Xihilisk
+Album: Xihilisk
+Date: 2010
+Genre: Post-Electronica
+mtime: 1332744103
+song_end
+song_begin: 03_Chrysalis March.flac
+Time: 462
+Title: Chrysalis March
+Track: 03
+Artist: Xihilisk
+Album: Xihilisk
+Date: 2010
+Genre: Post-Electronica
+mtime: 1332744134
+song_end
+song_begin: 04_Sleep Patterns.flac
+Time: 211
+Title: Sleep Patterns
+Track: 04
+Artist: Xihilisk
+Album: Xihilisk
+Date: 2010
+Genre: Post-Electronica
+mtime: 1332743622
+song_end
+song_begin: 05_Autonomous Seashield.flac
+Time: 210
+Title: Autonomous Seashielf
+Track: 05
+Artist: Xihilisk
+Album: Xihilisk
+Date: 2010
+Genre: Post-Electronica
+mtime: 1332743649
+song_end
+song_begin: 06_Amanda.flac
+Time: 249
+Title: Amanda
+Track: 06
+Artist: Xihilisk
+Album: Xihilisk
+Date: 2010
+Genre: Post-Electronica
+mtime: 1332743689
+song_end
+song_begin: 07_Hurry.flac
+Time: 192
+Title: Hurry
+Track: 07
+Artist: Xihilisk
+Album: Xihilisk
+Date: 2010
+Genre: Post-Electronica
+mtime: 1332743679
+song_end
+song_begin: 08_Tunnel Physics.flac
+Time: 142
+Title: Tunnel Physics
+Track: 08
+Artist: Xihilisk
+Album: Xihilisk
+Date: 2010
+Genre: Post-Electronica
+mtime: 1332743692
+song_end
+song_begin: 09_4 Ebows on 4 Acoustic Guitars.flac
+Time: 195
+Title: 4 Ebows on 4 Acoustic Guitars
+Track: 09
+Artist: Xihilisk
+Album: Xihilisk
+Date: 2010
+Genre: Post-Electronica
+mtime: 1332743720
+song_end
+song_begin: 02_Theme for Something.flac
+Time: 221
+Title: Theme For Something
+Track: 10
+Artist: Xihilisk
+Album: Xihilisk
+Date: 2010
+Genre: Post-Electronica
+mtime: 1332744099
+song_end
+song_begin: 11_Unwrite These.flac
+Time: 160
+Title: Unwrite These
+Track: 11
+Artist: Xihilisk
+Album: Xihilisk
+Date: 2010
+Genre: Post-Electronica
+mtime: 1332744148
+song_end
+song_begin: 12_Gregor! The Blacksmith.flac
+Time: 227
+Title: Gregor! The Blacksmith
+Track: 12
+Artist: Xihilisk
+Album: Xihilisk
+Date: 2010
+Genre: Post-Electronica
+mtime: 1332744170
+song_end
+song_begin: 13_Inslider.flac
+Time: 194
+Title: Inslider
+Track: 13
+Artist: Xihilisk
+Album: Xihilisk
+Date: 2010
+Genre: Post-Electronica
+mtime: 1332744209
+song_end
+song_begin: 14_Angle Smoother.flac
+Time: 187
+Title: Angle Smoother
+Track: 14
+Artist: Xihilisk
+Album: Xihilisk
+Date: 2010
+Genre: Post-Electronica
+mtime: 1332744218
+song_end
+song_begin: 15_TSWTWTSEWO.flac
+Time: 169
+Title: The Scene Where The Wayward Teenage Son Experiments With Opiates
+Track: 15
+Artist: Xihilisk
+Album: Xihilisk
+Date: 2010
+Genre: Post-Electronica
+mtime: 1332744247
+song_end
+song_begin: 16_Cocodamol.flac
+Time: 347
+Title: Cocodamol
+Track: 16
+Artist: Xihilisk
+Album: Xihilisk
+Date: 2010
+Genre: Post-Electronica
+mtime: 1332744249
+song_end
+song_begin: 17_Massive in Flux.flac
+Time: 203
+Title: Massive in Flux
+Track: 17
+Artist: Xihilisk
+Album: Xihilisk
+Date: 2010
+Genre: Post-Electronica
+mtime: 1332743712
+song_end
+song_begin: 18_IDM is dead.flac
+Time: 186
+Title: IDM is Dead
+Track: 18
+Artist: Xihilisk
+Album: Xihilisk
+Date: 2010
+Genre: Post-Electronica
+mtime: 1332743768
+song_end
+song_begin: 19_Three Machines.flac
+Time: 208
+Title: Three Machines
+Track: 19
+Artist: Xihilisk
+Album: Xihilisk
+Date: 2010
+Genre: Post-Electronica
+mtime: 1332743985
+song_end
+song_begin: 20_Comedown.flac
+Time: 233
+Title: Comedown
+Track: 20
+Artist: Xihilisk
+Album: Xihilisk
+Date: 2010
+Genre: Post-Electronica
+mtime: 1332744210
+song_end
+song_begin: 21_The Scene Where Everybody Dies.flac
+Time: 227
+Title: The Scene Where Everybody Dies
+Track: 21
+Artist: Xihilisk
+Album: Xihilisk
+Date: 2010
+Genre: Post-Electronica
+mtime: 1332744205
+song_end
+song_begin: 22_My cat got fat.flac
+Time: 177
+Title: My Cat Got Fat
+Track: 22
+Artist: Xihilisk
+Album: Xihilisk
+Date: 2010
+Genre: Post-Electronica
+mtime: 1332743862
+song_end
+song_begin: 23_Nein die katze.flac
+Time: 224
+Title: Nein Die Katze
+Track: 23
+Artist: Xihilisk
+Album: Xihilisk
+Date: 2010
+Genre: Post-Electronica
+mtime: 1332743974
+song_end
+song_begin: 24_Offshore Magnetism.flac
+Time: 154
+Title: Offshore Magnetism
+Track: 24
+Artist: Xihilisk
+Album: Xihilisk
+Date: 2010
+Genre: Post-Electronica
+mtime: 1332744021
+song_end
+song_begin: 25_PLUSS.flac
+Time: 729
+Title: PLUSS
+Track: 25
+Artist: Xihilisk
+Album: Xihilisk
+Date: 2010
+Genre: Post-Electronica
+mtime: 1332744029
+song_end
+playlist_begin: Xihilisk - Xihilisk (2010) [V0].m3u
+mtime: 1332743978
+playlist_end
+end: Xihilisk - Xihilisk (2010) [FLAC] [what.cd]
 directory: Yeah Yeah Yeahs - Fever to Tell [With Bonus Track]
 mtime: 1320585681
 begin: Yeah Yeah Yeahs - Fever to Tell [With Bonus Track]
@@ -26294,6 +30353,46 @@ playlist_begin: Beirut - The Rip Tide.m3u
 mtime: 1319841480
 playlist_end
 end: [2011] - The Rip Tide
+directory: imnaha - days drag on [FLAC]
+mtime: 1332744237
+begin: imnaha - days drag on [FLAC]
+song_begin: imnaha - days drag on - 01 just what i want.flac
+Time: 364
+Title: just what i want
+Artist: imnaha
+Date: 2012
+Album: days drag on
+Track: 1
+mtime: 1332744811
+song_end
+song_begin: imnaha - days drag on - 02 let it go.flac
+Time: 205
+Title: let it go
+Artist: imnaha
+Date: 2012
+Album: days drag on
+Track: 2
+mtime: 1332744652
+song_end
+song_begin: imnaha - days drag on - 03 rollin' in.flac
+Time: 304
+Title: rollin' in
+Artist: imnaha
+Date: 2012
+Album: days drag on
+Track: 3
+mtime: 1332744775
+song_end
+song_begin: imnaha - days drag on - 04 maintain a little.flac
+Time: 381
+Title: maintain a little
+Artist: imnaha
+Date: 2012
+Album: days drag on
+Track: 4
+mtime: 1332744696
+song_end
+end: imnaha - days drag on [FLAC]
 directory: jam 07 FLAC
 mtime: 1319842338
 begin: jam 07 FLAC

@@ -75,13 +75,13 @@
 "ncmpcpp stop"
   XF86AudioStop
 
-"urxvt -e tmux new-session -s shell"
+"urxvt -e tmux a -t shell"
   Mod4+Shift+ Return
 
 "urxvt -e tmux a -t apps"
   Mod4+Alt+ m
 
-"urxvt -e tmux a -t shell"
+"urxvt -e tmux a -t sshell"
   Mod4+Alt+ Return
 
 "urxvt -e tmux a -t pingas"
@@ -105,3 +105,9 @@
 ##################################
 # End of xbindkeys configuration #
 ##################################
+Press combination of keys or/and click under the window.
+You can use one of the two lines after "NoCommand"
+in $HOME/.xbindkeysrc to bind a key.
+"NoCommand"
+    m:0x11 + c:62
+    Shift+Mod2 + Shift_R

@@ -1,8 +1,9 @@
-sw_volume: 100
+sw_volume: 38
 audio_device_state:1:My ALSA Device
 audio_device_state:1:My FIFO
-state: stop
-current: 11
+state: play
+current: 0
+time: 61
 random: 0
 repeat: 0
 single: 0
@@ -11,16 +12,62 @@ crossfade: 3
 mixrampdb: 0.000000
 mixrampdelay: nan
 playlist_begin
-0:2005 Good News For People Who Love Bad News (DualDisc DVD Audio)/12 Satin In A Coffin [DVD Audio].flac
-1:2005 Good News For People Who Love Bad News (DualDisc DVD Audio)/13 Interlude (Milo) [DVD Audio].flac
-2:2005 Good News For People Who Love Bad News (DualDisc DVD Audio)/14 Blame It On The Tetons [DVD Audio].flac
-3:2005 Good News For People Who Love Bad News (DualDisc DVD Audio)/15 Black Cadilacs [DVD Audio].flac
-4:2005 Good News For People Who Love Bad News (DualDisc DVD Audio)/16 One Chance [DVD Audio].flac
-5:Cold War Kids - Mine Is Yours 2011 Flac/01 - Mine Is Yours.flac
-6:Cold War Kids - Mine Is Yours 2011 Flac/02 - Louder Than Ever.flac
-7:Cold War Kids - Mine Is Yours 2011 Flac/03 - Royal Blue.flac
-8:Cold War Kids - Mine Is Yours 2011 Flac/04 - Finally Begin.flac
-9:Cold War Kids - Mine Is Yours 2011 Flac/05 - Out Of The Wilderness.flac
-10:Cold War Kids - Mine Is Yours 2011 Flac/06 - Skip The Charades.flac
-11:Cold War Kids - Mine Is Yours 2011 Flac/11 - Flying Upside Down.flac
+0:Gorillaz - Plastic Beach [2010]/17 Pirate's Progress.flac
+1:Shawn Lee & Clutchy Hopkins - 2009 - Fascinating Fingers/01 - 70 MPH Isn't Fast Enough To Get Out Of Nebraska.flac
+2:1993 - Black Sunday/12 - A To The K.flac
+3:Coheed And Cambria - The Second Stage Turbine Blade {Re-Issue} (2005) [FLAC]/04 - Everything Evil.flac
+4:Jonathon Neme - Two Sides One Story (FLAC)/10 Hope For Conviction.flac
+5:Florence And The Machine - Lungs (FLAC)/Florence And The Machine - 09 - Cosmic Love.flac
+6:Mushroom Jazz Vol. 6 (Mixed by DJ Mark Farina) (2008) [FLAC]/11 - Colossus feat. G-off & The Whooligan - The What.flac
+7:VA - Samurai Champloo - Masta/16-tsutchie-I Sighed.flac
+8:Bazooka Tooth/Aesop Rock - (02) N.Y. Electric.flac
+9:Say Anything - 2006 - ...Is a Real Boy {2 Disc Edition} (FLAC)/Was a Real Boy {Disc 2 of 2} (FLAC)/07. Say Anything - I Will Never Write an Obligatory Song About Being on the Road and Missing Someone.flac
+10:Drop City - 1997 - This Heavenly Machine/09 - Skyboy.flac
+11:Coheed And Cambria - In Keeping Secrets Of Silent Earth 3 (FLAC)/08 Coheed And Cambria - The Velourium Camper II - Backend Of Forever.flac
+12:Abney Park/(2005) Taxidermy/08 Creep.flac
+13:Apollo Brown - Clouds [FLAC]/04 - Apollo Brown - Balance.flac
+14:Kane James - Roundabouts And Swings (2011)/04 ...and all obey.flac
+15:Endtroducing/DJ Shadow - (14) Napalm Brain , Scatter Brain.flac
+16:DJ Frane - Journey To The Planet Of Birds (FLAC)/09_-_DJ_Frane_-_Cloudy_Voyage.flac
+17:Gorillaz - Plastic Beach [2010]/02 Welcome to the World of the Plastic Beach (feat. Snoop Dogg & Hypnotic Brass Ensemble).flac
+18:OK Go - Of The Blue Colour Of The Sky (Extra Nice Edition) FLAC/Disc 1/12 - While You Were Asleep.flac
+19:The Story of the Sun - Pleonastic Neoplastic/05 One Last Sunset Feat. David Foster Wallace.flac
+20:Nujabes - (2003) Metaphorical Music/13 - Summer Gypsy.flac
+21:The Thermals - The Body the Blood the Machine/01 - Here's Your Future.flac
+22:MUTEMATH - MUTEMATH (FLAC) [2006]/07 Polite.flac
+23:Various - samurai champloo music record - playlist (2004)/09 - Various - tuned.flac
+24:Loyalty To Loyalty/09 - Cold War Kids - Every Man I Fall For.flac
+25:Silversun Pickups - 2006 - Carnavas [FLAC]/03 - Checkered Floor.flac
+26:Say Anything - In Defense of The Genre (FLAC)/1 - 03 - Say Anything - That Is Why.flac
+27:Sayanything - 2001 - Baseball [FLAC (level 8)]/08 - Shameless.flac
+28:MUTEMATH - MUTEMATH (FLAC) [2006]/01 Collapse.flac
+29:DJ Frane - Journey To The Planet Of Birds (FLAC)/11_-_DJ_Frane_-_Beyond_The_Time_Vortex.flac
+30:Fila Brazillia - Maim That Tune/08 - Extract of Pineal Gland - Fila Brazillia.flac
+31:Dandy Warhols - Thirteen Tales from Urban Bohemia (Limited2CD) (flac)/bonus cd/02 - phone call.flac
+32:Hold Steady - 2006 - Boys and Girls in America/04 - Same Kooks.flac
+33:The Last Resort/05 While The Cold Winter Waiting.flac
+34:Say Anything - In Defense of The Genre (FLAC)/2 - 13 - Say Anything - I Used To Have A Heart.flac
+35:DJ Food - Kaleidoscope (2000) [FLAC] {ZenCD047}/11 - Minitoka.flac
+36:Various - Samurai Champloo Music Record Impression (2004)/01 - Various - Just Forget.flac
+37:TV on the Radio - 2004 - Desperate Youth, Blood Thirsty Babes (FLAC) (Waffles)/01 - The Wrong Way.flac
+38:Kane James - Roundabouts And Swings (2011)/05 Masks Might Laugh.flac
+39:Say Anything - Say Anything (2009) [FLAC]/12 - Young Dumb and Stung.flac
+40:Fila Brazillia - 1997 - Luck Be A Weirdo Tonight [FLAC 100 log]/09 - Heat Death Of The Universe.flac
+41:Dandy Warhols - Thirteen Tales from Urban Bohemia (Limited2CD) (flac)/bonus cd/04 - i love you (live).flac
+42:Various - Samurai Champloo Music Record Impression (2004)/17 - Various - Bracelet.flac
+43:Mushroom Jazz Vol. 6 (Mixed by DJ Mark Farina) (2008) [FLAC]/19 - J-Boogie's Dubtronic Science - Day At The Beach.flac
+44:Florence & The Machine - Ceremonials (Deluxe Edition) [2011]/Disc One/11 All This And Heaven Too.flac
+45:jam 07 FLAC/Song V (He Would Have Laughed ( Cover)).flac
+46:Various - LTJ Bukem - Earth Volume 3/09 - Artemis - First Light.flac
+47:Nightmares On Wax (1995) Smokers Delight/03 - Pipes Honour.flac
+48:Dr. Dog - 2008 - Fate [FLAC]/10. The Beach.flac
+49:The Thermals - The Body the Blood the Machine/10 - I Hold The Sound.flac
+50:okgo ohno/11-Television, Television.flac
+51:Massive Attack - Blue Lines (FLAC)/08 - Massive Attack - Lately.flac
+52:The Hold Steady - Almost Killed Me [FLAC]/03. The Hold Steady - Barfruit Blues.flac
+53:the white stripes - de stijl (2000)/05 - I'm Bound to Pack It Up.flac
+54:Coheed And Cambria - In Keeping Secrets Of Silent Earth 3 (FLAC)/07 Coheed And Cambria - The Velourium Camper I - Faint Of Hearts.flac
+55:Florence And The Machine - Lungs (FLAC)/Florence And The Machine - 04 - Howl.flac
+56:Pete Rock- PeteStrumentals (FLAC)/09 - Pete Rock - Get Involved.flac
+57:2005 Good News For People Who Love Bad News (DualDisc DVD Audio)/09 Bukowski [DVD Audio].flac
 playlist_end

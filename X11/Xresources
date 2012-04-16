@@ -16,9 +16,9 @@ URxvt.loginShell:false
 URxvt.scrollBar:false
 URxvt.saveLines:5000
 URxvt.cursorColor:#83C048
-URxvt.highlightColor:#444444
-URxvt.font: -*-profont-*-*-*-*-11-*-*-*-*-*-*-*
-URxvt.boldFont: -*-profont-*-*-*-*-11-*-*-*-*-*-*-*
+URxvu.highlightColor:#444444
+URxvt.font: -erus-erusfont-*-*-*-*-11-*-*-*-*-*-*-*
+URxvt.boldFont: -erus-erusfont-*-*-*-*-11-*-*-*-*-*-*-*
 URxvt.internalborder: 0
 URxvt.underlinecolor: #999999
 URxvt.cutchars: "()*,<>[]{}|'"
