@@ -1,7 +1,9 @@
-weechat/logs/
-weechat/*.log
-git/
 chromium*/
+git/
+google*
+graveman/
+inkscape/
+ipython/
 menus/
 mpd/mpd.log
 mpd/mpdstate
@@ -9,6 +11,6 @@ pavucontrol.ini
 pentadactyl/info/zendeavor/command-history
 pentadactyl/info/zendeavor/local-marks
 pentadactyl/info/zendeavor/register-ring
-google*
 vlc/
-ipython/
+weechat/logs/
+weechat/*.log
