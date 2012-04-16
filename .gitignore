@@ -1,8 +1,9 @@
 weechat/logs/
 weechat/*.log
 git/
-chromium-dev/
+chromium*/
 menus/
+mpd/mpd{.log,state}
 pavucontrol.ini
 pentadactyl/info/zendeavor/command-history
 pentadactyl/info/zendeavor/local-marks
