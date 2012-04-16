@@ -3,7 +3,8 @@ weechat/*.log
 git/
 chromium*/
 menus/
-mpd/mpd{.log,state}
+mpd/mpd.log
+mpd/mpdstate
 pavucontrol.ini
 pentadactyl/info/zendeavor/command-history
 pentadactyl/info/zendeavor/local-marks
