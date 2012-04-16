@@ -120,14 +120,6 @@ source ~/.zkbd/$TERM-${DISPLAY:-$VENDOR-$OSTYPE}
 ###############################
 ## Shell aliases
 # git
-alias gl='git pull'
-alias gp='git push'
-alias gd='git diff'
-alias gc='git commit -m'
-alias gca='git commit -a -m'
-alias gco='git checkout'
-alias gb='git branch'
-alias gs='git status'
 alias gsrm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 alias gcl='git log `git log -1 --format=%H -- CHANGELOG*`..; cat CHANGELOG*'
 # ssh
