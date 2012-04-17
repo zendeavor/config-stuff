@@ -5,6 +5,7 @@ graveman/
 inkscape/
 ipython/
 menus/
+mpd/mpd.pid
 mpd/mpd.log
 mpd/mpdstate
 mpd/mpd.db
