@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright (C) 2011 Sébastien Helleu <flashcode@flashtux.org>
+# Copyright (C) 2011-2012 Sebastien Helleu <flashcode@flashtux.org>
+# Copyright (C) 2012 ArZa <arza@arza.us>
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -22,16 +23,20 @@
 #
 # History:
 #
-# 2011-05-18, Sébastien Helleu <flashcode@flashtux.org>:
+# 2012-01-04, ArZa <arza@arza.us>:
+#     version 0.4: settings for right align and space before help
+# 2012-01-03, Sebastien Helleu <flashcode@flashtux.org>:
+#     version 0.3: make script compatible with Python 3.x
+# 2011-05-18, Sebastien Helleu <flashcode@flashtux.org>:
 #     version 0.2: add options for aliases, start on load, list of commands to
 #                  ignore; add default value in help of script options
-# 2011-05-15, Sébastien Helleu <flashcode@flashtux.org>:
+# 2011-05-15, Sebastien Helleu <flashcode@flashtux.org>:
 #     version 0.1: initial release
 #
 
 SCRIPT_NAME    = 'cmd_help'
-SCRIPT_AUTHOR  = 'Sébastien Helleu <flashcode@flashtux.org>'
-SCRIPT_VERSION = '0.2'
+SCRIPT_AUTHOR  = 'Sebastien Helleu <flashcode@flashtux.org>'
+SCRIPT_VERSION = '0.4'
 SCRIPT_LICENSE = 'GPL3'
 SCRIPT_DESC    = 'Contextual command line help'
 
@@ -48,7 +53,7 @@ except ImportError:
 
 try:
     import re
-except ImportError, message:
+except ImportError as message:
     print('Missing package(s) for %s: %s' % (SCRIPT_NAME, message))
     import_ok = False
 
@@ -79,6 +84,9 @@ cmdhelp_settings_default = {
     'color_arguments'  : ['cyan',       'color for command arguments'],
     'color_option_name': ['yellow',     'color for name of option found (by adding "*" to option name)'],
     'color_option_help': ['brown',      'color for help on option'],
+    'right_align'      : ['off',        'align help to right'],
+    'right_padding'    : ['15',         'padding to right when aligned to right'],
+    'space'            : ['2',          'minimum space before help'],
 }
 cmdhelp_settings = {}
 
@@ -292,7 +300,9 @@ def input_modifier_cb(data, modifier, modifier_data, string):
             arguments = items[1]
     if command[1:].lower() in cmdhelp_settings['ignore_commands'].split(','):
         return string
-    plugin = weechat.buffer_get_pointer(weechat.current_buffer(), 'plugin')
+    current_buffer = weechat.current_buffer()
+    current_window = weechat.current_window()
+    plugin = weechat.buffer_get_pointer(current_buffer, 'plugin')
     msg_help = get_help_command(plugin, command[1:], arguments) or get_list_commands(plugin, command[1:], arguments)
     if not msg_help:
         if cmdhelp_settings['display_no_help'] != 'on':
@@ -302,8 +312,22 @@ def input_modifier_cb(data, modifier, modifier_data, string):
             msg_help += 'No help for command %s' % command
         else:
             msg_help += 'No help'
+
+    if cmdhelp_settings['right_align'] == 'on':
+        win_width = weechat.window_get_integer(current_window, 'win_width')
+        input_length = weechat.buffer_get_integer(current_buffer, 'input_length')
+        help_length = len(weechat.string_remove_color(msg_help, ""))
+        min_space = int(cmdhelp_settings['space'])
+        padding = int(cmdhelp_settings['right_padding'])
+        space = win_width - input_length - help_length - padding
+        if space < min_space:
+            space = min_space
+    else:
+        space = int(cmdhelp_settings['space'])
+
     color_delimiters = cmdhelp_settings['color_delimiters']
-    return '%s  %s%s%s%s%s' % (string,
+    return '%s%s%s%s%s%s%s' % (string,
+                               space * ' ',
                                weechat.color(color_delimiters),
                                cmdhelp_settings['prefix'],
                                msg_help,
@@ -360,7 +384,7 @@ if __name__ == '__main__' and import_ok:
 
         # set default settings
         version = weechat.info_get("version_number", "") or 0
-        for option, value in cmdhelp_settings_default.iteritems():
+        for option, value in cmdhelp_settings_default.items():
             if weechat.config_is_set_plugin(option):
                 cmdhelp_settings[option] = weechat.config_get_plugin(option)
             else:
