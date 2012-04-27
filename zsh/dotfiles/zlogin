@@ -1,8 +1,10 @@
 if [[ -z $DISPLAY ]]; then
   case $(tty) in
     /dev/tty1)
-      # exec tmux new-session -d -s xorg startx
-      exec tmux a            
+      if tmux has; then
+        exec tmux new-session -d -s xorg startx
+      else;
+        exec tmux a            
       ;;
     # *) 
       #  exec fbpad
