@@ -127,7 +127,7 @@ setopt rc_expand_param
 setopt no_rematch_pcre
 setopt no_sh_glob
 setopt unset
-setopt warn_create_global
+setopt no_warn_create_global
 
 ## history options
 setopt append_history
@@ -174,7 +174,7 @@ setopt no_print_exit_value
 setopt rc_quotes
 setopt rm_star_silent
 setopt no_rm_star_wait
-setopt no_short_loops
+setopt short_loops
 setopt no_sun_keyboard_hack
 
 ## job control
