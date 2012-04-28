@@ -46,8 +46,8 @@ source "$OMZ/init.zsh"
 # Customize to your needs...
 # source in my zsh functions file
 source "$HOME/.config/zsh/dotfiles/zfuncs"
-# source in aliases (need cleaning first)
-# source "$HOME/.config/zsh/dotfiles/zalias"
+# source in aliases
+source "$HOME/.config/zsh/dotfiles/zalias"
 
 # some clever dir stack stuff, supersedes pushd/popd
 autoload -Uz chpwd_recent_dirs cdr add-zsh-hook
@@ -113,7 +113,7 @@ setopt extended_glob
 setopt glob
 setopt no_glob_assign
 setopt glob_dots
-setopt glob_subst
+setopt no_glob_subst
 setopt hist_subst_pattern
 setopt no_ignore_braces
 setopt no_ignore_close_braces
@@ -131,7 +131,7 @@ setopt no_warn_create_global
 
 ## history options
 setopt append_history
-setopt no_bang_hist
+setopt bang_hist
 setopt extended_history
 setopt no_hist_allow_clobber
 setopt no_hist_beep
