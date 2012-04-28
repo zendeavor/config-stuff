@@ -1,0 +1,23 @@
+function zsh_stats() {
+  history | awk '{print $2}' | sort | uniq -c | sort -rn | head
+}
+
+function pacman {
+  case $1 in
+    -S | -S[^sih]* | -R* | -U*)
+            /usr/bin/sudo /usr/bin/pacman-color "$@" ;;
+    *)      /usr/bin/pacman-color "$@" ;;
+  esac
+}
+
+function secure_chromium {
+  local PORT=4711; export PORT
+  local SOCKS_SERVER=localhost:$PORT; export SOCKS_SERVER
+  local SOCKS_VERSION=5; export SOCKS_VERSION
+  chromium-dev &
+  exit
+}
+
+function lman {
+  man -P "less -p $1" $2
+}

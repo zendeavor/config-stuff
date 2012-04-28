@@ -1,0 +1,41 @@
+## Shell aliases
+alias gsrm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
+alias gcl='git log `git log -1 --format=%H -- CHANGELOG*`..; cat CHANGELOG*'
+alias digimm='ssh dig.digitalimmersion.info'
+alias pingas="ssh pingas.org"
+alias mntpingas='sshfs -o sshfs_debug pingas.org:/home/zendeavor ~/mnt/remote/pingas'
+alias sshome='ssh zendeavor.dyndns.org'
+alias mnthome='sshfs -o sshfs_debug zendeavor.dyndns.org:/media/data/zendeavor ~/mnt/remote/zendeavor'
+alias ipy='ipython'
+alias ipy2='ipython2'
+alias bpy='bpython'
+alias bpy2='bpython2'
+alias pip2='pip-2.7'
+alias psc='ps xawf -eo pid,user,args'
+alias blkid='blkid -c /dev/null'
+alias ff='find -type f -name '
+alias udm='udiskie-umount'
+alias updatedb="sudo updatedb"
+alias mkpkg="makepkg -si"
+alias sudo='sudo '
+alias matic='sudo pacmatic'
+alias sprunge='curl -F "sprunge=<-" http://sprunge.us'
+alias steam="~/bin/steam.sh"
+alias X='extract'
+alias vr='vim --remote-silent'
+alias gvr='gvim --remote-silent'
+alias vi='vim'
+alias zshrc='$EDITOR ~/.zshrc && source ~/.zshrc'
+alias packer='TMPDIR=~/builds/aur packer'
+alias ls="ls -Fh --color=auto"
+alias lh='ls -s'
+alias lda='ls -d .*'
+alias la='nocorrect ls -A'
+alias ..='cd ..'
+alias cd..='cd ..'
+alias 1='cd -'
+alias 2='cd +2'
+alias 3='cd +3'
+alias 4='cd +4'
+alias 5='cd +5'
+alias p='pacman'

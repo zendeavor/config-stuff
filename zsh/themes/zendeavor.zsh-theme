@@ -7,6 +7,8 @@
 # shamelessly recycled by:
 #   zendeavor <<j dot s dot mcgee at gmail dot com>>
 
+zstyle ':vcs_info:*' enable git
+
 function +vi-git-status {
   # Untracked files.
   if [[ -n $(git ls-files --other --exclude-standard 2> /dev/null) ]]; then
@@ -41,8 +43,7 @@ function prompt_zendeavor_setup {
   unsetopt XTRACE KSH_ARRAYS
   prompt_opts=(cr percent subst)
 
-  autoload -Uz add-zsh-hook
-  autoload -Uz vcs_info
+  autoload -Uz add-zsh-hook vcs_info
 
   add-zsh-hook precmd prompt_zendeavor_precmd
 
@@ -59,7 +60,7 @@ function prompt_zendeavor_setup {
   %F{$pc}%(?.. -%j-)%F{$dc} %F{c}%#%F{$dc} "
   RPROMPT='${vcs_info_msg_0_}%{$reset_color%}'
 	SPROMPT='zsh: correct %F{r}%R%f to %F{g}%r%f [nyae]? '
-  PROMPT2="%F{m}%U%_%u%F{$dc} %F{c}»%F{$dc}%F{g} "
+  PROMPT2="%F{m}%U%_%u%F{$dc} %F{c}»%F{$dc}%F{g}%F{$dc} "
 }
 
 function prompt_zendeavor_preview {
