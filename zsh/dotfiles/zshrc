@@ -65,25 +65,137 @@ export DISABLE_AUTO_TITLES="true"
 
 ## history manipulation
 HISTFILE="~/.zhistory"
-HISTSIZE="500"
+HISTSIZE="1500"
 SAVEHIST="1000"
-setopt appendhistory
-setopt hist_ignore_dups
-setopt share_history
-setopt hist_verify
-setopt inc_append_history
-setopt extended_history
-setopt hist_expire_dups_first
-setopt hist_ignore_space
-setopt autocd
-setopt extendedglob
-setopt notify
-setopt auto_menu
-setopt complete_in_word
-setopt auto_name_dirs
+## case-insensitive, underscores are purely cosmetic
+# changing dirs
+setopt auto_cd
+setopt no_auto_pushd
+setopt cdable_vars
+# setopt chase_dots # chase_links implies this
+setopt chase_links
+setopt no_posix_cd
 setopt pushd_ignore_dups
-setopt completealiases
-unsetopt beep
+setopt no_pushd_minus
+setopt pushd_silent
+setopt pushd_to_home
+
+# completion shell options
+setopt always_last_prompt
+setopt always_to_end
+setopt auto_list
+setopt auto_menu
+setopt auto_name_dirs
+setopt auto_param_keys
+setopt auto_param_slash
+setopt auto_remove_slash
+setopt no_bash_auto_list
+setopt complete_aliases
+setopt complete_in_word
+setopt glob_complete
+setopt hash_list_all
+setopt list_ambiguous
+setopt no_list_beep
+setopt list_packed
+setopt no_list_rows_first
+setopt list_types
+setopt menu_complete
+setopt rec_exact
+
+# expansion and globbing
+setopt bad_pattern
+setopt bare_glob_qual
+setopt brace_ccl
+setopt no_case_glob
+setopt case_match
+setopt no_csh_null_glob
+setopt extended_glob
+setopt glob
+setopt no_glob_assign
+setopt glob_dots
+setopt glob_subst
+setopt hist_subst_pattern
+setopt no_ignore_braces
+setopt no_ignore_close_braces
+setopt no_ksh_glob
+setopt no_magic_equal_subst
+setopt mark_dirs
+setopt multibyte
+# setopt no_match #overridden by null_glob
+setopt null_glob
+setopt rc_expand_param
+setopt no_rematch_pcre
+setopt no_sh_glob
+setopt unset
+setopt warn_create_global
+
+## history options
+setopt append_history
+setopt no_bang_hist
+setopt extended_history
+setopt no_hist_allow_clobber
+setopt no_hist_beep
+setopt hist_expire_dups_first
+setopt hist_fcntl_lock
+setopt hist_find_no_dups
+setopt no_hist_ignore_dups
+setopt hist_ignore_space
+setopt hist_lex_words
+setopt no_hist_no_functions
+setopt hist_no_store
+setopt hist_reduce_blanks
+setopt hist_save_by_copy
+setopt hist_save_no_dups
+setopt no_hist_verify
+setopt no_inc_append_history
+setopt share_history          
+
+## initialization options
+setopt no_all_export
+setopt no_global_export
+setopt no_global_rcs
+setopt no_rcs
+
+## input/output options
+setopt aliases
+setopt clobber
+setopt no_correct_all
+setopt flow_control
+setopt no_ignore_eof
+setopt interactive_comments
+setopt hash_cmds
+# setopt hash_dirs # no effect due to hash_cmds
+setopt no_hash_executables_only
+setopt no_mail_warning
+setopt path_dirs
+setopt no_path_script
+setopt no_print_eight_bit
+setopt no_print_exit_value
+setopt rc_quotes
+setopt rm_star_silent
+setopt no_rm_star_wait
+setopt no_short_loops
+setopt no_sun_keyboard_hack
+
+## job control
+setopt auto_continue
+setopt auto_resume
+setopt bg_nice
+setopt no_check_jobs
+setopt no_hup
+setopt long_list_jobs
+setopt monitor
+setopt notify
+setopt posix_jobs
+
+## prompting 
+## these should probably only be set in prompt themes
+# setopt prompt_bang
+# setopt prompt_cr
+# setopt prompt_sp
+# setopt prompt_percent
+# setopt prompt_subst
+setopt no_transient_rprompt
 
 ###############################
 ## handy completion stuff
