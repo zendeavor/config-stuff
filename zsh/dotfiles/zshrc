@@ -64,10 +64,30 @@ zstyle ':chpwd:*' recent-dirs-prune 'pattern:/tmp(|/*)'
 export DISABLE_AUTO_TITLES="true"
 
 ## history manipulation
-HISTFILE="~/.zhistory"
-HISTSIZE="1500"
-SAVEHIST="1000"
+HISTFILE="$HOME/.zhistory"
+HISTSIZE=1500
+SAVEHIST=1000
 ## case-insensitive, underscores are purely cosmetic
+## history options
+setopt append_history
+setopt bang_hist
+setopt extended_history
+setopt no_hist_allow_clobber
+setopt no_hist_beep
+setopt hist_expire_dups_first
+setopt hist_fcntl_lock
+setopt hist_find_no_dups
+setopt no_hist_ignore_dups
+setopt hist_ignore_space
+setopt hist_lex_words
+setopt no_hist_no_functions
+setopt hist_no_store
+setopt hist_reduce_blanks
+setopt hist_save_by_copy
+setopt hist_save_no_dups
+setopt no_hist_verify
+setopt no_inc_append_history
+setopt share_history          
 # changing dirs
 setopt auto_cd
 setopt no_auto_pushd
@@ -129,27 +149,6 @@ setopt no_sh_glob
 setopt unset
 setopt no_warn_create_global
 
-## history options
-setopt append_history
-setopt bang_hist
-setopt extended_history
-setopt no_hist_allow_clobber
-setopt no_hist_beep
-setopt hist_expire_dups_first
-setopt hist_fcntl_lock
-setopt hist_find_no_dups
-setopt no_hist_ignore_dups
-setopt hist_ignore_space
-setopt hist_lex_words
-setopt no_hist_no_functions
-setopt hist_no_store
-setopt hist_reduce_blanks
-setopt hist_save_by_copy
-setopt hist_save_no_dups
-setopt no_hist_verify
-setopt no_inc_append_history
-setopt share_history          
-
 ## initialization options
 setopt no_all_export
 setopt no_global_export
@@ -200,46 +199,14 @@ setopt no_transient_rprompt
 ###############################
 ## handy completion stuff
 zstyle ':compinstall::' filename '/home/zendeavor/.zshrc'
-zstyle ':completion:*' auto-description 'specify: %d'
-zstyle ':completion:*' completer _list _oldlist _expand _complete _ignored _match _approximate _prefix
 zstyle ':completion:*' completions 1
-zstyle ':completion:*' expand prefix suffix
-zstyle ':completion:*' glob 1
-zstyle ':completion:*' group-name ''
 zstyle ':completion:*' ignore-parents parent pwd .. directory
-zstyle ':completion:*' insert-unambiguous true
-zstyle ':completion:*' list-prompt %SAt %p: Hit TAB for more, or the character to insert%s
-zstyle ':completion:*' list-suffixes true
-zstyle ':completion:*' matcher-list '' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} r:|[._-]=** r:|=**' 'l:|=* r:|=*'
-zstyle ':completion:*' max-errors 2 numeric
-zstyle ':completion:*' menu select=9
-# zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
-zstyle ':completion:*' original true
 zstyle ':completion:*' preserve-prefix '//[^/]##/'
 zstyle ':completion:*' prompt '%e\'
 zstyle ':completion:*' select-prompt %SScrolling active: current selection at %p%s
 zstyle ':completion:*' substitute 1
 zstyle ':completion:*' use-compctl true
-zstyle ':completion:*' verbose true
 zstyle ':completion:*' word true
-zstyle ':completion:*' squeeze-slashes true
-# tab completion for PID :D
-zstyle ':completion:*:*:kill:*' menu yes select
-zstyle ':completion:*:kill:*' force-list always
-zstyle ':completion:*:processes' command 'ps -e'
-zstyle ':completion:*:processes-names' command 'ps -eo comm'
-# Use caching so that commands like pacman(?) complete are useable
-zstyle ':completion::complete:*' use-cache 1
-zstyle ':completion::complete:*' cache-path ~/.oh-my-zsh/cache/
-# Don't complete uninteresting users
-zstyle ':completion:*:*:*:users' ignored-patterns \
-        adm amanda apache avahi beaglidx bin cacti canna clamav daemon \
-        dbus distcache dovecot fax ftp games gdm gkrellmd gopher \
-        hacluster haldaemon halt hsqldb ident junkbust ldap lp mail \
-        mailman mailnull mldonkey mysql nagios \
-        named netdump news nfsnobody nobody nscd ntp nut nx openvpn \
-        operator pcap postfix postgres privoxy pulse pvm quagga radvd \
-        rpc rpcuser rpm shutdown squid sshd sync uucp vcsa xfs
 
 ###############################
 ## make funny keys work right
