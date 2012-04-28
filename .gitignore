@@ -17,3 +17,5 @@ vlc/
 weechat/logs/
 weechat/*.log
 Trolltech.conf
+zsh/dotfiles/dirs*
+pacmatic
