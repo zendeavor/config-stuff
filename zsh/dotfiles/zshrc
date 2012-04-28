@@ -153,7 +153,7 @@ setopt no_warn_create_global
 setopt no_all_export
 setopt no_global_export
 setopt no_global_rcs
-setopt no_rcs
+setopt rcs
 
 ## input/output options
 setopt aliases
