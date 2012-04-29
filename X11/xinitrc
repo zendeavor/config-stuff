@@ -3,4 +3,17 @@
 # ~/.xinitrc
 #
 # Executed by startx (run your window manager from here)
-exec ck-launch-session dbus-launch --sh-syntax --exit-with-session ~/bin/xstart
+
+# sleep 1 
+unset TMUX
+numlockx &
+xbindkeys
+xrdb -merge ~/.Xresources
+setxkbmap -option caps:super
+setxkbmap -option compose:ralt
+urxvtd -q -o -f
+urxvtc -name shell -e tmux a -t shell &
+# exec twm
+exec i3 #-d all -V &>i3.dump
+
+# vim: ft=sh
