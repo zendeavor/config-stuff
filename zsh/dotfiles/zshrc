@@ -32,7 +32,7 @@ zstyle ':omz:load' zfunction 'zargs' 'zmv' 'run-help' 'zrecompile'
 
 # Set the Oh My Zsh modules to load (browse modules).
 zstyle ':omz:load' omodule 'environment' 'terminal' 'editor' 'completion' \
-  'history' 'directory' 'spectrum' 'git' 'python' 'rsync' \
+  'history' 'directory' 'spectrum' 'git' 'python' 'rsync' 'z' \
   'history-substring-search' 'syntax-highlighting' 'alias' 'utility' 'prompt' 
 
 # Set the prompt theme to load.

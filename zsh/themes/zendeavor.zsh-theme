@@ -20,7 +20,7 @@ function prompt_zendeavor_help {
   cat <<EOH
 This prompt is color-scheme-able.  You can invoke it thus:
 
-  prompt zendeavor [<user-color>] [<host-color>] [<path-color>] [<archey-color>]
+  prompt zendeavor color1 color2 color3 color4
 
 The default colors are cyan and blue respectively.  This theme is
 intended for use with a black background.
@@ -44,7 +44,6 @@ function prompt_zendeavor_setup {
   prompt_opts=(cr percent subst)
 
   autoload -Uz add-zsh-hook vcs_info
-
   add-zsh-hook precmd prompt_zendeavor_precmd
 
   zstyle ':vcs_info:*' enable bzr git hg svn
@@ -56,11 +55,11 @@ function prompt_zendeavor_setup {
   zstyle ':vcs_info:(sv[nk]|bzr):*' branchformat '%b|%F{c}%r%f'
   zstyle ':vcs_info:git*+set-message:*' hooks git-status
 
-  PROMPT='%(#.%F{r}.%F{c})'"%n on %F{c}%l%F{$dc}@%F{$hc%}%m%F{$dc}:%F{g}%~%F{r}%(?.. [%?])%F{$dc} %F{m}[%h]%F{$dc} %F{y}%D{%-K:%M%P %-f/%m}%F{$dc} 
-  %F{$pc}%(?.. -%j-)%F{$dc} %F{c}%#%F{$dc} "
+  PROMPT='%(#.%F{r}.%F{c})'"%n on %F{c}%l%F{n}@%F{$hc%}%m%F{n}:%F{g}%~ %F{m}[%h]%F{n} %F{y}%D{%-K:%M%P %-f/%m}%F{n} %F{r}%(?.%F{g}(⌐■_■)%F{n}.%F{r}[%?] (╯°□°）╯︵ ┻━┻)%F{n}
+  %F{$pc}%(?.. -%j-)%F{n} %F{c}%#%F{n} "
   RPROMPT='${vcs_info_msg_0_}%{$reset_color%}'
 	SPROMPT='zsh: correct %F{r}%R%f to %F{g}%r%f [nyae]? '
-  PROMPT2="%F{m}%U%_%u%F{$dc} %F{c}»%F{$dc}%F{g}%F{$dc} "
+  PROMPT2="%F{m}%U%_%u%F{n} %F{c}»%F{n}%F{g}%F{n} "
 }
 
 function prompt_zendeavor_preview {

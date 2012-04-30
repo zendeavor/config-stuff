@@ -3,21 +3,33 @@ function zsh_stats() {
 }
 
 function pac {
-  case $1 in
+  case "$1" in
     -S | -S[^sih]* | -R* | -U*)
-            /usr/bin/sudo /usr/bin/pacman-color "$@" ;;
-    *)      /usr/bin/pacman-color "$@" ;;
+            sudo pacman-color "$@" ;;
+    *)      pacman-color "$@" ;;
   esac
 }
 
-function secure_chromium {
-  local PORT=4711; export PORT
-  local SOCKS_SERVER=localhost:$PORT; export SOCKS_SERVER
-  local SOCKS_VERSION=5; export SOCKS_VERSION
-  chromium-dev &
-  exit
-}
+# function secure_chromium {
+#   local PORT=4711; export PORT
+#   local SOCKS_SERVER=localhost:$PORT; export SOCKS_SERVER
+#   local SOCKS_VERSION=5; export SOCKS_VERSION
+#   chromium &
+# }
 
 function lman {
-  man -P "less -p $1" $2
+## this is a function because i need to fill it out more
+## let's test for $1 and $2 and read from stdin if they aren't provided
+## why? because.
+  man -P "less -p \"$1\"" "${@:2}"
 }
+
+function vr {
+    vim --servername "$1" --remote-silent "${@[-1]}"
+}
+
+function gvr {
+    gvim  --servername "$1" --remote-silent "${@[-1]}"
+}
+
+# vim: ft=zsh

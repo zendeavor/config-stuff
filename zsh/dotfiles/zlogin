@@ -2,14 +2,13 @@ tmuxSHELLS="$HOME/.config/tmux/tmux-initial.conf"
 if [[ -z "$DISPLAY" ]]; then
   case "$(tty)" in
     /dev/tty1)
-      if ! tmux has -t xorg; then
+      if (! tmux has -t xorg); then
         tmux start \; \
-          new-session -d -s xorg "PATH=/usr/bin:$PATH startx"
-        if ! tmux has -t shell; then 
+          new-session -d -s xorg startx
+        (tmux has -t shell) || \
           tmux source "$tmuxSHELLS"
-        fi
         logout
-      elif tmux has -t shell; then
+      elif (tmux has -t shell); then
         exec tmux a -t shell         
       else:
         tmux start \; \
@@ -18,13 +17,16 @@ if [[ -z "$DISPLAY" ]]; then
       fi
       ;;
     /dev/tty[2-4]) 
-      if tmux has; then
+      if (tmux has); then
         exec tmux a
       else:
         tmux start \; \
           source "$tmuxSHELLS"
         exec tmux a -t shell
       fi
+      ;;
+    /dev/tty[56])
+      echo "tmux broke huh"
       ;;
   esac
 fi
