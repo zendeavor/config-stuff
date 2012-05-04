@@ -48,6 +48,8 @@ source "$OMZ/init.zsh"
 source "$HOME/.config/zsh/dotfiles/zfuncs"
 # source in aliases
 source "$HOME/.config/zsh/dotfiles/zalias"
+# source in named dirs
+source "$HOME/.config/zsh/dotfiles/zdirs"
 
 # some clever dir stack stuff, supersedes pushd/popd
 autoload -Uz chpwd_recent_dirs cdr add-zsh-hook
@@ -164,7 +166,7 @@ setopt no_ignore_eof
 setopt interactive_comments
 setopt hash_cmds
 # setopt hash_dirs # no effect due to hash_cmds
-setopt no_hash_executables_only
+setopt hash_executables_only
 setopt no_mail_warning
 setopt path_dirs
 setopt no_path_script

@@ -46,14 +46,14 @@ URxvt.foreground:#eeeeee
 ! --[ Color Scheme ]----------------------------------------
 !#include "/home/zendeavor/.config/X11/xcolors/dwmrob"
 !#include "/home/zendeavor/.config/X11/xcolors/derp"
-!#include "/home/zendeavor/.config/X11/xcolors/digerati"
+#include "/home/zendeavor/.config/X11/xcolors/digerati"
 !#include "/home/zendeavor/.config/X11/xcolors/gnometerm"
 !#include "/home/zendeavor/.config/X11/xcolors/jasonwryan"
 !#include "/home/zendeavor/.config/X11/xcolors/phrak1"
 !#include "/home/zendeavor/.config/X11/xcolors/rezza"
 !#include "/home/zendeavor/.config/X11/xcolors/rydgel"
 !#include "/home/zendeavor/.config/X11/xcolors/shiva"
-#include "/home/zendeavor/.config/X11/xcolors/tango"
+!#include "/home/zendeavor/.config/X11/xcolors/tango"
 !#include "/home/zendeavor/.config/X11/xcolors/zenburn"
 
 ! -- [ XScreenSaver ] ------------------------------
