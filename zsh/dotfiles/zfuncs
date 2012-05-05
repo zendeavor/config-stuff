@@ -1,6 +1,6 @@
-function zsh_stats() {
-history | awk '{print $2}' | sort | uniq -c | sort -rn | head
-}
+# function zsh_stats() {
+# history | awk '{print $2}' | sort | uniq -c | sort -rn | head
+# }
 
 function pac {
 case "$1" in
