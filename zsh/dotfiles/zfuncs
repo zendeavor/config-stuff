@@ -1,6 +1,4 @@
-# function zsh_stats() {
-# history | awk '{print $2}' | sort | uniq -c | sort -rn | head
-# }
+## generic functions for zshell
 
 function pac {
 case "$1" in
@@ -26,43 +24,34 @@ man -P "less -p \"$1\"" "${@:2}"
 
 
 function vr {
+  ## to trap SIGINT, so there is no funny behavior
+  # it's dumb, but people have a bad habit of hitting ^c
+  # a poorly timed ^c will result in stupidity
+  # hitting ^c at all is also a stupid idea, so i'm catching it
   setopt localoptions localtraps
   trap '' INT
-  [[ -n "$name" ]] && unset name
-  [[ -n "$args" ]] && unset args
+  ## unset any of these, just in case a var was set globally by
+  # another script or something that was stupid with vars
+  [[ -n "$srv" ]] && unset srv
+  [[ -n "$flags" ]] && unset flags
   [[ -n "$files" ]] && unset files
+  ## fill out an array with all the args provided
+  # this way each var is assigned to space delimited commandline args
+  # case "$@" in 
+  #   -g)
   for f in "$@";do
-    if [[ "$f" == "$1" ]];then
-      name=($f)
-    elif [[ "$f" == -* ]];then
+    if [[ "$f" == -* ]]; then
+      srv=($f)
+    elif [[ "$f" == "$1" ]]; then
       args+=($f)
     else
       files+=($f)
     fi
   done
   [[ -z ${(M)${(Lf)$(vim --serverlist)}#$1} ]] &&
-    vim --servername "$name" "$args" "$files" ||
-    vim --servername "$name" "$args" --remote-silent "$files"
+    vim $flags --servername "$srv" $files ||
+    vim $flags --servername "$srv" --remote-silent $files
 }
 
-function gvr {
-  setopt localoptions localtraps
-  trap '' INT
-  [[ -n "$name" ]] && unset name
-  [[ -n "$args" ]] && unset args
-  [[ -n "$files" ]] && unset files
-  for f in "$@";do
-    if [[ "$f" == "$1" ]];then
-      name=($f)
-    elif [[ "$f" == -* ]];then
-      args+=($f)
-    else
-      files+=($f)
-    fi
-  done
-  [[ -z ${(M)${(Lf)$(vim --serverlist)}#$1} ]] &&
-    gvim --servername "$name" "$args" "$files" ||
-    gvim --servername "$name" "$args" --remote-silent "$files"
-}
 
 # vim: ft=zsh

@@ -168,6 +168,11 @@ focus_follows_mouse no
 
 new_window none
 # assign windows to workspaces
-assign [class="^Firefox$" instance="^Navigator$"] 3
-assign [class="^Skype$"] 9
-assign [class="^Chromium"] 4
+assign [class="(?i)^urxvt$" instance="(?i)^kiwilight$"] 2                    
+assign [class="(?i)^firefox$"] 3
+assign [class="(?i)^chromium"] 4                                              
+assign [class="(?i)^mplayer"] 5
+assign [class="(?i)^urxvt" instance="(?i)^apps$"] 6
+assign [class="(?i)^skype$"] 9
+## commented because i often open this tmux session in other workspaces too
+# assign [class="(?i)^urxvt$" instance="(?i)^shell$"] 1
