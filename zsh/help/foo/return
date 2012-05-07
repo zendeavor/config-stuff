@@ -1,0 +1,7 @@
+return [n]
+       Causes a function to exit with the return value specified by n.  If n is omitted, the return status is that of  the
+       last  command executed in the function body.  If used outside a function, but during execution of a script by the .
+       (source) command, it causes the shell to stop executing that script and return either n or the exit status  of  the
+       last  command executed within the script as the exit status of the script.  If used outside a function and not dur‐
+       ing execution of a script by ., the return status is false.  Any command associated with the RETURN  trap  is  exe‐
+       cuted before execution resumes after the function or script.

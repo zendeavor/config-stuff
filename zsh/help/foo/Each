@@ -1,0 +1,4 @@
+Each redirection that may be preceded by a file descriptor number may instead be preceded by a word of the form {varname}.
+In this case, for each redirection operator except >&- and <&-, the shell will allocate a file descriptor greater than  10
+and  assign  it  to  varname.  If >&- or <&- is preceded by {varname}, the value of varname defines the file descriptor to
+close.

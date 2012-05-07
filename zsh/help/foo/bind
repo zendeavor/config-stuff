@@ -1,0 +1,37 @@
+bind [-m keymap] [-lpsvPSV]
+bind [-m keymap] [-q function] [-u function] [-r keyseq]
+bind [-m keymap] -f filename
+bind [-m keymap] -x keyseq:shell-command
+bind [-m keymap] keyseq:function-name
+bind readline-command
+       Display current readline key and function bindings, bind a key sequence to a readline function or macro, or  set  a
+       readline  variable.  Each non-option argument is a command as it would appear in .inputrc, but each binding or com‐
+       mand must be passed as a separate argument; e.g., '"\C-x\C-r": re-read-init-file'.  Options, if supplied, have  the
+       following meanings:
+       -m keymap
+              Use  keymap  as  the  keymap  to be affected by the subsequent bindings.  Acceptable keymap names are emacs,
+              emacs-standard, emacs-meta, emacs-ctlx, vi, vi-move, vi-command, and vi-insert.  vi is equivalent to vi-com‐
+              mand; emacs is equivalent to emacs-standard.
+       -l     List the names of all readline functions.
+       -p     Display readline function names and bindings in such a way that they can be re-read.
+       -P     List current readline function names and bindings.
+       -s     Display  readline  key  sequences bound to macros and the strings they output in such a way that they can be
+              re-read.
+       -S     Display readline key sequences bound to macros and the strings they output.
+       -v     Display readline variable names and values in such a way that they can be re-read.
+       -V     List current readline variable names and values.
+       -f filename
+              Read key bindings from filename.
+       -q function
+              Query about which keys invoke the named function.
+       -u function
+              Unbind all keys bound to the named function.
+       -r keyseq
+              Remove any current binding for keyseq.
+       -x keyseq:shell-command
+              Cause shell-command to be executed whenever keyseq is entered.  When shell-command is  executed,  the  shell
+              sets  the READLINE LINE variable to the contents of the readline line buffer and the READLINE POINT variable
+              to the current location of the insertion point.  If the executed command changes the value of  READLINE LINE
+              or READLINE POINT, those new values will be reflected in the editing state.
+
+       The return value is 0 unless an unrecognized option is given or an error occurred.

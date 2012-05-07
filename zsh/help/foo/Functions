@@ -1,0 +1,2 @@
+Functions may be recursive.  The FUNCNEST variable may be used to limit the depth of the function call stack and  restrict
+the number of function invocations.  By default, no limit is imposed on the number of recursive calls.

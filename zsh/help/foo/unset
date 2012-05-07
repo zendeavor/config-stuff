@@ -1,0 +1,7 @@
+unset [-fv] [name ...]
+       For each name, remove the corresponding variable or function.  If no options are supplied,  or  the  -v  option  is
+       given,  each name refers to a shell variable.  Read-only variables may not be unset.  If -f is specified, each name
+       refers to a shell function, and the function definition is removed.  Each unset variable  or  function  is  removed
+       from  the  environment passed to subsequent commands.  If any of COMP WORDBREAKS, RANDOM, SECONDS, LINENO, HISTCMD,
+       FUNCNAME, GROUPS, or DIRSTACK are unset, they lose their special properties, even if they are  subsequently  reset.
+       The exit status is true unless a name is readonly.

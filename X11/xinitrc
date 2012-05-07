@@ -4,16 +4,14 @@
 #
 # Executed by startx (run your window manager from here)
 
-# sleep 1 
-unset TMUX
 numlockx &
 xbindkeys
 xrdb -merge ~/.Xresources
 setxkbmap -option caps:super
 setxkbmap -option compose:ralt
 urxvtd -q -o -f
+sleep 3
 urxvtc -name shell -e tmux a -t shell &
-# exec twm
 exec i3 #-d all -V &>i3.dump
 
 # vim: ft=sh

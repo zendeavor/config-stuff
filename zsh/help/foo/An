@@ -1,0 +1,2 @@
+An  event designator is a reference to a command line entry in the history list.  Unless the reference is absolute, events Event Designators
+are relative to the current position in the history list.

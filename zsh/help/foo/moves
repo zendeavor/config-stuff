@@ -1,0 +1,1 @@
+moves the file descriptor digit to file descriptor n, or the standard output (file descriptor 1) if n is not specified.

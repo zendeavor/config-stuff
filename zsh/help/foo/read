@@ -1,0 +1,40 @@
+read [-ers] [-a aname] [-d delim] [-i text] [-n nchars] [-N nchars] [-p prompt] [-t timeout] [-u fd] [name ...]
+       One line is read from the standard input, or from the file descriptor fd supplied as an argument to the -u  option,
+       and  the  first  word  is  assigned to the first name, the second word to the second name, and so on, with leftover
+       words and their intervening separators assigned to the last name.  If there are fewer words  read  from  the  input
+       stream than names, the remaining names are assigned empty values.  The characters in IFS are used to split the line
+       into words.  The backslash character (\) may be used to remove any special meaning for the next character read  and
+       for line continuation.  Options, if supplied, have the following meanings:
+       -a aname
+              The  words  are  assigned  to sequential indices of the array variable aname, starting at 0.  aname is unset
+              before any new values are assigned.  Other name arguments are ignored.
+       -d delim
+              The first character of delim is used to terminate the input line, rather than newline.
+       -e     If the standard input is coming from a terminal, readline (see READLINE above) is used to obtain  the  line.
+              Readline uses the current (or default, if line editing was not previously active) editing settings.
+       -i text
+              If readline is being used to read the line, text is placed into the editing buffer before editing begins.
+       -n nchars
+              read  returns  after reading nchars characters rather than waiting for a complete line of input, but honor a
+              delimiter if fewer than nchars characters are read before the delimiter.
+       -N nchars
+              read returns after reading exactly nchars characters rather than waiting  for  a  complete  line  of  input,
+              unless  EOF is encountered or read times out.  Delimiter characters encountered in the input are not treated
+              specially and do not cause read to return until nchars characters are read.
+       -p prompt
+              Display prompt on standard error, without a trailing newline, before attempting  to  read  any  input.   The
+              prompt is displayed only if input is coming from a terminal.
+       -r     Backslash does not act as an escape character.  The backslash is considered to be part of the line.  In par‐
+              ticular, a backslash-newline pair may not be used as a line continuation.
+       -s     Silent mode.  If input is coming from a terminal, characters are not echoed.
+       -t timeout
+              Cause read to time out and return failure if a complete line of input is not read  within  timeout  seconds.
+              timeout  may be a decimal number with a fractional portion following the decimal point.  This option is only
+              effective if read is reading input from a terminal, pipe, or other special file; it has no effect when read‐
+              ing  from  regular files.  If timeout is 0, read returns success if input is available on the specified file
+              descriptor, failure otherwise.  The exit status is greater than 128 if the timeout is exceeded.
+       -u fd  Read input from file descriptor fd.
+
+       If no names are supplied, the line read is assigned to the variable REPLY.  The return code is zero, unless end-of-
+       file  is  encountered,  read  times  out  (in  which  case the return code is greater than 128), or an invalid file
+       descriptor is supplied as the argument to -u.

@@ -1,0 +1,5 @@
+No parameter expansion, command substitution, arithmetic expansion, or pathname expansion is performed on  word.   If  any
+characters  in  word  are quoted, the delimiter is the result of quote removal on word, and the lines in the here-document
+are not expanded.  If word is unquoted, all lines of the here-document are subjected to parameter expansion, command  sub‐
+stitution, and arithmetic expansion.  In the latter case, the character sequence \<newline> is ignored, and \ must be used
+to quote the characters \, $, and `.

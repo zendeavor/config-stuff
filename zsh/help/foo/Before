@@ -1,0 +1,4 @@
+Before a command is executed, its input and output may be redirected using a special notation interpreted  by  the  shell.
+Redirection may also be used to open and close files for the current shell execution environment.  The following redirect‐
+ion operators may precede or appear anywhere within a simple command or may follow a command.  Redirections are  processed
+in the order they appear, from left to right.

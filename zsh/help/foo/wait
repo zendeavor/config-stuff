@@ -1,0 +1,6 @@
+wait [n ...]
+       Wait  for each specified process and return its termination status.  Each n may be a process ID or a job specifica‐
+       tion; if a job spec is given, all processes in that job's pipeline are waited for.  If n is  not  given,  all  cur‐
+       rently active child processes are waited for, and the return status is zero.  If n specifies a non-existent process
+       or job, the return status is 127.  Otherwise, the return status is the exit status  of  the  last  process  or  job
+       waited for.

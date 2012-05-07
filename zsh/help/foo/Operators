@@ -1,0 +1,2 @@
+Operators are evaluated in order of precedence.  Sub-expressions in parentheses are evaluated first and may  override  the
+precedence rules above.

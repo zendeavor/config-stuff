@@ -1,0 +1,3 @@
+Compound  commands  and  command  sequences  of the form `a ; b ; c' are not handled gracefully when process suspension is
+attempted.  When a process is stopped, the shell immediately executes the next command in the sequence.   It  suffices  to
+place the sequence of commands between parentheses to force it into a subshell, which may be stopped as a unit.

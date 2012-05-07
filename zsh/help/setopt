@@ -1,0 +1,14 @@
+setopt [ {+|-}options | {+|-}o option name ] [ name ... ]
+       Set the options for the shell.  All options specified either with flags or by name are set.
+
+       If no arguments are supplied, the names of all options currently set are printed.  The form is chosen so as to min‐
+       imize the differences from the default options for the current emulation (the default emulation being  native  zsh,
+       shown as <Z> in zshoptions(1)).  Options that are on by default for the emulation are shown with the prefix no only
+       if they are off, while other options are shown without the prefix no and only if  they  are  on.   In  addition  to
+       options  changed from the default state by the user, any options activated automatically by the shell (for example,
+       SHIN STDIN  or  INTERACTIVE)  will  be  shown  in  the  list.   The  format  is  further  modified  by  the  option
+       KSH OPTION PRINT, however the rationale for choosing options with or without the no prefix remains the same in this
+       case.
+
+       If the -m flag is given the arguments are taken as patterns (which should be quoted to protect them  from  filename
+       expansion), and all options with names matching these patterns are set.

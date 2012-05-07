@@ -1,0 +1,4 @@
+To find other matching entries in the history list, type Control-S or Control-R as appropriate.  This will search backward
+or forward in the history for the next entry matching the search string typed so far.  Any other key sequence bound  to  a
+readline  command  will  terminate the search and execute that command.  For instance, a newline will terminate the search
+and accept the line, thereby executing the command from the history list.

@@ -1,0 +1,2 @@
+directs only the standard output to file dirlist, because the standard error  was  duplicated  from  the  standard  output
+before the standard output was redirected to dirlist.

@@ -1,0 +1,2 @@
+string1 > string2
+       True if string1 sorts after string2 lexicographically.

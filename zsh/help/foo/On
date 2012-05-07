@@ -1,0 +1,12 @@
+On  startup,  the history is initialized from the file named by the variable HISTFILE (default ~/.bash history).  The file
+named by the value of HISTFILE is truncated, if necessary, to contain no more than the number of lines  specified  by  the
+value of HISTFILESIZE.  When the history file is read, lines beginning with the history comment character followed immedi‐
+ately by a digit are interpreted as timestamps for the preceding history line.  These timestamps are optionally  displayed
+depending  on  the  value  of  the HISTTIMEFORMAT variable.  When an interactive shell exits, the last $HISTSIZE lines are
+copied from the history list to $HISTFILE.  If the histappend shell option is enabled (see the description of shopt  under
+SHELL  BUILTIN COMMANDS below), the lines are appended to the history file, otherwise the history file is overwritten.  If
+HISTFILE is unset, or if the history file is unwritable, the history is not saved.  If the HISTTIMEFORMAT variable is set,
+time  stamps  are  written to the history file, marked with the history comment character, so they may be preserved across
+shell sessions.  This uses the history comment character to distinguish timestamps from other history lines.  After saving
+the  history,  the  history  file is truncated to contain no more than HISTFILESIZE lines.  If HISTFILESIZE is not set, no
+truncation is performed.

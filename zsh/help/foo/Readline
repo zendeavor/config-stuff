@@ -1,0 +1,2 @@
+Readline remembers the last incremental search string.  If two Control-Rs are typed  without  any  intervening  characters
+defining a new search string, any remembered search string is used.

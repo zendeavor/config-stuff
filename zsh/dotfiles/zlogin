@@ -17,7 +17,7 @@ if [[ -z "$DISPLAY" ]]; then
       fi
       ;;
     /dev/tty[2-4]) 
-      if (tmux has); then
+      if tmux has; then
         exec tmux a
       else:
         tmux start \; \
