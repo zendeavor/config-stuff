@@ -9,6 +9,7 @@ mpd/mpd.pid
 mpd/mpd.log
 mpd/mpdstate
 mpd/mpd.db
+mpd/mpd.pid
 pavucontrol.ini
 pentadactyl/info/zendeavor/command-history
 pentadactyl/info/zendeavor/local-marks
