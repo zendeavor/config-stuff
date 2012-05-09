@@ -1,0 +1,4 @@
+is used similarly to duplicate output file descriptors.  If n is not specified, the standard output (file descriptor 1) is
+used.   If  the digits in word do not specify a file descriptor open for output, a redirection error occurs.  As a special
+case, if n is omitted, and word does not expand to one or more digits, the standard output and standard  error  are  redi‐
+rected as described previously.

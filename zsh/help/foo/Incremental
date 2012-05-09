@@ -1,0 +1,7 @@
+Incremental  searches begin before the user has finished typing the search string.  As each character of the search string
+is typed, readline displays the next entry from the history matching the string  typed  so  far.   An  incremental  search
+requires  only as many characters as needed to find the desired history entry.  The characters present in the value of the
+isearch-terminators variable are used to terminate an incremental search.  If that variable has not been assigned a  value
+the  Escape and Control-J characters will terminate an incremental search.  Control-G will abort an incremental search and
+restore the original line.  When the search is terminated, the history entry containing the search string becomes the cur‐
+rent line.

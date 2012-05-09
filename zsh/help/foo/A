@@ -1,0 +1,1 @@
+A command invoked in this separate environment cannot affect the shell's execution environment.

@@ -1,0 +1,27 @@
+alias ff='find $1 -type f -name'
+alias gcl='git log $(git log -1 --format=%H -- CHANGELOG*)..; cat CHANGELOG*'
+alias gsrm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
+alias ipy2='ipython2'
+alias ipy='ipython'
+alias ls="ls -Fh --color=auto"
+alias matic='sudo pacmatic'
+alias mkpkg="makepkg -si"
+# alias mnthome='sshfs -o sshfs_debug zendeavor.dyndns.org:/media/data/zendeavor ~/mnt/remote/zendeavor'
+alias mntpingas='sshfs -o sshfs_debug pingas.org:/home/zendeavor ~/mnt/remote/pingas'
+alias packer='TMPDIR=~/builds/aur packer'
+alias devup='packer -Syu --noconfirm --noedit --auronly --devel'
+alias pingas="ssh -A pingas.org"
+alias pip2='pip-2.7'
+alias psc='ps xawf -eo pid,user,args'
+alias sprunge='curl -F "sprunge=<-" http://sprunge.us'
+# alias sshome='ssh -A zendeavor.dyndns.org'
+# alias steam="~/bin/steam.sh"
+alias sudo='sudo '
+# alias udm='udiskie-umount'
+alias udb="sudo updatedb"
+alias vi='vim'
+alias gvr='vr -g'
+alias X='extract'
+alias zshrc='$EDITOR ~/.zshrc && source ~/.zshrc'
+
+# vim: ft=zsh

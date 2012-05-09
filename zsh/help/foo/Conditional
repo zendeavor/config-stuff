@@ -1,0 +1,5 @@
+Conditional  expressions  are  used by the [[ compound command and the test and [ builtin commands to test file attributes
+and perform string and arithmetic comparisons.  Expressions are formed from the following unary or binary  primaries.   If
+any  file argument to one of the primaries is of the form /dev/fd/n, then file descriptor n is checked.  If the file argu‐
+ment to one of the primaries is one of /dev/stdin, /dev/stdout, or /dev/stderr, file descriptor 0, 1, or 2,  respectively,
+is checked.

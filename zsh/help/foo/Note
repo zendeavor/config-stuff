@@ -1,0 +1,3 @@
+Note that the order of redirections is significant.  For example, the command
+
+       ls > dirlist 2>&1

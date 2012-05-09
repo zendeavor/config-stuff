@@ -1,0 +1,5 @@
+Constants with a leading 0 are interpreted as octal numbers.  A leading 0x or 0X denotes hexadecimal.  Otherwise,  numbers
+take the form [base#]n, where the optional base is a decimal number between 2 and 64 representing the arithmetic base, and
+n is a number in that base.  If base# is omitted, then base 10 is used.  The digits greater than 9 are represented by  the
+lowercase  letters,  the  uppercase  letters, @, and  , in that order.  If base is less than or equal to 36, lowercase and
+uppercase letters may be used interchangeably to represent numbers between 10 and 35.

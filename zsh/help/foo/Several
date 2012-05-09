@@ -1,0 +1,8 @@
+Several shell options settable with the shopt builtin may be used to tailor the behavior of  history  expansion.   If  the
+histverify  shell  option is enabled (see the description of the shopt builtin below), and readline is being used, history
+substitutions are not immediately passed to the shell parser.  Instead, the expanded line is reloaded  into  the  readline
+editing  buffer for further modification.  If readline is being used, and the histreedit shell option is enabled, a failed
+history substitution will be reloaded into the readline editing buffer for correction.   The  -p  option  to  the  history
+builtin command may be used to see what a history expansion will do before using it.  The -s option to the history builtin
+may be used to add commands to the end of the history list without actually executing them, so that they are available for
+subsequent recall.

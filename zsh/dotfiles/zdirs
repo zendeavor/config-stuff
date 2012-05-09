@@ -1,0 +1,9 @@
+hash -d zfiles="$HOME/.config/zsh/dotfiles"
+hash -d pydev="$HOME/playground/python"
+hash -d aur="$HOME/builds/aur/packerbuild-1001"
+hash -d abs="$HOME/builds/abs"
+hash -d torrents="$HOME/downloads/torrents"
+hash -d vids="$HOME/downloads/torrents/vids"
+hash -d music="$HOME/downloads/torrents/music"
+
+# vim: ft=zsh

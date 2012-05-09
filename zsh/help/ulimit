@@ -1,0 +1,37 @@
+ulimit [ [ -SHacdfilmnpqstvx | -N resource [ limit ] ... ]
+       Set  or  display  resource limits of the shell and the processes started by the shell.  The value of limit can be a
+       number in the unit specified below or one of the values `unlimited', which removes the limit on  the  resource,  or
+       `hard', which uses the current value of the hard limit on the resource.
+
+       By  default,  only soft limits are manipulated. If the -H flag is given use hard limits instead of soft limits.  If
+       the -S flag is given together with the -H flag set both hard and soft limits.
+
+       If no options are used, the file size limit (-f) is assumed.
+
+       If limit is omitted the current value of the specified resources are printed.  When more than one resource value is
+       printed, the limit name and unit is printed before each value.
+
+       When looping over multiple resources, the shell will abort immediately if it detects a badly formed argument.  How‐
+       ever, if it fails to set a limit for some other reason it will continue trying to set the remaining limits.
+
+       -a     Lists all of the current resource limits.
+       -c     512-byte blocks on the size of core dumps.
+       -d     K-bytes on the size of the data segment.
+       -f     512-byte blocks on the size of files written.
+       -i     The number of pending signals.
+       -l     K-bytes on the size of locked-in memory.
+       -m     K-bytes on the size of physical memory.
+       -n     open file descriptors.
+       -q     Bytes in POSIX message queues.
+       -s     K-bytes on the size of the stack.
+       -t     CPU seconds to be used.
+       -u     processes available to the user.
+       -v     K-bytes on the size of virtual memory.  On some systems this refers to the limit called `address space'.
+       -x     The number of locks on files.
+
+       A resource may also be specified by integer in the form `-N resource', where resource corresponds  to  the  integer
+       defined  for  the  resource by the operating system.  This may be used to set the limits for resources known to the
+       shell which do not correspond to option letters.  Such limits will be shown by number in the output of `ulimit -a'.
+
+       The number may alternatively be out of the range of limits compiled into the shell.  The shell will try to read  or
+       write the limit anyway, and will report an error if this fails.

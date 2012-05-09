@@ -1,0 +1,3 @@
+Except where noted, readline variables can take the values On or Off (without  regard  to  case).   Unrecognized  variable
+names  are  ignored.  When a variable value is read, empty or null values, "on" (case-insensitive), and "1" are equivalent
+to On.  All other values are equivalent to Off.  The variables and their default values are:

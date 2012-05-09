@@ -1,0 +1,10 @@
+hash [-lr] [-p filename] [-dt] [name]
+       Each time hash is invoked, the full pathname of the command name is determined  by  searching  the  directories  in
+       $PATH  and  remembered.   Any  previously-remembered  pathname is discarded.  If the -p option is supplied, no path
+       search is performed, and filename is used as the full file name of the command.  The -r option causes the shell  to
+       forget  all  remembered  locations.  The -d option causes the shell to forget the remembered location of each name.
+       If the -t option is supplied, the full pathname to which each name corresponds is printed.  If multiple name  argu‐
+       ments are supplied with -t, the name is printed before the hashed full pathname.  The -l option causes output to be
+       displayed in a format that may be reused as input.  If no arguments are given, or if only -l is supplied,  informa‐
+       tion  about  remembered  commands  is  printed.  The return status is true unless a name is not found or an invalid
+       option is supplied.

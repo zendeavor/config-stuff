@@ -14,7 +14,7 @@ font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec urxvtc
 
 # kill focused window
 bindsym $mod+Shift+Q kill
@@ -148,12 +148,18 @@ bindsym $mod+r mode "resize"
 bar {
     status_command i3status
     mode hide
-    workspace_buttons no
+    modifier Mod4
+    position bottom
+    workspace_buttons yes
     font -*-clean-*-*-*-*-8-*-*-*-*-*-*-*
 
     colors {
         statusline #4A6EFF
         background #000000
+        focused_workspace  #4c7899 #285577 #ffffff
+        active_workspace   #333333 #5f676a #ffffff
+        inactive_workspace #333333 #222222 #888888
+        urgent_workspace   #2f343a #900000 #ffffff
     }
     
 }
@@ -162,6 +168,12 @@ focus_follows_mouse no
 
 new_window none
 # assign windows to workspaces
-assign [class="^Firefox$" instance="^Navigator$"] 3
-assign [class="^Skype$"] 9
+# assign [class="(?i)^urxvt$" instance="(?i)^kiwilight$"] 2                    
+assign [class="(?i)^firefox$"] 3
 assign [class="^Chromium"] 4
+# assign [class="(?i)^chromium"] 4                                              
+assign [class="(?i)^mplayer"] 5
+# assign [class="(?i)^urxvt" instance="(?i)^apps$"] 6
+assign [class="(?i)^skype$"] 9
+## commented because i often open this tmux session in other workspaces too
+# assign [class="(?i)^urxvt$" instance="(?i)^shell$"] 1

@@ -1,0 +1,8 @@
+History expansion is performed immediately after a complete line is read, before the shell breaks it into words.  It takes
+place in two parts.  The first is to determine which line from the history list to use during substitution.  The second is
+to  select portions of that line for inclusion into the current one.  The line selected from the history is the event, and
+the portions of that line that are acted upon are words.  Various modifiers  are  available  to  manipulate  the  selected
+words.   The  line is broken into words in the same fashion as when reading input, so that several metacharacter-separated
+words surrounded by quotes are considered one word.  History expansions are introduced by the appearance  of  the  history
+expansion  character, which is ! by default.  Only backslash (\) and single quotes can quote the history expansion charac‐
+ter.

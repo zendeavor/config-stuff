@@ -1,19 +1,33 @@
-if [[ -z $DISPLAY ]]; then
-  case $(tty) in
+tmuxSHELLS="$HOME/.config/tmux/tmux-initial.conf"
+if [[ -z "$DISPLAY" ]]; then
+  case "$(tty)" in
     /dev/tty1)
-      # exec tmux new-session -d -s xorg startx
-      exec tmux a            
+      if ! tmux has -t xorg; then
+        tmux start \; \
+          new-session -d -s xorg startx
+        tmux has -t shell ||
+          tmux source "$tmuxSHELLS"
+        logout
+      elif tmux has -t shell; then
+        exec tmux a -t shell         
+      else:
+        tmux start \; \
+          source "$tmuxSHELLS"
+        exec tmux a -t shell
+      fi
       ;;
-    # *) 
-      #  exec fbpad
-      # ;;
+    /dev/tty[2-4]) 
+      if tmux has; then
+        exec tmux a
+      else:
+        tmux start \; \
+          source "$tmuxSHELLS"
+        exec tmux a -t shell
+      fi
+      ;;
+    /dev/tty[56])
+      echo "tmux broke huh"
+      ;;
   esac
-  # if [[ $(tty) = /dev/tty1 ]]; then
-    # exec startx                
-  # elif [[ $(tty) != /dev/tty1 ]]; then
-  #   while true; do
-  #     fbpad >/dev/null 2>&1
-  #   done
-  # fi
 fi
 

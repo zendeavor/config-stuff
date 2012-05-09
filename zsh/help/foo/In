@@ -1,0 +1,11 @@
+In addition to the GNU Emacs style escape sequences, a second set of backslash escapes is available:
+       \a     alert (bell)
+       \b     backspace
+       \d     delete
+       \f     form feed
+       \n     newline
+       \r     carriage return
+       \t     horizontal tab
+       \v     vertical tab
+       \nnn   the eight-bit character whose value is the octal value nnn (one to three digits)
+       \xHH   the eight-bit character whose value is the hexadecimal value HH (one or two hex digits)

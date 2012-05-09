@@ -1,0 +1,4 @@
+Command substitution, commands grouped with parentheses, and asynchronous commands are invoked in a  subshell  environment
+that is a duplicate of the shell environment, except that traps caught by the shell are reset to the values that the shell
+inherited from its parent at invocation.  Builtin commands that are invoked as part of a pipeline are also executed  in  a
+subshell environment.  Changes made to the subshell environment cannot affect the shell's execution environment.

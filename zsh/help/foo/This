@@ -1,0 +1,5 @@
+This  is the library that handles reading input when using an interactive shell, unless the --noediting option is given at
+shell invocation.  Line editing is also used when using the -e option to the read builtin.  By default, the  line  editing
+commands are similar to those of Emacs.  A vi-style line editing interface is also available.  Line editing can be enabled
+at any time using the -o emacs or -o vi options to the set builtin (see SHELL BUILTIN COMMANDS below).  To turn  off  line
+editing after the shell is running, use the +o emacs or +o vi options to the set builtin.

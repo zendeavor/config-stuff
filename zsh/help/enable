@@ -1,0 +1,8 @@
+enable [ -afmrs ] name ...
+       Enable  the  named hash table elements, presumably disabled earlier with disable.  The default is to enable builtin
+       commands.  The -a option causes enable to act on regular or global aliases.  The -s option causes enable to act  on
+       suffix  aliases.   The  -f  option  causes enable to act on shell functions.  The -r option causes enable to act on
+       reserved words.  Without arguments all enabled hash table elements from the corresponding hash table  are  printed.
+       With the -m flag the arguments are taken as patterns (should be quoted) and all hash table elements from the corre‐
+       sponding hash table matching these patterns are enabled.  Enabled objects can be disabled with the disable  builtin
+       command.

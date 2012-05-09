@@ -17,8 +17,8 @@ URxvt.scrollBar:false
 URxvt.saveLines:5000
 URxvt.cursorColor:#83C048
 URxvu.highlightColor:#444444
-URxvt.font: -erus-erusfont-*-*-*-*-11-*-*-*-*-*-*-*
-URxvt.boldFont: -erus-erusfont-*-*-*-*-11-*-*-*-*-*-*-*
+URxvt.font: -*-terminusmodx-medium-*-*-*-12-*-*-*-*
+URxvt.boldFont: -*-terminusmod-bold-*-*-*-12-*-*-*-*-*-*-*
 URxvt.internalborder: 0
 URxvt.underlinecolor: #999999
 URxvt.cutchars: "()*,<>[]{}|'"
@@ -53,8 +53,8 @@ URxvt.foreground:#eeeeee
 !#include "/home/zendeavor/.config/X11/xcolors/rezza"
 !#include "/home/zendeavor/.config/X11/xcolors/rydgel"
 !#include "/home/zendeavor/.config/X11/xcolors/shiva"
-#include "/home/zendeavor/.config/X11/xcolors/tango"
-!#include "/home/zendeavor/.config/X11/xcolors/zenburn"
+!#include "/home/zendeavor/.config/X11/xcolors/tango"
+#include "/home/zendeavor/.config/X11/xcolors/zenburn"
 
 ! -- [ XScreenSaver ] ------------------------------
 xscreensaver.Dialog.headingFont: -*-droid sans-bold-r-*-*-14-*-*-*-*-*-*-*

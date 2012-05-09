@@ -1,0 +1,2 @@
+Subshells  spawned to execute command substitutions inherit the value of the -e option from the parent shell.  When not in
+posix mode, bash clears the -e option in such subshells.

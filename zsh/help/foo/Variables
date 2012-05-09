@@ -1,0 +1,2 @@
+Variables local to the function may be declared with the local builtin command.  Ordinarily, variables  and  their  values
+are shared between the function and its caller.

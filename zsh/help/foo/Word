@@ -1,0 +1,4 @@
+Word  designators  are  used  to select desired words from the event.  A : separates the event specification from the word Word Designators
+designator.  It may be omitted if the word designator begins with a ^, $, *, -, or %.  Words are numbered from the  begin‐
+ning  of  the  line, with the first word being denoted by 0 (zero).  Words are inserted into the current line separated by
+single spaces.

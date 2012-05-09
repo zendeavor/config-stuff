@@ -1,91 +1,217 @@
-export ZSH=$HOME/.oh-my-zsh
+#
+# Sets Oh My Zsh options.
+#
+# Authors:
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#
 
-export ZSH_THEME="zendeavor"
+# Set the path to Oh My Zsh.
+export OMZ="$HOME/.oh-my-zsh"
 
-plugins=(git github git-flow zsh-syntax-highlighting zsh-history-substring-search extract archlinux)
+# Set the key mapping style to 'emacs' or 'vi'.
+zstyle ':omz:module:editor' keymap 'emacs'
 
-source $ZSH/oh-my-zsh.sh
+# Auto convert .... to ../..
+zstyle ':omz:module:editor' dot-expansion 'yes'
 
-export DISABLE_AUTO_TITLE="true"
-###############################
+# Set case-sensitivity for completion, history lookup, etc.
+zstyle ':omz:*:*' case-sensitive 'no'
 
-autoload -Uz compinit edit-command-line zmv promptinit
-compinit
-promptinit
-zmodload -i zsh/complist
-zle -N edit-command-line
+# Color output (auto set to 'no' on dumb terminals).
+zstyle ':omz:*:*' color 'yes'
 
-HISTFILE=~/.zhistory
-HISTSIZE=1000
-SAVEHIST=10000
-setopt appendhistory
-setopt hist_ignore_dups
-setopt share_history
-setopt hist_verify
-setopt inc_append_history
+# Auto set the tab and window titles.
+zstyle ':omz:module:terminal' auto-title 'yes'
+
+# Set the Zsh modules to load (man zshmodules).
+zstyle ':omz:load' zmodule 'attr' 'stat' 'terminfo' 'zpty' \
+  'system' 'zprof' 'zutil'
+
+# Set the Zsh functions to load (man zshcontrib).
+zstyle ':omz:load' zfunction 'zargs' 'zmv' 'run-help' 'zrecompile'
+
+# Set the Oh My Zsh modules to load (browse modules).
+zstyle ':omz:load' omodule 'environment' 'terminal' 'editor' 'completion' \
+  'history' 'directory' 'spectrum' 'git' 'python' 'rsync' 'z' 'archive' \
+  'history-substring-search' 'syntax-highlighting' 'alias' 'utility' 'prompt' 
+
+# Set the prompt theme to load.
+# Setting it to 'random' loads a random theme.
+# Auto set to 'off' on dumb terminals.
+zstyle ':omz:module:prompt' theme 'zendeavor'
+
+# This will make you shout: OH MY ZSHELL!
+source "$OMZ/init.zsh"
+
+# Customize to your needs...
+# source in my zsh functions file
+source "$HOME/.config/zsh/dotfiles/zfuncs"
+# source in aliases
+source "$HOME/.config/zsh/dotfiles/zalias"
+# source in named dirs
+source "$HOME/.config/zsh/dotfiles/zdirs"
+
+# some clever dir stack stuff, supersedes pushd/popd
+autoload -Uz chpwd_recent_dirs cdr add-zsh-hook
+add-zsh-hook chpwd chpwd_recent_dirs
+add-zsh-hook -Uz zsh_directory_name zsh_directory_name_cdr
+zstyle ':completion:*:*:cdr:*:*' menu selection
+zstyle ':chpwd:*' recent-dirs-max 0 
+zstyle ':chpwd:*' recent-dirs-insert fallback
+zstyle ':chpwd:*' recent-dirs-file \
+  ~/.config/zsh/dotfiles/dirs-${TTY##*/} +
+zstyle ':chpwd:*' recent-dirs-prune 'pattern:/tmp(|/*)'
+
+## stop renaming windows
+export DISABLE_AUTO_TITLES="true"
+
+## history manipulation
+HISTFILE="$HOME/.zhistory"
+HISTSIZE=1500
+SAVEHIST=1000
+## case-insensitive, underscores are purely cosmetic
+## history options
+setopt append_history
+setopt bang_hist
 setopt extended_history
+setopt no_hist_allow_clobber
+setopt no_hist_beep
 setopt hist_expire_dups_first
+setopt hist_fcntl_lock
+setopt hist_find_no_dups
+setopt no_hist_ignore_dups
 setopt hist_ignore_space
-setopt autocd
-setopt extendedglob
-setopt notify
-setopt auto_menu
-setopt complete_in_word
-setopt auto_name_dirs
-setopt auto_pushd
+setopt hist_lex_words
+setopt no_hist_no_functions
+setopt hist_no_store
+setopt hist_reduce_blanks
+setopt hist_save_by_copy
+setopt hist_save_no_dups
+setopt no_hist_verify
+setopt no_inc_append_history
+setopt share_history          
+# changing dirs
+setopt auto_cd
+setopt no_auto_pushd
+setopt cdable_vars
+# setopt chase_dots # chase_links implies this
+setopt chase_links
+setopt no_posix_cd
 setopt pushd_ignore_dups
-setopt completealiases
-unsetopt beep
- 
-stty stop undef
+setopt no_pushd_minus
+setopt pushd_silent
+setopt pushd_to_home
 
+# completion shell options
+setopt always_last_prompt
+setopt always_to_end
+setopt auto_list
+setopt auto_menu
+setopt auto_name_dirs
+setopt auto_param_keys
+setopt auto_param_slash
+setopt auto_remove_slash
+setopt no_bash_auto_list
+setopt complete_aliases
+setopt complete_in_word
+setopt glob_complete
+setopt hash_list_all
+setopt list_ambiguous
+setopt no_list_beep
+setopt list_packed
+setopt no_list_rows_first
+setopt list_types
+setopt menu_complete
+setopt rec_exact
+
+# expansion and globbing
+setopt bad_pattern
+setopt bare_glob_qual
+setopt brace_ccl
+setopt no_case_glob
+setopt case_match
+setopt no_csh_null_glob
+setopt extended_glob
+setopt glob
+setopt no_glob_assign
+setopt glob_dots
+setopt no_glob_subst
+setopt hist_subst_pattern
+setopt no_ignore_braces
+setopt no_ignore_close_braces
+setopt no_ksh_glob
+setopt no_magic_equal_subst
+setopt mark_dirs
+setopt multibyte
+# setopt no_match #overridden by null_glob
+setopt null_glob
+setopt rc_expand_param
+setopt no_rematch_pcre
+setopt no_sh_glob
+setopt unset
+setopt no_warn_create_global
+
+## initialization options
+setopt no_all_export
+setopt no_global_export
+setopt no_global_rcs
+setopt rcs
+
+## input/output options
+setopt aliases
+setopt clobber
+setopt no_correct_all
+setopt flow_control
+setopt no_ignore_eof
+setopt interactive_comments
+setopt hash_cmds
+# setopt hash_dirs # no effect due to hash_cmds
+setopt hash_executables_only
+setopt no_mail_warning
+setopt path_dirs
+setopt no_path_script
+setopt no_print_eight_bit
+setopt no_print_exit_value
+setopt rc_quotes
+setopt rm_star_silent
+setopt no_rm_star_wait
+setopt short_loops
+setopt no_sun_keyboard_hack
+
+## job control
+setopt auto_continue
+setopt auto_resume
+setopt bg_nice
+setopt no_check_jobs
+setopt no_hup
+setopt long_list_jobs
+setopt monitor
+setopt notify
+setopt posix_jobs
+
+## prompting 
+## these should probably only be set in prompt themes
+# setopt prompt_bang
+# setopt prompt_cr
+# setopt prompt_sp
+# setopt prompt_percent
+# setopt prompt_subst
+setopt no_transient_rprompt
+
+###############################
+## handy completion stuff
 zstyle ':compinstall::' filename '/home/zendeavor/.zshrc'
-zstyle ':completion:*' auto-description 'specify: %d'
-zstyle ':completion:*' completer _list _oldlist _expand _complete _ignored _match _approximate _prefix
 zstyle ':completion:*' completions 1
-zstyle ':completion:*' expand prefix suffix
-zstyle ':completion:*' glob 1
-zstyle ':completion:*' group-name ''
 zstyle ':completion:*' ignore-parents parent pwd .. directory
-zstyle ':completion:*' insert-unambiguous true
-zstyle ':completion:*' list-prompt %SAt %p: Hit TAB for more, or the character to insert%s
-zstyle ':completion:*' list-suffixes true
-zstyle ':completion:*' matcher-list '' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} r:|[._-]=** r:|=**' 'l:|=* r:|=*'
-zstyle ':completion:*' max-errors 2 numeric
-zstyle ':completion:*' menu select=9
-zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
-zstyle ':completion:*' original true
 zstyle ':completion:*' preserve-prefix '//[^/]##/'
 zstyle ':completion:*' prompt '%e\'
 zstyle ':completion:*' select-prompt %SScrolling active: current selection at %p%s
 zstyle ':completion:*' substitute 1
 zstyle ':completion:*' use-compctl true
-zstyle ':completion:*' verbose true
 zstyle ':completion:*' word true
-zstyle ':completion:*' squeeze-slashes true
-
 
 ###############################
-## More completion options
-# tab completion for PID :D
-zstyle ':completion:*:*:kill:*' menu yes select
-zstyle ':completion:*:kill:*' force-list always
-zstyle ':completion:*:processes' command 'ps -e'
-zstyle ':completion:*:processes-names' command 'ps -eo comm'
-# Use caching so that commands like pacman(?) complete are useable
-zstyle ':completion::complete:*' use-cache 1
-zstyle ':completion::complete:*' cache-path ~/.oh-my-zsh/cache/
-# Don't complete uninteresting users
-zstyle ':completion:*:*:*:users' ignored-patterns \
-        adm amanda apache avahi beaglidx bin cacti canna clamav daemon \
-        dbus distcache dovecot fax ftp games gdm gkrellmd gopher \
-        hacluster haldaemon halt hsqldb ident junkbust ldap lp mail \
-        mailman mailnull mldonkey mysql nagios \
-        named netdump news nfsnobody nobody nscd ntp nut nx openvpn \
-        operator pcap postfix postgres privoxy pulse pvm quagga radvd \
-        rpc rpcuser rpm shutdown squid sshd sync uucp vcsa xfs
-
-###############################
+## make funny keys work right
 autoload zkbd
 function zkbd_file() {
     [[ -f ~/.zkbd/${TERM}-${VENDOR}-${OSTYPE} ]] && printf '%s' ~/".zkbd/${TERM}-${VENDOR}-${OSTYPE}" && return 0
@@ -117,91 +243,3 @@ source ~/.zkbd/$TERM-${DISPLAY:-$VENDOR-$OSTYPE}
 [[ -n "${key[Down]}"    ]]  && bindkey  "${key[Down]}"    down-line-or-history
 [[ -n "${key[Left]}"    ]]  && bindkey  "${key[Left]}"    backward-char
 [[ -n "${key[Right]}"   ]]  && bindkey  "${key[Right]}"   forward-char
-###############################
-## Shell aliases
-# git
-alias gsrm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
-alias gcl='git log `git log -1 --format=%H -- CHANGELOG*`..; cat CHANGELOG*'
-# ssh
-alias digimm='ssh dig.digitalimmersion.info'
-alias pingas="ssh pingas.org"
-alias mntpingas='sshfs -o sshfs_debug pingas.org:/home/zendeavor ~/mnt/remote/pingas'
-alias sshome='ssh zendeavor.dyndns.org'
-alias mnthome='sshfs -o sshfs_debug zendeavor.dyndns.org:/media/data/zendeavor ~/mnt/remote/zendeavor'
-# python interps
-alias ipy='ipython'
-alias ipy2='ipython2'
-alias bpy='bpython'
-alias bpy2='bpython2'
-alias pip2='pip-2.7'
-# convenience
-alias psc='ps xawf -eo pid,user,args'
-alias blkid='blkid -c /dev/null'
-alias ff='find -type f -name '
-alias udm='udiskie-umount'
-alias updatedb="sudo updatedb"
-alias mkpkg="makepkg -si"
-alias sudo='sudo '
-alias matic='sudo pacmatic'
-alias sprunge='curl -F "sprunge=<-" http://sprunge.us'
-alias steam="~/bin/steam.sh"
-alias X='extract'
-alias vr='vim --remote-silent'
-alias gvr='gvim --remote-silent'
-alias vi='vim'
-alias zshrc='$EDITOR ~/.zshrc && source ~/.zshrc'
-alias packer='TMPDIR=~/builds/aur packer'
-# ls
-alias ls="ls -Fh --color=auto"
-alias lh='ls -s'
-alias lda='ls -d .*'
-alias la='nocorrect ls -A'
-# cd
-alias ..='cd ..'
-alias cd..='cd ..'
-alias 1='cd -'
-alias 2='cd +2'
-alias 3='cd +3'
-alias 4='cd +4'
-alias 5='cd +5'
-###############################
-##############################
-## Shell functions
-function zsh_stats() {
-  history | awk '{print $2}' | sort | uniq -c | sort -rn | head
-}
-
-function uninstall_oh_my_zsh {
-  /bin/sh $ZSH/tools/uninstall.sh
-}
-
-function upgrade_oh_my_zsh {
-  /bin/sh $ZSH/tools/upgrade.sh
-}
-
-function pacman {
-  case $1 in
-    -S | -S[^sih]* | -R* | -U*)
-            /usr/bin/sudo /usr/bin/pacman-color "$@" ;;
-    *)      /usr/bin/pacman-color "$@" ;;
-  esac
-}
-alias p='pacman'
-
-function vman {
-  /usr/bin/whatis "$@" >/dev/null
-
-  if [ $? -eq 0 ]; then
-  vim -c "Man $*" -c 'silent! only' -c 'nmap q :q<CR>'
-  else
-  man "$@"
-  fi
-}
-
-function secure_chromium {
-  local PORT=4711; export PORT
-  local SOCKS_SERVER=localhost:$PORT; export SOCKS_SERVER
-  local SOCKS_VERSION=5; export SOCKS_VERSION
-  chromium-dev &
-  exit
-}

@@ -1,0 +1,10 @@
+readonly [-aAf] [-p] [name[=word] ...]
+       The given names are marked readonly; the values of these names may not be changed by subsequent assignment.  If the
+       -f  option  is supplied, the functions corresponding to the names are so marked.  The -a option restricts the vari‐
+       ables to indexed arrays; the -A option restricts the variables to associative arrays.  If  both  options  are  sup‐
+       plied,  -A  takes precedence.  If no name arguments are given, or if the -p option is supplied, a list of all read‐
+       only names is printed.  The other options may be used to restrict the output to a subset of  the  set  of  readonly
+       names.  The -p option causes output to be displayed in a format that may be reused as input.  If a variable name is
+       followed by =word, the value of the variable is set to word.  The return status is 0 unless an  invalid  option  is
+       encountered, one of the names is not a valid shell variable name, or -f is supplied with a name that is not a func‐
+       tion.
