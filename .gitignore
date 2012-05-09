@@ -5,6 +5,11 @@ chromium*/
 menus/
 mpd/mpd.log
 mpd/mpdstate
+mpd/sticker.sql
+mpd/mpd.db
+mpd/mpd.log
+mpd/mpd.pid
+mpd/mpdstate
 pavucontrol.ini
 pentadactyl/info/zendeavor/command-history
 pentadactyl/info/zendeavor/local-marks
