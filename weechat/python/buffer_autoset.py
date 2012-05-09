@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright (c) 2010 by Sebastien Helleu <flashcode@flashtux.org>
+# Copyright (C) 2010-2012 Sebastien Helleu <flashcode@flashtux.org>
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -22,6 +22,10 @@
 #
 # History:
 #
+# 2012-03-09, Sebastien Helleu <flashcode@flashtux.org>:
+#     version 0.5: fix reload of config file
+# 2012-01-03, Sebastien Helleu <flashcode@flashtux.org>:
+#     version 0.4: make script compatible with Python 3.x
 # 2010-12-02, Sebastien Helleu <flashcode@flashtux.org>:
 #     version 0.3: "no_highlight_nicks" replaced by "hotlist_max_level_nicks"
 # 2010-10-11, Sebastien Helleu <flashcode@flashtux.org>:
@@ -33,7 +37,7 @@
 
 SCRIPT_NAME    = "buffer_autoset"
 SCRIPT_AUTHOR  = "Sebastien Helleu <flashcode@flashtux.org>"
-SCRIPT_VERSION = "0.3"
+SCRIPT_VERSION = "0.5"
 SCRIPT_LICENSE = "GPL3"
 SCRIPT_DESC    = "Auto-set buffer properties when a buffer is opened"
 
@@ -44,8 +48,8 @@ import_ok = True
 try:
     import weechat
 except ImportError:
-    print "This script must be run under WeeChat."
-    print "Get WeeChat now at: http://www.weechat.org/"
+    print("This script must be run under WeeChat.")
+    print("Get WeeChat now at: http://www.weechat.org/")
     import_ok = False
 
 CONFIG_FILE_NAME = "buffer_autoset"
@@ -65,7 +69,7 @@ def bas_config_init():
                                          "bas_config_reload_cb", "")
     if bas_config_file == "":
         return
-    
+
     # section "buffer"
     section_buffer = weechat.config_new_section(
         bas_config_file, "buffer", 1, 1, "", "", "", "", "", "",
@@ -88,7 +92,7 @@ def bas_config_buffer_create_option_cb(data, config_file, section, option_name, 
 
 def bas_config_reload_cb(data, config_file):
     """ Reload configuration file. """
-    return weechat.config_read(config_file)
+    return weechat.config_reload(config_file)
 
 def bas_config_read():
     """ Read configuration file. """

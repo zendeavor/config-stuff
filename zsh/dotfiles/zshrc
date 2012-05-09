@@ -243,3 +243,94 @@ source ~/.zkbd/$TERM-${DISPLAY:-$VENDOR-$OSTYPE}
 [[ -n "${key[Down]}"    ]]  && bindkey  "${key[Down]}"    down-line-or-history
 [[ -n "${key[Left]}"    ]]  && bindkey  "${key[Left]}"    backward-char
 [[ -n "${key[Right]}"   ]]  && bindkey  "${key[Right]}"   forward-char
+<<<<<<< HEAD
+=======
+###############################
+## Shell aliases
+# git
+alias gsrm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
+alias gcl='git log `git log -1 --format=%H -- CHANGELOG*`..; cat CHANGELOG*'
+# ssh
+alias digimm='ssh dig.digitalimmersion.info'
+alias pingas="ssh pingas.org"
+alias mntpingas='sshfs -o sshfs_debug pingas.org:/home/zendeavor ~/mnt/remote/pingas'
+alias sshome='ssh zendeavor.dyndns.org'
+alias mnthome='sshfs -o sshfs_debug zendeavor.dyndns.org:/media/data/zendeavor ~/mnt/remote/zendeavor'
+# python interps
+alias ipy='ipython'
+alias ipy2='ipython2'
+alias bpy='bpython'
+alias bpy2='bpython2'
+alias pip2='pip-2.7'
+# convenience
+alias psc='ps xawf -eo pid,user,args'
+alias blkid='blkid -c /dev/null'
+alias ff='find -type f -name '
+alias udm='udiskie-umount'
+alias updatedb="sudo updatedb"
+alias mkpkg="makepkg -si"
+alias sudo='sudo '
+alias matic='sudo pacmatic'
+alias sprunge='curl -F "sprunge=<-" http://sprunge.us'
+alias steam="~/bin/steam.sh"
+alias X='extract'
+alias vr='vim --remote-silent'
+alias gvr='gvim --remote-silent'
+alias vi='vim'
+alias zshrc='$EDITOR ~/.zshrc && source ~/.zshrc'
+alias packer='TMPDIR=~/builds/aur packer'
+# ls
+alias ls="ls -Fh --color=auto"
+alias lh='ls -s'
+alias lda='ls -d .*'
+alias la='nocorrect ls -A'
+# cd
+alias ..='cd ..'
+alias cd..='cd ..'
+alias 1='cd -'
+alias 2='cd +2'
+alias 3='cd +3'
+alias 4='cd +4'
+alias 5='cd +5'
+###############################
+##############################
+## Shell functions
+function zsh_stats() {
+  history | awk '{print $2}' | sort | uniq -c | sort -rn | head
+}
+
+function uninstall_oh_my_zsh {
+  /bin/sh $ZSH/tools/uninstall.sh
+}
+
+function upgrade_oh_my_zsh {
+  /bin/sh $ZSH/tools/upgrade.sh
+}
+
+#function pacman {
+#  case $1 in
+#    -S | -S[^sih]* | -R* | -U*)
+#            /usr/bin/sudo /usr/bin/pacman-color "$@" ;;
+#    *)      /usr/bin/pacman-color "$@" ;;
+#  esac
+#}
+alias p='pacman'
+
+function vman {
+  /usr/bin/whatis "$@" >/dev/null
+
+  if [ $? -eq 0 ]; then
+  vim -c "Man $*" -c 'silent! only' -c 'nmap q :q<CR>'
+  else
+  man "$@"
+  fi
+}
+
+function secure_chromium {
+  local PORT=4711; export PORT
+  local SOCKS_SERVER=localhost:$PORT; export SOCKS_SERVER
+  local SOCKS_VERSION=5; export SOCKS_VERSION
+  chromium-dev &
+  exit
+}
+>>>>>>> ebc7e2dcee351e84a6bb5da38c96b5a5c6823daa
