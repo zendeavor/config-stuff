@@ -1,0 +1,9 @@
+disable [ -afmrs ] name ...
+       Temporarily disable the named hash table elements.  The default is to disable builtin commands.  This allows you to
+       use an external command with the same name as a builtin command.  The -a option causes disable to act on regular or
+       global aliases.  The -s option causes disable to act on suffix aliases.  The -f option causes  disable  to  act  on
+       shell  functions.  The -r options causes disable to act on reserved words.  Without arguments all disabled hash ta‐
+       ble elements from the corresponding hash table are printed.  With the -m flag the arguments are taken  as  patterns
+       (which  should  be quoted to prevent them from undergoing filename expansion), and all hash table elements from the
+       corresponding hash table matching these patterns are disabled.  Disabled objects can be  enabled  with  the  enable
+       command.

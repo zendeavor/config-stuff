@@ -1,0 +1,2 @@
+Any  function specified with -F is invoked first.  The function may use any of the shell facilities, including the compgen
+builtin described below, to generate the matches.  It must put the possible completions in the COMPREPLY array variable.

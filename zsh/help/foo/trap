@@ -1,0 +1,26 @@
+trap [-lp] [[arg] sigspec ...]
+       The command arg is to be read and executed when the shell receives signal(s) sigspec.  If arg is absent (and  there
+       is  a  single  sigspec)  or  -,  each  specified signal is reset to its original disposition (the value it had upon
+       entrance to the shell).  If arg is the null string the signal specified by each sigspec is ignored by the shell and
+       by the commands it invokes.  If arg is not present and -p has been supplied, then the trap commands associated with
+       each sigspec are displayed.  If no arguments are supplied or if only -p is given, trap prints the list of  commands
+       associated  with each signal.  The -l option causes the shell to print a list of signal names and their correspond‐
+       ing numbers.  Each sigspec is either a signal name defined in <signal.h>, or a signal  number.   Signal  names  are
+       case insensitive and the SIG prefix is optional.
+
+       If  a  sigspec  is EXIT (0) the command arg is executed on exit from the shell.  If a sigspec is DEBUG, the command
+       arg is executed before every simple command, for command, case command, select command, every arithmetic  for  com‐
+       mand,  and  before the first command executes in a shell function (see SHELL GRAMMAR above).  Refer to the descrip‐
+       tion of the extdebug option to the shopt builtin for details of its effect on the DEBUG  trap.   If  a  sigspec  is
+       RETURN,  the  command arg is executed each time a shell function or a script executed with the . or source builtins
+       finishes executing.
+
+       If a sigspec is ERR, the command arg is executed whenever a simple command has a non-zero exit status,  subject  to
+       the  following  conditions.  The ERR trap is not executed if the failed command is part of the command list immedi‐
+       ately following a while or until keyword, part of the test in an if statement, part of a command executed in  a  &&
+       or  || list, or if the command's return value is being inverted via !.  These are the same conditions obeyed by the
+       errexit option.
+
+       Signals ignored upon entry to the shell cannot be trapped or reset.  Trapped signals that are not being ignored are
+       reset  to  their  original  values in a subshell or subshell environment when one is created.  The return status is
+       false if any sigspec is invalid; otherwise trap returns true.

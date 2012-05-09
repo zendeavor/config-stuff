@@ -1,0 +1,5 @@
+All other aspects of the shell execution environment are identical between a function and its  caller  with  these  excep‐
+tions:   the  DEBUG  and RETURN traps (see the description of the trap builtin under SHELL BUILTIN COMMANDS below) are not
+inherited unless the function has been given the trace attribute (see the description of the declare builtin below) or the
+-o  functrace shell option has been enabled with the set builtin (in which case all functions inherit the DEBUG and RETURN
+traps), and the ERR trap is not inherited unless the -o errtrace shell option has been enabled.

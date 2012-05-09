@@ -1,0 +1,3 @@
+Once  you  have determined that a bug actually exists, use the bashbug command to submit a bug report.  If you have a fix,
+you are encouraged to mail that as well!  Suggestions and `philosophical' bug reports may be mailed to bug-bash@gnu.org or
+posted to the Usenet newsgroup gnu.bash.bug.

@@ -1,0 +1,19 @@
+Unless otherwise noted, each builtin command documented in this section as accepting options preceded by - accepts  --  to
+signify  the  end  of  the  options.  The :, true, false, and test builtins do not accept options and do not treat -- spe‐
+cially.  The exit, logout, break, continue, let, and shift builtins accept and process arguments beginning with -  without
+requiring  --.  Other builtins that accept arguments but are not specified as accepting options interpret arguments begin‐
+ning with - as invalid options and require -- to prevent this interpretation.
+: [arguments]
+       No effect; the command does nothing beyond expanding arguments and performing any specified redirections.   A  zero
+       exit code is returned.
+
+ .  filename [arguments]
+source filename [arguments]
+       Read  and  execute  commands  from filename in the current shell environment and return the exit status of the last
+       command executed from filename.  If filename does not contain a slash, file names in PATH  are  used  to  find  the
+       directory  containing  filename.   The file searched for in PATH need not be executable.  When bash is not in posix
+       mode, the current directory is searched if no file is found in PATH.  If the sourcepath option to the shopt builtin
+       command is turned off, the PATH is not searched.  If any arguments are supplied, they become the positional parame‐
+       ters when filename is executed.  Otherwise the positional parameters are unchanged.  The return status is the  sta‐
+       tus  of  the  last  command  exited within the script (0 if no commands are executed), and false if filename is not
+       found or cannot be read.

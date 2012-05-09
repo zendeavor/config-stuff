@@ -1,0 +1,3 @@
+Of the two forms, the first is preferred.  This is semantically equivalent to
+
+       >word 2>&1

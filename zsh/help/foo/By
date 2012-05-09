@@ -1,0 +1,6 @@
+By  default,  if a compspec is found, whatever it generates is returned to the completion code as the full set of possible
+completions.  The default bash completions are not attempted, and the readline default of filename completion is disabled.
+If  the  -o  bashdefault  option  was supplied to complete when the compspec was defined, the bash default completions are
+attempted if the compspec generates no matches.  If the -o default option was supplied to complete when the  compspec  was
+defined, readline's default completion will be performed if the compspec (and, if attempted, the default bash completions)
+generate no matches.

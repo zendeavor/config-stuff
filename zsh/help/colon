@@ -1,0 +1,3 @@
+: [ arg ... ]
+       This command does nothing, although normal argument expansions is performed which may have effects on shell parame‐
+       ters.  A zero exit status is returned.

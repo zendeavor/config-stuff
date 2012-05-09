@@ -1,0 +1,60 @@
+## generic functions for zshell
+
+function pac {
+case "$1" in
+  -S | -S[^sih]* | -R* | -U*)
+    sudo pacman-color "$@" ;;
+  *)      pacman-color "$@" ;;
+esac
+}
+
+# function secure_chromium {
+#   local PORT=4711; export PORT
+#   local SOCKS_SERVER=localhost:$PORT; export SOCKS_SERVER
+#   local SOCKS_VERSION=5; export SOCKS_VERSION
+#   chromium &
+# }
+
+function lman {
+## this is a function because i need to fill it out more
+## let's test for $1 and $2 and read from stdin if they aren't provided
+## why? because.
+man -P "less -p \"$1\"" "${@:2}"
+}
+
+
+function vr {
+  ## to trap SIGINT, so there is no funny behavior
+  # it's dumb, but people have a bad habit of hitting ^c
+  # a poorly timed ^c will result in stupidity
+  # hitting ^c at all is also a stupid idea, so i'm catching it
+  setopt localoptions localtraps
+  trap '' INT
+  ## unset any of these, just in case a var was set globally by
+  # another script or something that was stupid with vars
+  [[ -n "$srv" ]] && unset srv
+  [[ -n "$flags" ]] && unset flags
+  [[ -n "$files" ]] && unset files
+  ## fill out an array with all the args provided
+  # this way each var is assigned to space delimited commandline args
+  # case "$@" in 
+  #   -g)
+  for f in "$@";do
+    if [[ "$1" == -g ]]; then
+      flags+=($f)
+      shift
+    elif [[ "$f" == "$1" ]]; then
+      srv=($f)
+    elif [[ "$f" == -* ]]; then
+      flags+=($f)
+    else
+      files+=($f)
+    fi
+  done
+  [[ -z ${(M)${(Lf)$(vim --serverlist)}#$1} ]] &&
+    vim $flags --servername "$srv" $files ||
+    vim $flags --servername "$srv" --remote-silent $files
+}
+
+
+# vim: ft=zsh

@@ -1,0 +1,3 @@
+indicating  that this job is job number 1 and that the process ID of the last process in the pipeline associated with this
+job is 25647.  All of the processes in a single pipeline are members of the same job.  Bash uses the  job  abstraction  as
+the basis for job control.

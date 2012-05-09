@@ -1,0 +1,2 @@
+When  a command that is found to be a shell script is executed (see COMMAND EXECUTION above), rbash turns off any restric‐
+tions in the shell spawned to execute the script.

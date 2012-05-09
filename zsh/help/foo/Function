@@ -1,0 +1,6 @@
+Function names and definitions may be listed with the -f option to the declare or typeset builtin commands.  The -F option
+to declare or typeset will list the function names only (and optionally the source file and line number, if  the  extdebug
+shell  option is enabled).  Functions may be exported so that subshells automatically have them defined with the -f option
+to the export builtin.  A function definition may be deleted using the -f option to the unset builtin.   Note  that  shell
+functions  and  variables with the same name may result in multiple identically-named entries in the environment passed to
+the shell's children.  Care should be taken in cases where this may cause a problem.

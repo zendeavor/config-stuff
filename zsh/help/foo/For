@@ -1,0 +1,8 @@
+For instance, assuming that there is a library of compspecs, each kept in a file corresponding to the name of the command,
+the following default completion function would load completions dynamically:
+
+ completion loader()
+{
+     . "/etc/bash completion.d/$1.sh" >/dev/null 2>&1 && return 124
+}
+complete -D -F  completion loader

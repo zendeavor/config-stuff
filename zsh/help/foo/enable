@@ -1,0 +1,12 @@
+enable [-a] [-dnps] [-f filename] [name ...]
+       Enable  and disable builtin shell commands.  Disabling a builtin allows a disk command which has the same name as a
+       shell builtin to be executed without specifying a full pathname,  even  though  the  shell  normally  searches  for
+       builtins  before  disk commands.  If -n is used, each name is disabled; otherwise, names are enabled.  For example,
+       to use the test binary found via the PATH instead of the shell builtin version, run ``enable  -n  test''.   The  -f
+       option  means  to  load  the  new builtin command name from shared object filename, on systems that support dynamic
+       loading.  The -d option will delete a builtin previously loaded with -f.  If no name arguments are given, or if the
+       -p  option  is supplied, a list of shell builtins is printed.  With no other option arguments, the list consists of
+       all enabled shell builtins.  If -n is supplied, only disabled builtins are printed.  If -a is  supplied,  the  list
+       printed includes all builtins, with an indication of whether or not each is enabled.  If -s is supplied, the output
+       is restricted to the POSIX special builtins.  The return value is 0 unless a name is not a shell builtin  or  there
+       is an error loading a new builtin from a shared object.
