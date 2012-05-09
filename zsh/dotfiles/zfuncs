@@ -40,10 +40,13 @@ function vr {
   # case "$@" in 
   #   -g)
   for f in "$@";do
-    if [[ "$f" == -* ]]; then
-      srv=($f)
+    if [[ "$1" == -g ]]; then
+      flags+=($f)
+      shift
     elif [[ "$f" == "$1" ]]; then
-      args+=($f)
+      srv=($f)
+    elif [[ "$f" == -* ]]; then
+      flags+=($f)
     else
       files+=($f)
     fi
