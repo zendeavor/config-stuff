@@ -6,12 +6,14 @@
 
 numlockx &
 xbindkeys
-xrdb -merge ~/.Xresources
 setxkbmap -option caps:super
-setxkbmap -option compose:ralt
+setxkbmap -option compose:menu
+xrdb -load ~/.Xresources
+compton -D 6 -i 0.6 -e 0.6 -cCfFGb
+~/bin/wallpaper &
 urxvtd -q -o -f
-sleep 3
 urxvtc -name shell -e tmux a -t shell &
+
 exec i3 #-d all -V &>i3.dump
 
 # vim: ft=sh

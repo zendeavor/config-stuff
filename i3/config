@@ -171,7 +171,7 @@ new_window none
 # assign [class="(?i)^urxvt$" instance="(?i)^kiwilight$"] 2                    
 assign [class="(?i)^firefox$"] 3
 assign [class="^Chromium"] 4
-# assign [class="(?i)^chromium"] 4                                              
+# assign [class="(?i)^chromium"] 4 
 assign [class="(?i)^mplayer"] 5
 # assign [class="(?i)^urxvt" instance="(?i)^apps$"] 6
 assign [class="(?i)^skype$"] 9

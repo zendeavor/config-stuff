@@ -1,4 +1,4 @@
-eval `keychain --eval id_rsa`
+eval `keychain --eval id_rsa 3F6B07E4`
 [ -n "$FBTERM" ] && export TERM=fbterm
 eval $(dircolors -b ~/.config/dircolors/dircolors)
 mpd

@@ -59,7 +59,7 @@ zstyle ':completion:*:*:cdr:*:*' menu selection
 zstyle ':chpwd:*' recent-dirs-max 0 
 zstyle ':chpwd:*' recent-dirs-insert fallback
 zstyle ':chpwd:*' recent-dirs-file \
-  ~/.config/zsh/dotfiles/dirs-${TTY##*/} +
+  ~/.config/zsh/dotfiles/dirs +
 zstyle ':chpwd:*' recent-dirs-prune 'pattern:/tmp(|/*)'
 
 ## stop renaming windows
@@ -219,7 +219,6 @@ function zkbd_file() {
     return 1
 }
 
-[[ ! -d ~/.zkbd ]] && mkdir ~/.zkbd
 keyfile=$(zkbd_file)
 ret=$?
 if [[ ${ret} -ne 0 ]]; then
