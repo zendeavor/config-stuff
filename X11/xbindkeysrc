@@ -39,6 +39,21 @@
 
 # Examples of commands:
 
+"urxvtc -name shell -e tmux a -t shell"
+  Mod4+Shift+ Return
+
+"urxvtc -name apps -e tmux a -t apps"
+  Mod4+Alt+ m
+
+"urxvtc -name kiwilight -e tmux a -t kiwi"
+  Mod4+Alt+ k
+
+"urxvtc -name pingas -e tmux a -t pingas"
+  Mod4+Alt+ i
+
+"urxvtc -name python -e tmux a -t py-dev"
+  Mod4+Alt+ d
+
 "xbindkeys_show" 
   Control+Shift+Alt+ q
 
@@ -75,17 +90,6 @@
 "ncmpcpp stop"
   XF86AudioStop
 
-"urxvt -e tmux a -t shell"
-  Mod4+Shift+ Return
-
-"urxvt -e tmux a -t apps"
-  Mod4+Alt+ m
-
-"urxvt -e tmux a -t sshell"
-  Mod4+Alt+ Return
-
-"urxvt -e tmux a -t pingas"
-  Mod4+Alt+ i
 
 #"xterm -geom 50x20+20+20"
 #   Shift+Mod2+alt + s
@@ -94,11 +98,11 @@
 #"xterm"
 #  alt + c:0x29 + m:4 + mod2
 #
-## Control+Shift+a  release event starts rxvt
+## Control+Shift+a  release event starts rxvtc
 #"rxvt"
 #  release+control+shift + a
 #
-## Control + mouse button 2 release event starts rxvt
+## Control + mouse button 2 release event starts rxvtc
 #"rxvt"
 #  Control + b:2 + Release
 
