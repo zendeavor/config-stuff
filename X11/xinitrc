@@ -11,8 +11,9 @@ setxkbmap -option compose:menu
 xrdb -load ~/.Xresources
 compton -D 6 -i 0.6 -e 0.6 -cCfFGb
 ~/bin/wallpaper &
-urxvtd -q -o -f
-urxvtc -name shell -e tmux a -t shell &
+# urxvtd -q -o -f
+# urxvtc -name shell -e tmux a -t shell &
+termite tmux a -t shell &
 
 exec i3 #-d all -V &>i3.dump
 

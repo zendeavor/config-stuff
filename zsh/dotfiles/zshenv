@@ -1,9 +1,9 @@
 skip_global_compinit=1
-if [[ -o interactive ]]; then
-  unset PATH
-  PATH="$HOME/bin:/usr/lib/cw:/usr/bin:/usr/sbin:/bin:/sbin:/usr/bin/vendor_perl:/usr/bin/core_perl"
-  export PATH
-fi
+# if [[ -o interactive ]]; then
+unset PATH            
+PATH="$HOME/bin:/usr/bin:/usr/sbin:/bin:/sbin:/usr/bin/vendor_perl:/usr/bin/core_perl"
+export PATH
+# fi                     
 export GREP_OPTIONS='--color=auto'
 # [[ -z $DISPLAY ]] && export DISPLAY=:0.0
 export EDITOR=vim
@@ -18,6 +18,7 @@ export LESS_TERMCAP_us=$'\E[01;32m'
 export LESS="-R"
 export ABSROOT="$HOME/builds/abs"
 export HELPDIR="$HOME/.config/zsh/help"
-export TERMINAL="urxvtc"
-unset TMUX
+export TERMINAL="termite"
 export PYTHONDOCS=/usr/share/doc/python/html/
+export BROWSER="firefox"
+unset TMUX 
