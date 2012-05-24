@@ -108,3 +108,5 @@ XFontSel*MenuButton*MenuButtonStyle: select
 .xfontsel.pane.fieldBox.field4.foreground: snow
 .xfontsel.pane.fieldBox.field5.background: #252525
 .xfontsel.pane.fieldBox.field5.foreground: snow
+
+# vim: ft=xdefaults

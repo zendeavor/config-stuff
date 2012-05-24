@@ -2,13 +2,13 @@ tmuxMETA="$HOME/.config/tmux/meta.conf"
 if [[ -z "$DISPLAY" ]]; then
   case "$(tty)" in
     /dev/tty1)
-      if ! tmux has -t xorg; then
-        tmux start \; \
+      if {! tmux has -t xorg}; then
+      exec tmux start \; \
           new-session -d -s xorg startx \; \
           set-option -t xorg remain-on-exit off
-        tmux has -t shell ||
+        {tmux has -t shell} ||
           tmux source "$tmuxMETA"
-      elif tmux has -t shell; then
+      elif {tmux has -t shell}; then
         exec tmux a -t shell         
       else:
         tmux start \; \
@@ -17,7 +17,7 @@ if [[ -z "$DISPLAY" ]]; then
       fi
       ;;
     /dev/tty[2-4]) 
-      if tmux has; then
+      if {tmux has}; then
         exec tmux a
       else:
         tmux start \; \

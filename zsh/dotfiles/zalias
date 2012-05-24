@@ -3,7 +3,7 @@ alias gcl='git log $(git log -1 --format=%H -- CHANGELOG*)..; cat CHANGELOG*'
 alias gsrm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 alias ipy2='ipython2'
 alias ipy='ipython'
-alias ls="ls++ -Fh --group-directories-first"
+alias ls="ls -Fh --color=auto --group-directories-first"
 alias matic='sudo pacmatic'
 alias mkpkg="makepkg -si"
 alias mntpingas='sshfs -o sshfs_debug pingas.org:/home/zendeavor ~/mnt/remote/pingas'
