@@ -5,17 +5,17 @@ alias ipy2='ipython2'
 alias ipy='ipython'
 alias ls="ls -Fh --color=auto --group-directories-first"
 alias matic='sudo pacmatic'
-alias mkpkg="makepkg -si"
+alias mkpkg="makepkg -sir"
 alias mntpingas='sshfs -o sshfs_debug pingas.org:/home/zendeavor ~/mnt/remote/pingas'
 alias packer='TMPDIR=~/builds/aur packer'
 alias devup='packer -Syu --noconfirm --noedit --auronly --devel'
 alias pingas="ssh -A pingas.org"
 alias pip2='pip-2.7'
-alias psc='ps xawf -eo pid,user,args'
 alias sprunge='curl -F "sprunge=<-" http://sprunge.us'
 alias sudo='sudo '
 alias udb="sudo updatedb"
 alias vi='vim'
+alias vimrc='$EDITOR ~/.vimrc'
 alias gvr='vr -g'
 alias X='extract'
 alias zshrc='$EDITOR ~/.zshrc && source ~/.zshrc'

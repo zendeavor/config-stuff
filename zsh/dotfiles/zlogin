@@ -6,8 +6,6 @@ if [[ -z "$DISPLAY" ]]; then
       exec tmux start \; \
           new-session -d -s xorg startx \; \
           set-option -t xorg remain-on-exit off
-        {tmux has -t shell} ||
-          tmux source "$tmuxMETA"
       elif {tmux has -t shell}; then
         exec tmux a -t shell         
       else:
