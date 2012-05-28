@@ -6,6 +6,7 @@ bitlbee.Angie
 bitlbee.AngieGarcia
 bitlbee.Bailz
 bitlbee.BrianaReed
+bitlbee.CaseyBean
 bitlbee.Cherise
 bitlbee.EmmaOranges
 bitlbee.Izzzzy
@@ -22,7 +23,6 @@ fn.SirPenguins
 fn.Wntrvnm
 fn.allanbrokeit
 fn.buffoon
-fn.e36freak
 fn.falconindy
 fn.gtmanfred
 fn.harvine
