@@ -17,6 +17,7 @@ pentadactyl/info/zendeavor/register-ring
 vlc/
 weechat/logs/
 weechat/*.log
+weechat/irc.conf
 Trolltech.conf
 zsh/dotfiles/dirs*
 pacmatic
