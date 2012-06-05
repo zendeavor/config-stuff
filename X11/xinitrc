@@ -12,6 +12,7 @@ compton -D 6 -i 0.6 -e 0.6 -cCfFGb
 ~/bin/wallpaper &
 termite tmux a -t shell &
 xbindkeys
+redshift -l 45.5:122.7 -m randr &
 
 exec i3 #-d all -V &>i3.dump
 

@@ -1,3 +1,4 @@
+#!/usr/bin/env zsh
 hash -d zfiles="$HOME/.config/zsh/dotfiles"
 hash -d pydev="$HOME/playground/python"
 hash -d aur="$HOME/builds/aur/packerbuild-1001"
