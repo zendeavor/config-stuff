@@ -7,4 +7,5 @@
 
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
+PS4='+ ${FUNCNAME[0]}:$LINENO:'
 alias paste='curl -F "sprunge=<-" http://sprunge.us'

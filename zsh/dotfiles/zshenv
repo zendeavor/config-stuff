@@ -1,10 +1,10 @@
 #!/usr/bin/env zsh
 skip_global_compinit=1
-# if [[ -o interactive ]]; then
-unset PATH            
-PATH="$HOME/bin:/usr/bin:/usr/sbin:/bin:/sbin:/usr/bin/vendor_perl:/usr/bin/core_perl"
-export PATH
-# fi                     
+if [[ -o interactive ]]; then
+  unset PATH            
+  PATH="$HOME/bin:/usr/bin:/usr/sbin:/bin:/sbin:/usr/bin/vendor_perl:/usr/bin/core_perl"
+  export PATH
+fi                     
 export GREP_OPTIONS='--color=auto'
 # [[ -z $DISPLAY ]] && export DISPLAY=:0.0
 export EDITOR=vim
