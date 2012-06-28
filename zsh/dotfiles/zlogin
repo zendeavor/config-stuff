@@ -1,12 +1,14 @@
 #!/usr/bin/env zsh
 tmuxMETA="$HOME/.config/tmux/meta.conf"
+. ~/.zshenv
 if [[ -z "$DISPLAY" ]]; then
   case "$(tty)" in
     /dev/tty1)
       if {! tmux has-session -t xorg}; then
       exec tmux start-server \; \
           new-session -d -s xorg startx \; \
-          set-option -t xorg remain-on-exit off
+          set-option -t xorg remain-on-exit off \; \
+          source "$tmuxMETA"
       elif {tmux has-session -t shell}; then
         exec tmux attach-session -t shell         
       else:

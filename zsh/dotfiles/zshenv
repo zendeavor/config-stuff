@@ -1,8 +1,8 @@
 #!/usr/bin/env zsh
 skip_global_compinit=1
 if [[ -o interactive ]]; then
-  unset PATH            
-  PATH="$HOME/bin:/usr/bin:/usr/sbin:/bin:/sbin:/usr/bin/vendor_perl:/usr/bin/core_perl"
+  mypath="$HOME/bin:/usr/bin:/usr/sbin:/bin:/sbin:/usr/bin/vendor_perl:/usr/bin/core_perl"
+  PATH="${PATH:+$mypath}"
   export PATH
 fi                     
 export GREP_OPTIONS='--color=auto'

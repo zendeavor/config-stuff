@@ -25,6 +25,7 @@ alias zfuncs='$EDITOR ~/.config/zsh/dotfiles/zfuncs && source ~/.config/zsh/dotf
 alias zshenv='$EDITOR ~/.zshenv && source ~/.zshenv'
 alias zlogin='$EDITOR ~/.zlogin && source ~/.zlogin'
 alias du='cdu -idh'
+alias meat='nocorrect meat'
 
 
 # i want run-help, not `man'!
