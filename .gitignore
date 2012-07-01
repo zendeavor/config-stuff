@@ -27,6 +27,7 @@ znc/modules/
 weechat/logs/
 weechat/*.log
 weechat/irc.conf
+weechat/grep*
 Trolltech.conf
 zsh/dotfiles/dirs*
 pacmatic
