@@ -31,9 +31,9 @@ zstyle ':omz:load' zmodule 'attr' 'stat' 'terminfo' 'zpty' \
 zstyle ':omz:load' zfunction 'zargs' 'zmv' 'run-help' 'zrecompile'
 
 # Set the Oh My Zsh modules to load (browse modules).
-zstyle ':omz:load' omodule 'environment' 'terminal' 'editor' 'completion' \
-  'history' 'directory' 'spectrum' 'git' 'python' 'rsync' 'z' 'archive' \
-  'history-substring-search' 'syntax-highlighting' 'alias' 'utility' 'prompt' 
+zstyle ':omz:load' omodule 'terminal' 'editor' 'completion' 'history' \
+  'directory' 'spectrum' 'git' 'python' 'rsync' 'z' 'archive' \
+  'history-substring-search' 'syntax-highlighting' 'alias' 'utility' 'prompt'
 
 # Set the prompt theme to load.
 # Setting it to 'random' loads a random theme.
@@ -89,7 +89,7 @@ setopt hist_save_by_copy
 setopt hist_save_no_dups
 setopt no_hist_verify
 setopt no_inc_append_history
-setopt share_history          
+setopt share_history
 # changing dirs
 setopt auto_cd
 setopt no_auto_pushd
@@ -220,4 +220,3 @@ _tmux_pane_complete() {
 }
 
 compdef -k _tmux_pane_complete menu-select '^T'
-

@@ -1,32 +1,32 @@
 #!/usr/bin/env zsh
 tmuxMETA="$HOME/.config/tmux/meta.conf"
-. ~/.zshenv
-if [[ -z "$DISPLAY" ]]; then
-  case "$(tty)" in
-    /dev/tty1)
-      if {! tmux has-session -t xorg}; then
+case "$(tty)" in
+  /dev/tty1)
+    if ! tmux has-session -t xorg; then
       exec tmux start-server \; \
-          new-session -d -s xorg startx \; \
-          set-option -t xorg remain-on-exit off \; \
-          source "$tmuxMETA"
-      elif {tmux has-session -t shell}; then
-        exec tmux attach-session -t shell         
-      else:
-        tmux start \; \
-          source "$tmuxMETA" \; tmux attach-session -t shell
-      fi
-      ;;
-    /dev/tty[2-4]) 
-      if {tmux has-session}; then
-        exec tmux attach-session
-      else:
-        exec tmux start-server \; \
-          source-file "$tmuxMETA" \; tmux attach-session -t shell
-      fi
-      ;;
-    /dev/tty[56])
-      echo "tmux broke huh"
-      ;;
-  esac
-fi
+        new-session -d -s xorg startx \; \
+        set-option -t xorg remain-on-exit off \; \
+        source "$tmuxMETA"
+    elif tmux has-session -t shell; then
+      exec tmux attach-session -t shell
+    else
+      tmux start-server \; \
+        source "$tmuxMETA" \; tmux attach-session -t shell
+    fi
+  ;;
+  /dev/tty[2-4]) 
+    if tmux has-session; then
+      exec tmux attach-session
+    else
+      exec tmux start-server \; \
+        source-file "$tmuxMETA" \; tmux attach-session -t shell
+    fi
+  ;;
+  /dev/tty[56])
+    echo "tmux broke huh"
+  ;;
+  *)
+    echo "the catchall is functional"
+  ;;
+esac
 

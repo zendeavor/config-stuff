@@ -10,10 +10,11 @@ setxkbmap -option compose:menu
 xrdb -load ~/.Xresources
 compton -D 6 -i 0.6 -e 0.6 -cCfFGb
 ~/bin/wallpaper &
-termite tmux a -t shell &
+termite --name=shell -e 'tmux a -t shell' &
 xbindkeys
-redshift -l 45.5:122.7 -m randr &
+# redshift -l 45.5:122.7 -m randr &
 
-exec i3 #-d all -V &>i3.dump
+exec ~/bin/dwm
+#i3 #-d all -V &>i3.dump
 
 # vim: ft=sh
