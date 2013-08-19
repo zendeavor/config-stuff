@@ -1,7 +1,10 @@
+#!/usr/bin/env zsh
 skip_global_compinit=1
-export PATH="$HOME/bin:$HOME/bin/python:$HOME/bin/pyro/bin:$PATH"
+mypath="$HOME/bin:$HOME/.cabal/bin:/usr/bin:/usr/sbin:/bin:/sbin:/usr/bin/vendor_perl:/usr/bin/core_perl"
+export PATH="$mypath"
+export PATH
 export GREP_OPTIONS='--color=auto'
-# [[ -z $DISPLAY ]] && export DISPLAY=:0.0
+export DISPLAY="${DISPLAY:-:0}"
 export EDITOR=vim
 export VISUAL=vim
 export LESS_TERMCAP_mb=$'\E[01;31m'
@@ -14,5 +17,7 @@ export LESS_TERMCAP_us=$'\E[01;32m'
 export LESS="-R"
 export ABSROOT="$HOME/builds/abs"
 export HELPDIR="$HOME/.config/zsh/help"
-export TERMINAL="urxvtc"
-unset TMUX
+export TERMINAL="termite"
+export PYTHONDOCS=/usr/share/doc/python/html/
+export BROWSER="firefox"
+unset TMUX 

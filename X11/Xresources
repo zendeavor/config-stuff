@@ -1,11 +1,12 @@
+! vim: ft=xdefaults
 ! --[ Font Rendering ]-------------------------------------
 Xft.dpi: 96
-Xft.antialias: false
+Xft.antialias: 1
 Xft.rgba: rgb
-Xft.hinting: true
-Xft.hintstyle: hintslight
+Xft.hinting: 1
+Xft.hintstyle: hintfull
 Xft.autohint: false
-Xft.lcdfilter: lcddefault
+Xft.lcdfilter: lcdlight
 
 ! --[ Rodent ]----------------------------------------------
 Xcursor.theme: Vanilla-DMZ
@@ -17,8 +18,10 @@ URxvt.scrollBar:false
 URxvt.saveLines:5000
 URxvt.cursorColor:#83C048
 URxvu.highlightColor:#444444
-URxvt.font: -*-terminusmodx-medium-*-*-*-12-*-*-*-*
-URxvt.boldFont: -*-terminusmod-bold-*-*-*-12-*-*-*-*-*-*-*
+URxvt.font: -*-terminusmodx-medium-*-*-*-12-*-*-*-*,\
+        -*-unifont-*-*-*-*-*-*-*-*-*-*-*-*
+URxvt.boldFont: -*-terminusmod-bold-*-*-*-12-*-*-*-*-*-*-*,\
+        -*-unifont-*-*-*-*-*-*-*-*-*-*-*-*
 URxvt.internalborder: 0
 URxvt.underlinecolor: #999999
 URxvt.cutchars: "()*,<>[]{}|'"
@@ -40,8 +43,8 @@ URxvt.keysym.M-s: perl:keyboard-select:search
 
 ! --[ URxvt - colors ]--------------------------------------
 URxvt.depth: 32
-URxvt.background: rgba:0000/0000/0000/bbbb
-URxvt.foreground:#eeeeee
+URxvt.background: rgba:0000/0000/0000/A666
+URxvt.foreground: #eeeeee
 
 ! --[ Color Scheme ]----------------------------------------
 !#include "/home/zendeavor/.config/X11/xcolors/dwmrob"

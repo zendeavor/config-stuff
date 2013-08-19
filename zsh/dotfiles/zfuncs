@@ -1,19 +1,13 @@
+#!/usr/bin/env zsh
 ## generic functions for zshell
 
 function pac {
 case "$1" in
-  -S | -S[^sih]* | -R* | -U*)
-    sudo pacman-color "$@" ;;
-  *)      pacman-color "$@" ;;
+  -S|-S[^sih]*|-R*|-U*) sudo pacman-color "$@" ;;
+  *) pacman-color "$@" ;;
 esac
+compdef _pacman pac
 }
-
-# function secure_chromium {
-#   local PORT=4711; export PORT
-#   local SOCKS_SERVER=localhost:$PORT; export SOCKS_SERVER
-#   local SOCKS_VERSION=5; export SOCKS_VERSION
-#   chromium &
-# }
 
 function lman {
 ## this is a function because i need to fill it out more
@@ -32,9 +26,7 @@ function vr {
   trap '' INT
   ## unset any of these, just in case a var was set globally by
   # another script or something that was stupid with vars
-  [[ -n "$srv" ]] && unset srv
-  [[ -n "$flags" ]] && unset flags
-  [[ -n "$files" ]] && unset files
+  unset srv flags files
   ## fill out an array with all the args provided
   # this way each var is assigned to space delimited commandline args
   # case "$@" in 
@@ -53,7 +45,7 @@ function vr {
   done
   [[ -z ${(M)${(Lf)$(vim --serverlist)}#$1} ]] &&
     vim $flags --servername "$srv" $files ||
-    vim $flags --servername "$srv" --remote-silent $files
+      vim $flags --servername "$srv" --remote-silent $files
 }
 
 

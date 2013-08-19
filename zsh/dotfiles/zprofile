@@ -1,5 +1,11 @@
-eval `keychain --eval id_rsa`
-[ -n "$FBTERM" ] && export TERM=fbterm
+#!/usr/bin/env zsh
+eval $(ssh-agent -s)
+ssh-add
+gpg-agent --daemon --enable-ssh-support \
+  --write-env-file "${HOME}"/.gpg-agent-info
 eval $(dircolors -b ~/.config/dircolors/dircolors)
 mpd
+stty -ixon
 
+if [[ -o interactive ]]; then
+fi                     

@@ -1,46 +1,18 @@
-# For the benefit of emacs users: -*- shell-script -*-
-###########################
-# xbindkeys configuration #
-###########################
-#
-# Version: 1.8.4
-#
-# If you edit this file, do not forget to uncomment any lines
-# that you change.
-# The pound(#) symbol may be used anywhere for comments.
-#
-# To specify a key, you can use 'xbindkeys --key' or
-# 'xbindkeys --multikey' and put one of the two lines in this file.
-#
-# The format of a command line is:
-#    "command to start"
-#       associated key
-#
-#
-# A list of keys is in /usr/include/X11/keysym.h and in
-# /usr/include/X11/keysymdef.h
-# The XK_ is not needed.
-#
-# List of modifier:
-#   Release, Control, Shift, Mod1 (Alt), Mod2 (NumLock),
-#   Mod3 (CapsLock), Mod4, Mod5 (Scroll).
-#
-
-# The release modifier is not a standard X modifier, but you can
-# use it if you want to catch release events instead of press events
-
-# By defaults, xbindkeys does not pay attention with the modifiers
-# NumLock, CapsLock and ScrollLock.
-# Uncomment the lines above if you want to pay attention to them.
-
 #keystate_numlock = enable
 #keystate_capslock = enable
 #keystate_scrolllock= enable
 
-# Examples of commands:
+"termite --role=shell --exec='tmux a -t shell'"
+  Mod4+Shift+ Return
 
-"xbindkeys_show" 
-  Control+Shift+Alt+ q
+"termite --role=apps --exec='tmux a -t apps'"
+  Mod4+Alt+ m
+
+"termite --role=irc --exec='tmux a -t irc'"
+  Mod4+Alt+ i
+
+"termite --role=ruby --exec='tmux a -t ruby'"
+  Mod4+Alt+ r
 
 "firefox"
   Mod4+Alt+ f
@@ -54,13 +26,13 @@
 "skype"
   Mod4+Alt+ s
 
-"amixer -c SB -q set Master 3%-"
+"ponymix decrease 3"
   XF86AudioLowerVolume
 
-"amixer -c SB -q set Master 3%+"
+"ponymix increase 3"
   XF86AudioRaiseVolume
 
-"amixer -c SB -q set Master toggle"
+"ponymix toggle"
   XF86AudioMute
 
 "ncmpcpp next"
@@ -74,40 +46,3 @@
 
 "ncmpcpp stop"
   XF86AudioStop
-
-"urxvt -e tmux a -t shell"
-  Mod4+Shift+ Return
-
-"urxvt -e tmux a -t apps"
-  Mod4+Alt+ m
-
-"urxvt -e tmux a -t sshell"
-  Mod4+Alt+ Return
-
-"urxvt -e tmux a -t pingas"
-  Mod4+Alt+ i
-
-#"xterm -geom 50x20+20+20"
-#   Shift+Mod2+alt + s
-#
-## set directly keycode (here control+alt+mod2 + f with my keyboard)
-#"xterm"
-#  alt + c:0x29 + m:4 + mod2
-#
-## Control+Shift+a  release event starts rxvt
-#"rxvt"
-#  release+control+shift + a
-#
-## Control + mouse button 2 release event starts rxvt
-#"rxvt"
-#  Control + b:2 + Release
-
-##################################
-# End of xbindkeys configuration #
-##################################
-Press combination of keys or/and click under the window.
-You can use one of the two lines after "NoCommand"
-in $HOME/.xbindkeysrc to bind a key.
-"NoCommand"
-    m:0x11 + c:62
-    Shift+Mod2 + Shift_R
