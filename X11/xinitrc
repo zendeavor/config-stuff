@@ -4,17 +4,21 @@
 #
 # Executed by startx (run your window manager from here)
 
-numlockx &
-setxkbmap -option caps:super
-setxkbmap -option compose:menu
-xrdb -load ~/.Xresources
-compton -D 6 -i 0.6 -e 0.6 -cCfFGb
-~/bin/wallpaper &
-termite --name=shell -e 'tmux a -t shell' &
-xbindkeys
-# redshift -l 45.5:122.7 -m randr &
+# if [ -d /etc/X11/xinit/xinitrc.d ]; then
+#   for f in /etc/X11/xinit/xinitrc.d/*; do
+#     . "$f"
+#   done
+# fi
 
-exec ~/bin/dwm
-#i3 #-d all -V &>i3.dump
+xrdb -load ~/.Xresources
+setxkbmap -option ctrl:nocaps -option compose:menu -option super:ralt
+xbindkeys
+redshift -l 45.5:-122.7 -m randr &
+unset TMUX
+termite --role=shell --exec='tmux a -t shell' &
+termite --role=irc --exec='tmux a -t irc' &
+termite --role=ruby --exec='tmux a -t ruby' &
+
+exec i3 #-d all -V &>i3.dump
 
 # vim: ft=sh

@@ -166,11 +166,10 @@ focus_follows_mouse no
 
 new_window none
 # assign windows to workspaces
-# assign [class="(?i)^termite$" instance="(?i)^kiwilight$"] 2
 assign [class="(?i)^firefox$"] 3
-# assign [class="^Chromium"] 4
-# assign [class="(?i)^chromium$"] 4
 assign [class="(?i)^mplayer"] 5
-# assign [class="(?i)^termite$" instance="(?i)^apps$"] 6
 assign [class="(?i)^skype$"] 9
-# assign [class="(?i)^termite$" instance="(?i)^shell$"] 1
+assign [class="(?i)^termite$" window_role="(?i)^shell$"] 1
+assign [class="(?i)^termite$" window_role="(?i)^irc$"] 2
+assign [class="(?i)^termite$" window_role="(?i)^ruby$"] 4
+assign [class="(?i)^chromium$"] 5

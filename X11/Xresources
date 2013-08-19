@@ -1,12 +1,12 @@
 ! vim: ft=xdefaults
 ! --[ Font Rendering ]-------------------------------------
 Xft.dpi: 96
-Xft.antialias: false
+Xft.antialias: 1
 Xft.rgba: rgb
-Xft.hinting: true
-Xft.hintstyle: hintslight
+Xft.hinting: 1
+Xft.hintstyle: hintfull
 Xft.autohint: false
-Xft.lcdfilter: lcddefault
+Xft.lcdfilter: lcdlight
 
 ! --[ Rodent ]----------------------------------------------
 Xcursor.theme: Vanilla-DMZ
