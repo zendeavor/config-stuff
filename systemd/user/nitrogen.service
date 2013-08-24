@@ -1,0 +1,11 @@
+[Unit]
+Description=Nitrogen Wallpaper Manager
+After=xinitrc.target
+
+[Service]
+RemainAfterExit=yes
+ExecStart=/usr/bin/nitrogen --restore
+
+[Install]
+WantedBy=xinitrc.target
+

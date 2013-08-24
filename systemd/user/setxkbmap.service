@@ -1,0 +1,12 @@
+[Unit]
+Description=setxkbmap remappings
+After=xinitrc.target
+
+[Service]
+ExecStart=/usr/bin/setxkbmap \
+			-option ctrl:nocaps \
+			-option compose:menu
+Restart=no
+
+[Install]
+WantedBy=xinitrc.target

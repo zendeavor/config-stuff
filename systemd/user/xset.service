@@ -1,0 +1,14 @@
+[Unit]
+Description=Xsets
+After=xinitrc.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/xset s off
+ExecStart=/usr/bin/xset -dpms
+ExecStart=/usr/bin/xset r rate 250 100
+
+[Install]
+WantedBy=xinitrc.target
+

@@ -1,0 +1,12 @@
+[Unit]
+Description=Set xkbd map
+After=xinitrc.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/xkbcomp -I%h/.xkb %h/.xkb/keymap/custom $DISPLAY
+
+[Install]
+WantedBy=xinitrc.target
+

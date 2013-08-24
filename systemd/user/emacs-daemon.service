@@ -1,0 +1,10 @@
+[Unit]
+Description=emacs daemon
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/emacs --daemon
+
+[Install]
+WantedBy=default.target

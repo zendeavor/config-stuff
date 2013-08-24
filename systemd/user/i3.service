@@ -1,0 +1,11 @@
+[Unit]
+Description=i3
+After=xinitrc.target
+
+[Service]
+# TTYPath=/dev/tty1
+ExecStart=/usr/bin/i3
+Restart=on-success
+
+[Install]
+WantedBy=i3.target

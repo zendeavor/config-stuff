@@ -1,0 +1,14 @@
+[Unit]
+Description=X terminals
+After=xinitrc.target
+# Requires=tmux.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/termite -r shell -e tmux a -t shell
+ExecStart=/usr/bin/termite -r irc -e tmux a -t irc
+Restart=on-success
+
+[Install]
+WantedBy=xinitrc.target
+

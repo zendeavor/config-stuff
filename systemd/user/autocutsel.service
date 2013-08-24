@@ -1,0 +1,13 @@
+[Unit]
+Description=autocutsel
+After=xinitrc.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/autocutsel -s PRIMARY -fork
+ExecStart=/usr/bin/autocutsel -fork
+
+[Install]
+WantedBy=xinitrc.target
+

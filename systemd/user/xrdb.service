@@ -1,0 +1,12 @@
+[Unit]
+Description=Xrdb
+After=xinitrc.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/xrdb %h/.Xresources
+
+[Install]
+WantedBy=xinitrc.target
+

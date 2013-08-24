@@ -1,0 +1,13 @@
+[Unit]
+Description=Xinput
+After=xinitrc.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/xinput set-button-map Mouse 1 2 3 5 4 7 6
+
+
+[Install]
+WantedBy=xinitrc.target
+

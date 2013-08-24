@@ -1,0 +1,4 @@
+[Unit]
+Description=test
+[Service]
+ExecStart=/bin/sh -c 'dmesg | tac'

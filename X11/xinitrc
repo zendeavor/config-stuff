@@ -10,15 +10,15 @@
 #   done
 # fi
 
-xrdb -load ~/.Xresources
-setxkbmap -option ctrl:nocaps -option compose:menu -option super:ralt
-xbindkeys
-redshift -l 45.5:-122.7 -m randr &
-unset TMUX
-termite --role=shell --exec='tmux a -t shell' &
-termite --role=irc --exec='tmux a -t irc' &
-termite --role=ruby --exec='tmux a -t ruby' &
+# xrdb -load ~/.Xresources
+# setxkbmap -option ctrl:nocaps -option compose:menu -option super:ralt
+# xbindkeys
+# redshift -l 45.5:-122.7 -m randr &
+# unset TMUX
+# termite --role=shell --exec='tmux a -t shell' &
+# termite --role=irc --exec='tmux a -t irc' &
+# termite --role=ruby --exec='tmux a -t ruby' &
 
-exec i3 #-d all -V &>i3.dump
+# exec i3 #-d all -V &>i3.dump
 
 # vim: ft=sh

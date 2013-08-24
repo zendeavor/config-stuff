@@ -1,0 +1,5 @@
+[Unit]
+Description=xinitrc stuff
+Requires=xorg.target
+After=xorg.target
+

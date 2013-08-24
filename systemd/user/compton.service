@@ -1,0 +1,10 @@
+[Unit]
+Description=Compton Compositor
+Requires=xinitrc.target
+
+[Service]
+ExecStart=/usr/bin/compton --vsync opengl-swc --backend glx --no-fading-openclose --sw-opti -D 2 -m 0.8 -e 0.8 -cCGf
+
+[Install]
+WantedBy=default.target
+

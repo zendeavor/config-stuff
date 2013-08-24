@@ -173,3 +173,8 @@ assign [class="(?i)^termite$" window_role="(?i)^shell$"] 1
 assign [class="(?i)^termite$" window_role="(?i)^irc$"] 2
 assign [class="(?i)^termite$" window_role="(?i)^ruby$"] 4
 assign [class="(?i)^chromium$"] 5
+
+# autostart
+exec termite --role=shell --exec='tmux attach -t shell'
+exec termite --role=irc --exec='tmux attach -t irc'
+exec firefox

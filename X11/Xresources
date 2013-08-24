@@ -1,6 +1,6 @@
 ! vim: ft=xdefaults
 ! --[ Font Rendering ]-------------------------------------
-Xft.dpi: 96
+! Xft.dpi: 96
 Xft.antialias: 1
 Xft.rgba: rgb
 Xft.hinting: 1
