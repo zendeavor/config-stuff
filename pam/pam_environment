@@ -1,0 +1,28 @@
+## because pam doesn't have $HOME available all the time
+HOME			DEFAULT=/home/@{PAM_USER} OVERRIDE=${HOME}
+
+## set up PATH
+PATH			DEFAULT=${HOME}/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/core_perl OVERRIDE=${HOME}/bin:${PATH}
+
+## get a default DISPLAY
+REMOTEHOST		DEFAULT=localhost OVERRIDE=@{PAM_RHOST}
+DISPLAY			DEFAULT=:0        OVERRIDE=${DISPLAY}
+
+## ruby-build crap
+RUBY_BUILD_BUILD_PATH	DEFAULT=${HOME}/builds/rubies
+RUBY_BUILD_CACHE_PATH	DEFAULT=${HOME}/.cache/rubies
+
+## xdg env vars
+XDG_CACHE_HOME		DEFAULT=${HOME}/.local/cache
+XDG_CONFIG_HOME		DEFAULT=${HOME}/.config
+XDG_DATA_HOME		DEFAULT=${HOME}/.local/share
+
+## volatile tmp/runtime dir
+TMPDIR			DEFAULT=${XDG_RUNTIME_DIR}
+
+## various programs honour these to run a file editor for you
+VISUAL			DEFAULT="emacsclient -t"
+EDITOR			DEFAULT="emacsclient -t"
+ALTERNATE_EDITOR	DEFAULT=""
+ABSROOT			DEFAULT=${HOME}/builds/abs
+
