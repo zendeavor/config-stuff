@@ -2,10 +2,17 @@
 # ~/.bashrc
 #
 
-# If not running interactively, don't do anything
-[[ $- != *i* ]] && return
+[[ $- == *i* ]] || return
+exec 9>&2 2>/dev/null
 
-alias ls='ls --color=auto'
+shopt -s extglob dotglob
+
+# rubies=( "$HOME"/builds/rubies/* )
+
+alias ls='ls --color=auto --group-directories-first -Fh'
+alias e='emacsclient -t'
+alias ec='emacsclient -c'
 PS1='[\u@\h \W]\$ '
 PS4='+ ${FUNCNAME[0]}:$LINENO:'
-alias paste='curl -F "sprunge=<-" http://sprunge.us'
+
+exec 2>&9 9>&-

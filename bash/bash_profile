@@ -1,5 +1,22 @@
-#
-# ~/.bash_profile
-#
+exec 3>&2 2>/dev/null
 
-[[ -f ~/.bashrc ]] && . ~/.bashrc
+[[ $- == *i* ]] && . ~/.bashrc
+
+# envoy -t ssh-agent id_dsa
+# . <(envoy -p)
+
+# case $(tty) in
+#   /dev/tty1)
+#     tmux has-session || tmux start-server
+#     startx
+#   ;;
+#   /dev/tty[234])
+#     if tmux has-session -t shell; then
+#       tmux attach-session -t shell
+#     else
+#       tmux attach
+#     fi
+#   ;;
+# esac
+
+exec 2>&3 3>&-

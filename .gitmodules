@@ -1,3 +1,0 @@
-[submodule "prelude"]
-	path = emacs/prelude
-	url = git://github.com/bbatsov/prelude.git

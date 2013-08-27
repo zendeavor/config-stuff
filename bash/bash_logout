@@ -1,4 +1,4 @@
 #
 # ~/.bash_logout
 #
-#test
+tmux kill-server
